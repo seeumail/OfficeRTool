@@ -7,7 +7,7 @@ Tool To Install, Activate, Change Office 2016 - 2021
 
 
 
-Latest CHanges.
+-- Latest Changes --
 
 User friendly Interface
 
