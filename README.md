@@ -5,7 +5,7 @@
 
 **Original author : ratzlefatz - Current maintainer : ME**
 
-**Official MDL Thread For support and Questions**
+**Official MDL Thread For help & support**
 
 https://forums.mydigitallife.net/threads/84450/
 
