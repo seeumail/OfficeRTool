@@ -1,0 +1,4211 @@
+<ProductReleaseIds>
+  <ProductReleaseId id="CommonLicenseFiles">
+    <License Sku="Licenses_Common">
+      <Files>
+        <File name="pkeyconfig-office.xrm-ms" />
+        <File name="pkeyconfig-office-client15.xrm-ms" />
+        <File name="client-issuance-root.xrm-ms" />
+        <File name="client-issuance-stil.xrm-ms" />
+        <File name="client-issuance-ul.xrm-ms" />
+        <File name="client-issuance-ul-oob.xrm-ms" />
+        <File name="client-issuance-root-bridge-test.xrm-ms" />
+        <File name="client-issuance-bridge-office.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Access2019Retail">
+    <License Sku="Access2019R_Grace" Acid="195CBC52-71CC-4909-A7A3-90D745D26465">
+      <Files>
+        <File name="Access2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Access2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2019R_OEM_Perp" Acid="71BA37DB-38DE-4F2A-B290-1D031CE3A59E">
+      <Files>
+        <File name="Access2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Access2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Access2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Access2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2019R_Retail" Acid="518687BD-DC55-45B9-8FA6-F918E1082E83">
+      <Files>
+        <File name="Access2019R_Retail-pl.xrm-ms" />
+        <File name="Access2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Access2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Access2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2019R_Trial" Acid="35CB0CD2-0B1C-47CD-B365-6E85FC2F755A">
+      <Files>
+        <File name="Access2019R_Trial-pl.xrm-ms" />
+        <File name="Access2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Access2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Access2019Volume">
+    <License Sku="Access2019VL_KMS_Client_AE" Acid="9E9BCEEB-E736-4F26-88DE-763F87DCC485">
+      <Files>
+        <File name="Access2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Access2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Access2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2019VL_MAK_AE" Acid="385B91D6-9C2C-4A2E-86B5-F44D44A48C5F">
+      <Files>
+        <File name="Access2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Access2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Access2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Access2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Access2021Retail">
+    <License Sku="Access2021R_Grace" Acid="9FAECCD2-1744-47A8-9B67-ABE2615C5F44">
+      <Files>
+        <File name="Access2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Access2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2021R_OEM_Perp" Acid="8B18231C-A857-4F55-BFAF-879985CC6875">
+      <Files>
+        <File name="Access2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Access2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Access2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Access2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2021R_Retail" Acid="F634398E-AF69-48C9-B256-477BEA3078B5">
+      <Files>
+        <File name="Access2021R_Retail-pl.xrm-ms" />
+        <File name="Access2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Access2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Access2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2021R_Trial" Acid="3D9144EA-17E6-4C34-9E64-B4C1EDC10B26">
+      <Files>
+        <File name="Access2021R_Trial-pl.xrm-ms" />
+        <File name="Access2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Access2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Access2021Volume">
+    <License Sku="Access2021VL_KMS_Client_AE" Acid="1FE429D8-3FA7-4A39-B6F0-03DDED42FE14">
+      <Files>
+        <File name="Access2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Access2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Access2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Access2021VL_MAK_AE" Acid="AE17DB74-16B0-430B-912F-4FE456E271DB">
+      <Files>
+        <File name="Access2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Access2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Access2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Access2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="AccessRetail">
+    <License Sku="AccessR_Grace" Acid="DFC79B08-1388-44E8-8CBE-4E4E42E9F73A">
+      <Files>
+        <File name="AccessR_Grace-ul-oob.xrm-ms" />
+        <File name="AccessR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="AccessR_OEM_Perp" Acid="DAF2E6D5-1424-47B9-8820-42B32E4BC3A2">
+      <Files>
+        <File name="AccessR_OEM_Perp-pl.xrm-ms" />
+        <File name="AccessR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="AccessR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="AccessR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="AccessR_Retail" Acid="BFA358B0-98F1-4125-842E-585FA13032E6">
+      <Files>
+        <File name="AccessR_Retail-pl.xrm-ms" />
+        <File name="AccessR_Retail-ul-phn.xrm-ms" />
+        <File name="AccessR_Retail-ul-oob.xrm-ms" />
+        <File name="AccessR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="AccessR_Trial" Acid="BB6FE552-10FB-4C0E-A4BE-6B867E075735">
+      <Files>
+        <File name="AccessR_Trial-pl.xrm-ms" />
+        <File name="AccessR_Trial-ul-oob.xrm-ms" />
+        <File name="AccessR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="AccessRuntime2019Retail">
+    <License Sku="AccessRuntime2019R_PrepidBypass" Acid="22E6B96C-1011-4CD5-8B35-3C8FB6366B86">
+      <Files>
+        <File name="AccessRuntime2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="AccessRuntime2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="AccessRuntimeRetail">
+    <License Sku="AccessRuntimeR_PrepidBypass" Acid="9D9FAF9E-D345-4B49-AFCE-68CB0A539C7C">
+      <Files>
+        <File name="AccessRuntimeR_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="AccessRuntimeR_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="AccessVolume">
+    <License Sku="AccessVL_KMS_Client" Acid="67C0FC0C-DEBA-401B-BF8B-9C8AD8395804">
+      <Files>
+        <File name="AccessVL_KMS_Client-ul.xrm-ms" />
+        <File name="AccessVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="AccessVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="AccessVL_MAK" Acid="3B2FA33F-CD5A-43A5-BD95-F49F3F546B0B">
+      <Files>
+        <File name="AccessVL_MAK-pl.xrm-ms" />
+        <File name="AccessVL_MAK-ul-phn.xrm-ms" />
+        <File name="AccessVL_MAK-ul-oob.xrm-ms" />
+        <File name="AccessVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Excel2019Retail">
+    <License Sku="Excel2019R_Grace" Acid="381823F8-7779-4908-AAF3-5929F6BE6FDB">
+      <Files>
+        <File name="Excel2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Excel2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2019R_OEM_Perp" Acid="74605A38-8EC0-482E-AC64-872E174E505B">
+      <Files>
+        <File name="Excel2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Excel2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Excel2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Excel2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2019R_Retail" Acid="C201C2B7-02A1-41A8-B496-37C72910CD4A">
+      <Files>
+        <File name="Excel2019R_Retail-pl.xrm-ms" />
+        <File name="Excel2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Excel2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Excel2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2019R_Trial" Acid="04CAFB94-2615-419B-825A-F259E8A19D2B">
+      <Files>
+        <File name="Excel2019R_Trial-pl.xrm-ms" />
+        <File name="Excel2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Excel2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Excel2019Volume">
+    <License Sku="Excel2019VL_KMS_Client_AE" Acid="237854E9-79FC-4497-A0C1-A70969691C6B">
+      <Files>
+        <File name="Excel2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Excel2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Excel2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2019VL_MAK_AE" Acid="05CB4E1D-CC81-45D5-A769-F34B09B9B391">
+      <Files>
+        <File name="Excel2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Excel2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Excel2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Excel2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Excel2021Retail">
+    <License Sku="Excel2021R_Grace" Acid="4C8D9AF4-AE41-473A-BBB6-DA498AC55E3F">
+      <Files>
+        <File name="Excel2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Excel2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2021R_OEM_Perp" Acid="42C9D0C4-A27F-49E1-A929-3227CD0C6B92">
+      <Files>
+        <File name="Excel2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Excel2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Excel2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Excel2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2021R_Retail" Acid="FB099C19-D48B-4A2F-A160-4383011060AA">
+      <Files>
+        <File name="Excel2021R_Retail-pl.xrm-ms" />
+        <File name="Excel2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Excel2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Excel2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2021R_Trial" Acid="950DFC5D-6FFD-49B8-939B-7A823F03DBF6">
+      <Files>
+        <File name="Excel2021R_Trial-pl.xrm-ms" />
+        <File name="Excel2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Excel2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Excel2021Volume">
+    <License Sku="Excel2021VL_KMS_Client_AE" Acid="EA71EFFC-69F1-4925-9991-2F5E319BBC24">
+      <Files>
+        <File name="Excel2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Excel2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Excel2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Excel2021VL_MAK_AE" Acid="9DA1ECDB-3A62-4273-A234-BF6D43DC0778">
+      <Files>
+        <File name="Excel2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Excel2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Excel2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Excel2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ExcelRetail">
+    <License Sku="ExcelR_Grace" Acid="FC61B360-59EE-41A2-8586-E66E7B43DB89">
+      <Files>
+        <File name="ExcelR_Grace-ul-oob.xrm-ms" />
+        <File name="ExcelR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ExcelR_OEM_Perp" Acid="740A90D3-A366-49FA-9845-1FA8257ED07B">
+      <Files>
+        <File name="ExcelR_OEM_Perp-pl.xrm-ms" />
+        <File name="ExcelR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ExcelR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ExcelR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ExcelR_Retail" Acid="424D52FF-7AD2-4BC7-8AC6-748D767B455D">
+      <Files>
+        <File name="ExcelR_Retail-pl.xrm-ms" />
+        <File name="ExcelR_Retail-ul-phn.xrm-ms" />
+        <File name="ExcelR_Retail-ul-oob.xrm-ms" />
+        <File name="ExcelR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ExcelR_Trial" Acid="A49503A7-3084-4140-B087-6B30B258F92E">
+      <Files>
+        <File name="ExcelR_Trial-pl.xrm-ms" />
+        <File name="ExcelR_Trial-ul-oob.xrm-ms" />
+        <File name="ExcelR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ExcelVolume">
+    <License Sku="ExcelVL_KMS_Client" Acid="C3E65D36-141F-4D2F-A303-A842EE756A29">
+      <Files>
+        <File name="ExcelVL_KMS_Client-ul.xrm-ms" />
+        <File name="ExcelVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="ExcelVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ExcelVL_MAK" Acid="685062A7-6024-42E7-8C5F-6BB9E63E697F">
+      <Files>
+        <File name="ExcelVL_MAK-pl.xrm-ms" />
+        <File name="ExcelVL_MAK-ul-phn.xrm-ms" />
+        <File name="ExcelVL_MAK-ul-oob.xrm-ms" />
+        <File name="ExcelVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeBusiness2019Retail">
+    <License Sku="HomeBusiness2019DemoR_BypassTrial180" Acid="64F26796-F91A-43B1-87A3-3B2E45922D71">
+      <Files>
+        <File name="HomeBusiness2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_Grace" Acid="2C18EFFF-A05D-485C-BF41-E990736DB92E">
+      <Files>
+        <File name="HomeBusiness2019R_Grace-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_OEM_Perp" Acid="1BA73CCC-3B8A-42B7-9936-0FB1863EA6EC">
+      <Files>
+        <File name="HomeBusiness2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_OEM_Perp2" Acid="EB29320D-A377-4441-BE97-83C595A7139B">
+      <Files>
+        <File name="HomeBusiness2019R_OEM_Perp2-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_OEM_Perp3" Acid="B464C2C6-4ADA-4931-9B62-B449136522D0">
+      <Files>
+        <File name="HomeBusiness2019R_OEM_Perp3-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_OEM_Perp4" Acid="9A93B5EB-A24C-4178-8F91-F391F0BD3923">
+      <Files>
+        <File name="HomeBusiness2019R_OEM_Perp4-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_Retail" Acid="7FE09EEF-5EED-4733-9A60-D7019DF11CAC">
+      <Files>
+        <File name="HomeBusiness2019R_Retail-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_Retail-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2019R_Retail-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2019R_Trial" Acid="C08057D3-830A-43A6-8009-4E2D018EC257">
+      <Files>
+        <File name="HomeBusiness2019R_Trial-pl.xrm-ms" />
+        <File name="HomeBusiness2019R_Trial-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeBusiness2021Retail">
+    <License Sku="HomeBusiness2021DemoR_BypassTrial180" Acid="88F10933-341B-4D8B-9AB7-B8C740C613EC">
+      <Files>
+        <File name="HomeBusiness2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Grace" Acid="32084210-F262-4C27-865F-8BBFD40E748F">
+      <Files>
+        <File name="HomeBusiness2021R_Grace-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_OEM_Perp1" Acid="2B5CDF39-FDB4-43AB-8C8F-1B18064A52CD">
+      <Files>
+        <File name="HomeBusiness2021R_OEM_Perp1-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp1-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp1-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_OEM_Perp2" Acid="838A4FE1-0090-49A6-BC03-D3006EC4E663">
+      <Files>
+        <File name="HomeBusiness2021R_OEM_Perp2-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_OEM_Perp3" Acid="DECE7373-6E22-4BAF-BA62-B01487EF4673">
+      <Files>
+        <File name="HomeBusiness2021R_OEM_Perp3-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_OEM_Perp4" Acid="C3CA58BB-BF30-4C5A-8049-4B7E5AF19AA9">
+      <Files>
+        <File name="HomeBusiness2021R_OEM_Perp4-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Retail1" Acid="0E878942-3BA1-48EE-A215-F64D10A9F97B">
+      <Files>
+        <File name="HomeBusiness2021R_Retail1-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail1-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail1-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Retail2" Acid="5D225E3A-2686-4921-89B6-5B60BC92A4E9">
+      <Files>
+        <File name="HomeBusiness2021R_Retail2-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail2-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail2-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Retail3" Acid="6B68E249-0FDA-4486-9689-2DDA4902D3BE">
+      <Files>
+        <File name="HomeBusiness2021R_Retail3-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail3-ul-phn.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail3-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Retail3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Subscription" Acid="38B92B63-1DFF-4BE7-8483-2A839441A2BC">
+      <Files>
+        <File name="HomeBusiness2021R_Subscription-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Subscription-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_SubTest" Acid="65B6CA68-825B-4561-A435-C1E3D37E2B4E">
+      <Files>
+        <File name="HomeBusiness2021R_SubTest-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_SubTest-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_SubTrial" Acid="4F4DD237-48AA-429C-802E-AB850592393B">
+      <Files>
+        <File name="HomeBusiness2021R_SubTrial-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_SubTrial-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Trial1" Acid="0E66797F-5C54-42F7-B2EB-C1BDB72CBAC4">
+      <Files>
+        <File name="HomeBusiness2021R_Trial1-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Trial1-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Trial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusiness2021R_Trial2" Acid="55852389-6423-43A6-8EB2-992A69E5EAD8">
+      <Files>
+        <File name="HomeBusiness2021R_Trial2-pl.xrm-ms" />
+        <File name="HomeBusiness2021R_Trial2-ul-oob.xrm-ms" />
+        <File name="HomeBusiness2021R_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeBusinessPipcRetail">
+    <License Sku="HomeBusinessPipcDemoR_BypassTrial365" Acid="0C6911A0-1FD3-4425-A4B3-DA478D3BF807">
+      <Files>
+        <File name="HomeBusinessPipcDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="HomeBusinessPipcDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessPipcR_Grace" Acid="D95CFA27-EDDF-4116-8D28-BBDB1E07B0A5">
+      <Files>
+        <File name="HomeBusinessPipcR_Grace-ul-oob.xrm-ms" />
+        <File name="HomeBusinessPipcR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessPipcR_OEM_Perp" Acid="C02FB62E-1CD5-4E18-BA25-E0480467FFAA">
+      <Files>
+        <File name="HomeBusinessPipcR_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeBusinessPipcR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeBusinessPipcR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeBusinessPipcR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessPipcR_PIN" Acid="E260D7A1-49DC-41EE-B275-33A544C96904">
+      <Files />
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeBusinessRetail">
+    <License Sku="HomeBusinessDemoR_BypassTrial365" Acid="2AA09C36-3E86-4580-8E8D-E67DFC13A5A6">
+      <Files>
+        <File name="HomeBusinessDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="HomeBusinessDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_Grace" Acid="6379F5C8-BAA4-482E-A5CC-38ADE1A57348">
+      <Files>
+        <File name="HomeBusinessR_Grace-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_OEM_Perp" Acid="BEA06487-C54E-436A-B535-58AEC833F05B">
+      <Files>
+        <File name="HomeBusinessR_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_OEM_Perp2" Acid="45C8342D-379D-4A4F-99C5-61141D3E0260">
+      <Files>
+        <File name="HomeBusinessR_OEM_Perp2-pl.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_OEM_Perp3" Acid="327DAB29-B51E-4A29-9204-D83A3B353D76">
+      <Files>
+        <File name="HomeBusinessR_OEM_Perp3-pl.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_OEM_Perp4" Acid="91AB0C97-4CBE-4889-ACA0-F0C9394046D7">
+      <Files>
+        <File name="HomeBusinessR_OEM_Perp4-pl.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_PIN" Acid="55671CEE-5384-454B-9160-975BD5441C4B">
+      <Files />
+    </License>
+    <License Sku="HomeBusinessR_Retail" Acid="86834D00-7896-4A38-8FAE-32F20B86FA2B">
+      <Files>
+        <File name="HomeBusinessR_Retail-pl.xrm-ms" />
+        <File name="HomeBusinessR_Retail-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_Retail-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_Retail2" Acid="AC9C8FB4-387F-4492-A919-D56577AD9861">
+      <Files>
+        <File name="HomeBusinessR_Retail2-pl.xrm-ms" />
+        <File name="HomeBusinessR_Retail2-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_Retail2-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_Retail3" Acid="522F8458-7D49-42FF-A93B-670F6B6176AE">
+      <Files>
+        <File name="HomeBusinessR_Retail3-pl.xrm-ms" />
+        <File name="HomeBusinessR_Retail3-ul-phn.xrm-ms" />
+        <File name="HomeBusinessR_Retail3-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Retail3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_Trial" Acid="3A4A2CF6-5892-484D-B3D5-FE9CC5A20D78">
+      <Files>
+        <File name="HomeBusinessR_Trial-pl.xrm-ms" />
+        <File name="HomeBusinessR_Trial-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeBusinessR_Trial2" Acid="3E0F37CC-584B-46B1-873E-C44AD57D6605">
+      <Files>
+        <File name="HomeBusinessR_Trial2-pl.xrm-ms" />
+        <File name="HomeBusinessR_Trial2-ul-oob.xrm-ms" />
+        <File name="HomeBusinessR_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeStudent2019Retail">
+    <License Sku="HomeStudent2019DemoR_BypassTrial180" Acid="6F04E8C9-AD8A-4147-A647-DE0071BC703F">
+      <Files>
+        <File name="HomeStudent2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="HomeStudent2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2019R_Grace" Acid="FAFAAABC-4BC0-4EFE-A9FC-B8AA32D0E101">
+      <Files>
+        <File name="HomeStudent2019R_Grace-ul-oob.xrm-ms" />
+        <File name="HomeStudent2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2019R_OEM_Perp" Acid="480DF7D5-B237-45B2-96FB-E4624B12040A">
+      <Files>
+        <File name="HomeStudent2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeStudent2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeStudent2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeStudent2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2019R_Retail" Acid="4539AA2C-5C31-4D47-9139-543A868E5741">
+      <Files>
+        <File name="HomeStudent2019R_Retail-pl.xrm-ms" />
+        <File name="HomeStudent2019R_Retail-ul-phn.xrm-ms" />
+        <File name="HomeStudent2019R_Retail-ul-oob.xrm-ms" />
+        <File name="HomeStudent2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2019R_Trial" Acid="4EBC82D3-A2FA-49F3-9159-70E8DF6D45D5">
+      <Files>
+        <File name="HomeStudent2019R_Trial-pl.xrm-ms" />
+        <File name="HomeStudent2019R_Trial-ul-oob.xrm-ms" />
+        <File name="HomeStudent2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeStudent2021Retail">
+    <License Sku="HomeStudent2021DemoR_BypassTrial180" Acid="1CAC786A-7F16-4EDE-B7FC-CFBCE8FE24C7">
+      <Files>
+        <File name="HomeStudent2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_Grace" Acid="A570C5DF-B1A3-485C-A8CD-B47E90787BA8">
+      <Files>
+        <File name="HomeStudent2021R_Grace-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_OEM_Perp" Acid="2FC0111C-BF0B-4BDD-900C-E3C713034746">
+      <Files>
+        <File name="HomeStudent2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeStudent2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeStudent2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_Retail" Acid="9E7D5312-95FC-4443-A551-69C20624EC6B">
+      <Files>
+        <File name="HomeStudent2021R_Retail-pl.xrm-ms" />
+        <File name="HomeStudent2021R_Retail-ul-phn.xrm-ms" />
+        <File name="HomeStudent2021R_Retail-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_Subscription" Acid="2F258377-738F-48DD-9397-287E43079958">
+      <Files>
+        <File name="HomeStudent2021R_Subscription-pl.xrm-ms" />
+        <File name="HomeStudent2021R_Subscription-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_SubTest" Acid="649FB593-1AEA-4F3D-9EDE-6D756561A2E5">
+      <Files>
+        <File name="HomeStudent2021R_SubTest-pl.xrm-ms" />
+        <File name="HomeStudent2021R_SubTest-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_SubTrial" Acid="44F73EE6-D2F7-4502-97D5-046E8820662E">
+      <Files>
+        <File name="HomeStudent2021R_SubTrial-pl.xrm-ms" />
+        <File name="HomeStudent2021R_SubTrial-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_Trial1" Acid="0CF5C9C4-62D8-42E7-8443-B2715DDAE7BA">
+      <Files>
+        <File name="HomeStudent2021R_Trial1-pl.xrm-ms" />
+        <File name="HomeStudent2021R_Trial1-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_Trial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudent2021R_Trial2" Acid="112B0ED2-CF1A-42CE-A0C2-4EE20B59D267">
+      <Files>
+        <File name="HomeStudent2021R_Trial2-pl.xrm-ms" />
+        <File name="HomeStudent2021R_Trial2-ul-oob.xrm-ms" />
+        <File name="HomeStudent2021R_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeStudentRetail">
+    <License Sku="HomeStudentDemoR_BypassTrial180" Acid="5F2C45C3-232D-43A1-AE90-40CD3462E9E4">
+      <Files>
+        <File name="HomeStudentDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="HomeStudentDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentR_Grace" Acid="1ECBF9C7-7C43-483E-B2AD-06EF5C5744C4">
+      <Files>
+        <File name="HomeStudentR_Grace-ul-oob.xrm-ms" />
+        <File name="HomeStudentR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentR_OEM_Perp" Acid="8E2E934E-C319-4CCE-962E-F0546FB0AA8E">
+      <Files>
+        <File name="HomeStudentR_OEM_Perp-pl.xrm-ms" />
+        <File name="HomeStudentR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="HomeStudentR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="HomeStudentR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentR_PIN" Acid="253CD5CD-F190-4A8C-80AC-0144DF8990F4">
+      <Files />
+    </License>
+    <License Sku="HomeStudentR_Retail" Acid="C28ACDB8-D8B3-4199-BAA4-024D09E97C99">
+      <Files>
+        <File name="HomeStudentR_Retail-pl.xrm-ms" />
+        <File name="HomeStudentR_Retail-ul-phn.xrm-ms" />
+        <File name="HomeStudentR_Retail-ul-oob.xrm-ms" />
+        <File name="HomeStudentR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentR_Trial" Acid="861343B3-3190-494C-A76E-A9215C7AE254">
+      <Files>
+        <File name="HomeStudentR_Trial-pl.xrm-ms" />
+        <File name="HomeStudentR_Trial-ul-oob.xrm-ms" />
+        <File name="HomeStudentR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentR_Trial2" Acid="99D89E49-3F21-4D6E-BB17-3E4EE4FE8726">
+      <Files>
+        <File name="HomeStudentR_Trial2-pl.xrm-ms" />
+        <File name="HomeStudentR_Trial2-ul-oob.xrm-ms" />
+        <File name="HomeStudentR_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="HomeStudentVNextRetail">
+    <License Sku="HomeStudentVNextR_Grace" Acid="A9833863-A86B-4DEA-A034-7FDEB7A6276B">
+      <Files>
+        <File name="HomeStudentVNextR_Grace-ul-oob.xrm-ms" />
+        <File name="HomeStudentVNextR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentVNextR_Retail" Acid="E2127526-B60C-43E0-BED1-3C9DC3D5A468">
+      <Files>
+        <File name="HomeStudentVNextR_Retail-pl.xrm-ms" />
+        <File name="HomeStudentVNextR_Retail-ul-phn.xrm-ms" />
+        <File name="HomeStudentVNextR_Retail-ul-oob.xrm-ms" />
+        <File name="HomeStudentVNextR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="HomeStudentVNextR_Trial" Acid="8BDA5AA2-F2DB-4124-A513-7BE79DA4E499">
+      <Files>
+        <File name="HomeStudentVNextR_Trial-pl.xrm-ms" />
+        <File name="HomeStudentVNextR_Trial-ul-oob.xrm-ms" />
+        <File name="HomeStudentVNextR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="MondoRetail">
+    <License Sku="MondoR_BypassTrial180" Acid="E7B23B5D-BDB1-495C-B7CE-CC13652ACF2F">
+      <Files>
+        <File name="MondoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="MondoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_ConsumerSub_Bypass30" Acid="14D002D8-B1ED-4AB4-BE6C-5F3FA7ED2F75">
+      <Files>
+        <File name="MondoR_ConsumerSub_Bypass30-ul-oob.xrm-ms" />
+        <File name="MondoR_ConsumerSub_Bypass30-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_EnterpriseSub_Bypass30" Acid="AAA4ABAA-369E-4D7D-93E6-4C320A017A3C">
+      <Files>
+        <File name="MondoR_EnterpriseSub_Bypass30-ul-oob.xrm-ms" />
+        <File name="MondoR_EnterpriseSub_Bypass30-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_Grace" Acid="8507F630-BEE7-4833-B054-C1CA1A43990C">
+      <Files>
+        <File name="MondoR_Grace-ul-oob.xrm-ms" />
+        <File name="MondoR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_KMS_Automation" Acid="E914EA6E-A5FA-4439-A394-A9BB3293CA09">
+      <Files>
+        <File name="MondoR_KMS_Automation-ul.xrm-ms" />
+        <File name="MondoR_KMS_Automation-ul-oob.xrm-ms" />
+        <File name="MondoR_KMS_Automation-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_O16ConsumerPerp_Bypass30" Acid="A7693F85-CCA9-4878-9A32-8BE2773D9331">
+      <Files>
+        <File name="MondoR_O16ConsumerPerp_Bypass30-ul-oob.xrm-ms" />
+        <File name="MondoR_O16ConsumerPerp_Bypass30-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_O16EnterpriseVL_Bypass30" Acid="B31C9322-8FA5-454D-AC52-100D51EDFEE5">
+      <Files>
+        <File name="MondoR_O16EnterpriseVL_Bypass30-ul-oob.xrm-ms" />
+        <File name="MondoR_O16EnterpriseVL_Bypass30-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_O17EnterpriseVL_Bypass30" Acid="C7136135-DC7F-46C4-9818-EA246A597480">
+      <Files>
+        <File name="MondoR_O17EnterpriseVL_Bypass30-ul-oob.xrm-ms" />
+        <File name="MondoR_O17EnterpriseVL_Bypass30-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_OEM_Perp" Acid="BF3AB6CF-1B0D-4250-BAD9-4B61ECA25316">
+      <Files>
+        <File name="MondoR_OEM_Perp-pl.xrm-ms" />
+        <File name="MondoR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="MondoR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="MondoR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_Retail" Acid="B21367DF-9545-4F02-9F24-240691DA0E58">
+      <Files>
+        <File name="MondoR_Retail-pl.xrm-ms" />
+        <File name="MondoR_Retail-ul-phn.xrm-ms" />
+        <File name="MondoR_Retail-ul-oob.xrm-ms" />
+        <File name="MondoR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_Subscription" Acid="69EC9152-153B-471A-BF35-77EC88683EAE">
+      <Files>
+        <File name="MondoR_Subscription-pl.xrm-ms" />
+        <File name="MondoR_Subscription-ul-oob.xrm-ms" />
+        <File name="MondoR_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_Subscription2" Acid="37256767-8FC0-4B6A-8B92-BC785BFD9D05">
+      <Files>
+        <File name="MondoR_Subscription2-pl.xrm-ms" />
+        <File name="MondoR_Subscription2-ul-oob.xrm-ms" />
+        <File name="MondoR_Subscription2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_SubTest" Acid="9E7FE6CF-58C6-4F36-9A1B-9C0BFC447ED5">
+      <Files>
+        <File name="MondoR_SubTest-pl.xrm-ms" />
+        <File name="MondoR_SubTest-ul-oob.xrm-ms" />
+        <File name="MondoR_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_SubTest2" Acid="CEBCF005-6D81-4C9E-8626-5D01C48B834A">
+      <Files>
+        <File name="MondoR_SubTest2-pl.xrm-ms" />
+        <File name="MondoR_SubTest2-ul-oob.xrm-ms" />
+        <File name="MondoR_SubTest2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_SubTrial" Acid="26421C15-1B53-4E53-B303-F320474618E7">
+      <Files>
+        <File name="MondoR_SubTrial-pl.xrm-ms" />
+        <File name="MondoR_SubTrial-ul-oob.xrm-ms" />
+        <File name="MondoR_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_SubTrial2" Acid="EE6555BB-7A24-4287-99A0-5B8B83C5D602">
+      <Files>
+        <File name="MondoR_SubTrial2-pl.xrm-ms" />
+        <File name="MondoR_SubTrial2-ul-oob.xrm-ms" />
+        <File name="MondoR_SubTrial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_Trial" Acid="D229947A-7C85-4D12-944B-7536B5B05B13">
+      <Files>
+        <File name="MondoR_Trial-pl.xrm-ms" />
+        <File name="MondoR_Trial-ul-oob.xrm-ms" />
+        <File name="MondoR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoR_ViewOnly_ZeroGrace" Acid="762A768D-5882-4A57-A889-C387E85C10B0">
+      <Files>
+        <File name="MondoR_ViewOnly_ZeroGrace-ul-oob.xrm-ms" />
+        <File name="MondoR_ViewOnly_ZeroGrace-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="MondoVolume">
+    <License Sku="MondoVL_KMS_Client" Acid="9CAABCCB-61B1-4B4B-8BEC-D10A3C3AC2CE">
+      <Files>
+        <File name="MondoVL_KMS_Client-ul.xrm-ms" />
+        <File name="MondoVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="MondoVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="MondoVL_MAK" Acid="2CD0EA7E-749F-4288-A05E-567C573B2A6C">
+      <Files>
+        <File name="MondoVL_MAK-pl.xrm-ms" />
+        <File name="MondoVL_MAK-ul-phn.xrm-ms" />
+        <File name="MondoVL_MAK-ul-oob.xrm-ms" />
+        <File name="MondoVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="O365BusinessRetail">
+    <License Sku="O365BusinessDemoR_BypassTrial365" Acid="81D507D6-E729-436D-AD4D-FED2CBE4E566">
+      <Files>
+        <File name="O365BusinessDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="O365BusinessDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365BusinessR_Grace" Acid="3D0631E3-1091-416D-92A5-42F84A86D868">
+      <Files>
+        <File name="O365BusinessR_Grace-ul-oob.xrm-ms" />
+        <File name="O365BusinessR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365BusinessR_Subscription" Acid="6337137E-7C07-4197-8986-BECE6A76FC33">
+      <Files>
+        <File name="O365BusinessR_Subscription-pl.xrm-ms" />
+        <File name="O365BusinessR_Subscription-ul-oob.xrm-ms" />
+        <File name="O365BusinessR_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365BusinessR_SubTest" Acid="742178ED-6B28-42DD-B3D7-B7C0EA78741B">
+      <Files>
+        <File name="O365BusinessR_SubTest-pl.xrm-ms" />
+        <File name="O365BusinessR_SubTest-ul-oob.xrm-ms" />
+        <File name="O365BusinessR_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365BusinessR_SubTrial" Acid="812837CB-040B-4829-8E22-15C4919FEBA4">
+      <Files>
+        <File name="O365BusinessR_SubTrial-pl.xrm-ms" />
+        <File name="O365BusinessR_SubTrial-ul-oob.xrm-ms" />
+        <File name="O365BusinessR_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="O365EduCloudRetail">
+    <License Sku="O365EduCloudEDUR_Grace" Acid="81E676D5-B92C-4253-AA47-36A0EA89F5ED">
+      <Files>
+        <File name="O365EduCloudEDUR_Grace-ul-oob.xrm-ms" />
+        <File name="O365EduCloudEDUR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365EduCloudEDUR_Subscription" Acid="2F5C71B4-5B7A-4005-BB68-F9FAC26F2EA3">
+      <Files>
+        <File name="O365EduCloudEDUR_Subscription-pl.xrm-ms" />
+        <File name="O365EduCloudEDUR_Subscription-ul-oob.xrm-ms" />
+        <File name="O365EduCloudEDUR_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365EduCloudEDUR_SubTrial" Acid="B2F7AD5B-0E90-4AB7-9DA5-D829A6EA3F1E">
+      <Files>
+        <File name="O365EduCloudEDUR_SubTrial-pl.xrm-ms" />
+        <File name="O365EduCloudEDUR_SubTrial-ul-oob.xrm-ms" />
+        <File name="O365EduCloudEDUR_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="O365HomePremRetail">
+    <License Sku="O365HomePremDemoR_BypassTrial365" Acid="7AB38A1C-A803-4CA5-8EBB-F8786C4B4FAA">
+      <Files>
+        <File name="O365HomePremDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="O365HomePremDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_Grace" Acid="D7279DD0-E175-49FE-A623-8FC2FC00AFC4">
+      <Files>
+        <File name="O365HomePremR_Grace-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_PIN1" Acid="0C7137CB-463A-44CA-B6CD-F29EAE4A5201">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN10" Acid="EB778317-EA9A-4FBC-8351-F00EEC82E423">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN100" Acid="52263C53-5561-4FD5-A88D-2382945E5E8B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN101" Acid="02BB3A66-D796-4938-94E3-1D6FF2A96B5B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN102" Acid="E6930809-6796-466F-BC45-F0937362FDC1">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN103" Acid="6516C530-02EA-49D9-AD33-A824902B1065">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN104" Acid="AA1A1140-B8A1-4377-BFF0-4DCFF82F6ED1">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN105" Acid="5770F497-3F1D-4396-A729-18677AFE6359">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN106" Acid="003D2533-6A8C-4163-9A4E-76376B21ED15">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN107" Acid="0B40C0DA-6C2C-4BB6-9C05-EF8B30F96668">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN108" Acid="59C95D45-74A6-405E-815B-99CF2692577A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN109" Acid="ADE257E8-4824-497F-B767-C0D06CDA3E4E">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN11" Acid="9CF873F3-5112-4C73-86C5-B94808F675E0">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN110" Acid="2D40ED06-955E-4725-80FC-850CDCBC1396">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN111" Acid="B688E64D-6305-4CCF-9981-CBF6823B3F65">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN112" Acid="65A4C65F-780B-4B57-B640-2AEA70761087">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN113" Acid="7BBE17F2-24C7-416A-8821-A7ACAF91A4AA">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN114" Acid="5D8AAAF2-3EAB-48E0-822A-6EFAE35980F7">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN115" Acid="FDA59085-BDB9-4ADC-B9D7-4B5E7DFD3EAC">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN116" Acid="AB2A78FF-5C52-494A-AE2A-99C0E481CA99">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN117" Acid="9540C768-CEDF-401C-B27A-15DD833E7053">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN12" Acid="949594B8-4FBF-44A7-BD8D-911E25BA2938">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN13" Acid="2A859A5B-3B1F-43EA-B3E3-C1531CC23363">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN14" Acid="5B7C4417-66C2-46DB-A2AF-DD1D811D8DCA">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN15" Acid="7E6F537B-AF16-43E6-B07F-F457A96F58FE">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN16" Acid="AE88E21A-D981-45A0-9813-3452F5390A1E">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN17" Acid="09322079-6043-4D33-9AB1-FFC268B8248E">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN18" Acid="E0C4D41F-B115-4D51-9E8C-63AF19B6EEB8">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN19" Acid="5917FA4B-7A37-4D70-B835-2755CF165E01">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN2" Acid="12F1FDF0-D744-48B6-9F9A-B3D7744BEEB5">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN21" Acid="A46815E5-C7E6-4F4F-8994-65BD19DC831D">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN22" Acid="D059DF6E-43A4-40EE-894D-5186F85AF9A0">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN23" Acid="E47D40AD-D9D0-4AB0-9C3D-B209E77E7AE8">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN24" Acid="58DB55C7-BB77-4C4D-A170-D7ED18A4AECE">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN25" Acid="B58FB371-5E42-46CE-927B-1A27AE89194C">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN26" Acid="D84CB3EA-CB53-466A-85C8-E8ED69D3F394">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN27" Acid="286E0A48-550E-4AFE-A223-27D510DE9E3B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN28" Acid="A4CB27DA-2524-4998-92AE-6A836124BF9F">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN29" Acid="DAA7B9D0-F65A-482B-8AD3-474A33A05BE2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN3" Acid="21757D20-006A-4BA0-8FDB-9DE272A11CF4">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN30" Acid="44938520-350C-4919-8E2F-E840C99AF4BF">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN31" Acid="F1997D24-27E6-4350-A9C7-50E63F85406A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN32" Acid="7F3D4AF1-E298-4C30-8118-A0533B436C43">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN33" Acid="CB9FE322-23F2-4FC5-8569-0E63D0853072">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN34" Acid="F3449F6D-D512-4BBC-AC02-8C654845F6CB">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN35" Acid="436055A7-25A6-40FF-A124-B43A216FD369">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN36" Acid="3B694869-1556-4339-98C2-96C893040E31">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN37" Acid="7BAA6D3A-9EA9-47A8-8DFF-DC33F63CFEB3">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN38" Acid="11FC26E1-ADC8-4BEE-B42A-5C57D5FEC516">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN39" Acid="396D571C-B08F-4BEE-BE0B-28C5B640BC23">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN4" Acid="B6C0DE84-37D8-41B2-9EAF-8A80A008D58A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN40" Acid="BCEF3379-4C3F-46D6-9922-8D3E513E75FA">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN41" Acid="C299D07D-803A-423C-88E9-029DE50D79ED">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN42" Acid="8C4F02D4-30C0-441A-860D-A68BE9EFC1EE">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN43" Acid="89B643DB-DFA5-4AF4-AEFC-43D17D98B084">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN44" Acid="D7E4AF12-6EB0-40DA-BF0E-D818BBC62AFB">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN45" Acid="183C0D5A-5AAE-45EB-B0CE-88009B8B3939">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN46" Acid="2E8E87E2-ED03-4DFB-8B40-0F73785B43FD">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN47" Acid="6B102F6C-50D4-4137-BF9F-5E446348188B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN48" Acid="BE161169-49EC-4277-9802-6C5964D96593">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN49" Acid="D495DE19-448F-4C7E-8343-E54D7F336582">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN5" Acid="16C432FF-E13E-46A5-AB7D-A1CE7519119A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN50" Acid="E0ECE06B-9123-4314-9570-338573410DE7">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN51" Acid="1752DF1B-8314-4790-9DF8-585D0BF1D0E3">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN52" Acid="3CF36478-D8B9-4FF4-9B42-0EDC60415E6A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN53" Acid="CCB0F52E-312E-406E-A13A-566AF3C6B91D">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN54" Acid="634C8BC9-357C-4A70-A6B1-C2A9BC1BF9E5">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN55" Acid="B6512468-269D-4910-AD2D-A6A3D769FEBA">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN56" Acid="FEDA65D8-640B-4220-B8AE-6E221A990258">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN57" Acid="F337DD12-BF19-456B-82ED-B022B3032737">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN58" Acid="CB5E4CFF-1C96-43CA-91F8-0559DBA5456C">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN59" Acid="C2B1EC65-443F-4B2A-BF99-B46B244F0179">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN6" Acid="C9D3D19B-60A6-4213-BC72-C1A1A59DC45B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN60" Acid="943CDA82-BDAC-4298-981F-21E97303DCCE">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN61" Acid="991A2521-DBB2-436C-82EB-C1BF93AC46FD">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN62" Acid="ED7482AE-C31E-4B62-A7CB-9291A0D616D2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN63" Acid="63F119BD-171E-4034-B98F-A85759367616">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN64" Acid="792DE587-45FD-4F49-AD84-BFD40087792C">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN65" Acid="90984839-248D-4746-8F55-C943CAB009CF">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN66" Acid="62CCF9BD-1F60-414A-B766-79E98E55283B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN67" Acid="F600E366-4C93-4CF0-BED5-BF2398759E00">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN68" Acid="174F331D-103E-4654-B6BD-C86D5B259A1A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN69" Acid="DEA194EA-A396-4F91-88F2-77E501C8B9D2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN7" Acid="B64CFCED-19A0-4C81-8B8D-A72DDC7488BA">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN70" Acid="C5B6E8E0-AD3D-4712-A5C6-FB7E7CC4DA59">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN71" Acid="A9AF7310-F6E0-40E2-B44A-076B2BA7E118">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN72" Acid="1F3BF441-3BD5-4DC5-B3DA-DB90450866F4">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN73" Acid="BDA57528-BB32-43DB-8CF0-36A32372F527">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN74" Acid="F98827AD-4B5F-48F1-B81B-FEE63DF5858E">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN75" Acid="B333EAB2-86CB-4B08-A5B8-A4C64AFC7A4B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN76" Acid="F988DF4F-10DF-444F-909F-679BB9DF70D2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN77" Acid="4D57374B-F5EA-4513-BB95-0456E424BCEE">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN78" Acid="9AF02C45-EE74-4400-A4E7-1251D11780A0">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN79" Acid="9459DA1D-F113-416B-AB41-A81D1C29A7A0">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN8" Acid="F8FF7F1C-1D40-4B84-9535-C51F7B3A70D0">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN80" Acid="04D62A0B-845D-48ED-A872-A064FCC56B07">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN81" Acid="5CA79892-8746-4F00-BB15-F3C799EDBCF4">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN82" Acid="E96A7A9C-162D-41E1-8C3D-D4C0929B6558">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN83" Acid="934ECDD6-7438-4464-B0FD-ED374AAB9CA6">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN84" Acid="5F1FB9D5-F241-4543-994F-36B37F888585">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN85" Acid="E5606A7D-8C29-4AD7-94B5-7427BF457616">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN86" Acid="4B9B31AA-00FA-481C-A25F-A2067F3FF24C">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN87" Acid="92B51A69-397D-4796-A5E8-D1672B349469">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN88" Acid="1AE119A6-40ED-4FA9-B52A-909841BD6E3F">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN89" Acid="FA25F074-80F9-44C1-B233-4019D3E70230">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN9" Acid="77A58083-E86D-45C1-B56E-77EC925167CF">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN90" Acid="523AABDF-9353-4151-9179-F708A2B48F6B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN91" Acid="85133BEE-AD80-4CB4-977B-F16FD2DC3A20">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN92" Acid="3DC943FD-4E44-4FD6-A05F-8B421FF1C68A">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN93" Acid="8978F58A-BDC1-418C-AB3E-8017859FCC1E">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN94" Acid="9156E89A-1370-4079-AAA5-695DC9CEEAA2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN95" Acid="B7CD5DC5-A2E6-4E74-BA44-F16B81B931F2">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN96" Acid="87D9FF03-50F4-4247-83E7-32ED575F2B1B">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN97" Acid="064A3A09-3B2B-441D-A86B-F3D47F2D2EC6">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN98" Acid="09775609-A49B-4F28-97AE-7F7740415C66">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_PIN99" Acid="C9693FD7-4024-4544-BF5B-45160F7D5687">
+      <Files />
+    </License>
+    <License Sku="O365HomePremR_Subscription1" Acid="537EA5B5-7D50-4876-BD38-A53A77CACA32">
+      <Files>
+        <File name="O365HomePremR_Subscription1-pl.xrm-ms" />
+        <File name="O365HomePremR_Subscription1-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Subscription1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_Subscription2" Acid="52287AA3-9945-44D1-9046-7A3373666821">
+      <Files>
+        <File name="O365HomePremR_Subscription2-pl.xrm-ms" />
+        <File name="O365HomePremR_Subscription2-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Subscription2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_Subscription3" Acid="C85FE025-B033-4F41-936B-B121521BA1C1">
+      <Files>
+        <File name="O365HomePremR_Subscription3-pl.xrm-ms" />
+        <File name="O365HomePremR_Subscription3-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Subscription3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_Subscription4" Acid="B58A5943-16EA-420F-A611-7B230ACD762C">
+      <Files>
+        <File name="O365HomePremR_Subscription4-pl.xrm-ms" />
+        <File name="O365HomePremR_Subscription4-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Subscription4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_Subscription5" Acid="28F64A3F-CF84-46DA-B1E8-2DFA7750E491">
+      <Files>
+        <File name="O365HomePremR_Subscription5-pl.xrm-ms" />
+        <File name="O365HomePremR_Subscription5-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_Subscription5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTest1" Acid="A96F8DAE-DA54-4FAD-BDC6-108DA592707A">
+      <Files>
+        <File name="O365HomePremR_SubTest1-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTest1-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTest1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTest2" Acid="77F47589-2212-4E3B-AD27-A900CE813837">
+      <Files>
+        <File name="O365HomePremR_SubTest2-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTest2-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTest2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTest3" Acid="96353198-443E-479D-9E80-9A6D72FD1A99">
+      <Files>
+        <File name="O365HomePremR_SubTest3-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTest3-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTest3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTest4" Acid="B4AF11BE-5F94-4D8F-9844-CE0D5E0D8680">
+      <Files>
+        <File name="O365HomePremR_SubTest4-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTest4-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTest4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTest5" Acid="4C1D1588-3088-4796-B3B2-8935F3A0D886">
+      <Files>
+        <File name="O365HomePremR_SubTest5-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTest5-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTest5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTrial1" Acid="951C0FE6-40A8-4400-8003-EEC0686FFBC4">
+      <Files>
+        <File name="O365HomePremR_SubTrial1-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTrial1-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTrial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTrial2" Acid="FB3540BC-A824-4C79-83DA-6F6BD3AC6CCB">
+      <Files>
+        <File name="O365HomePremR_SubTrial2-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTrial2-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTrial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTrial3" Acid="86AF9220-9D6F-4575-BEF0-619A9A6AA005">
+      <Files>
+        <File name="O365HomePremR_SubTrial3-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTrial3-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTrial3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTrial4" Acid="AE9D158F-9450-4A0C-8C80-DD973C58357C">
+      <Files>
+        <File name="O365HomePremR_SubTrial4-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTrial4-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTrial4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365HomePremR_SubTrial5" Acid="95820F84-6E8C-4D22-B2CE-54953E9911BC">
+      <Files>
+        <File name="O365HomePremR_SubTrial5-pl.xrm-ms" />
+        <File name="O365HomePremR_SubTrial5-ul-oob.xrm-ms" />
+        <File name="O365HomePremR_SubTrial5-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="O365ProPlusRetail">
+    <License Sku="O365ProPlusDemoR_BypassTrial365" Acid="35EC6E0E-2DF4-4629-9EE3-D525E806B988">
+      <Files>
+        <File name="O365ProPlusDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="O365ProPlusDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusE5R_Subscription" Acid="7984D9ED-81F9-4D50-913D-317ECD863065">
+      <Files>
+        <File name="O365ProPlusE5R_Subscription-pl.xrm-ms" />
+        <File name="O365ProPlusE5R_Subscription-ul-oob.xrm-ms" />
+        <File name="O365ProPlusE5R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusE5R_SubTrial" Acid="24FC428E-A37E-4996-AC66-8EA0304A152D">
+      <Files>
+        <File name="O365ProPlusE5R_SubTrial-pl.xrm-ms" />
+        <File name="O365ProPlusE5R_SubTrial-ul-oob.xrm-ms" />
+        <File name="O365ProPlusE5R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusEDUR_Subscription" Acid="CBECB6F5-DA49-4029-BE25-5945AC9750B3">
+      <Files>
+        <File name="O365ProPlusEDUR_Subscription-pl.xrm-ms" />
+        <File name="O365ProPlusEDUR_Subscription-ul-oob.xrm-ms" />
+        <File name="O365ProPlusEDUR_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusEDUR_SubTrial" Acid="B27B3D00-9A95-4FCD-A0C2-118CBD5E699B">
+      <Files>
+        <File name="O365ProPlusEDUR_SubTrial-pl.xrm-ms" />
+        <File name="O365ProPlusEDUR_SubTrial-ul-oob.xrm-ms" />
+        <File name="O365ProPlusEDUR_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Grace" Acid="3AD61E22-E4FE-497F-BDB1-3E51BD872173">
+      <Files>
+        <File name="O365ProPlusR_Grace-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Subscription1" Acid="149DBCE7-A48E-44DB-8364-A53386CD4580">
+      <Files>
+        <File name="O365ProPlusR_Subscription1-pl.xrm-ms" />
+        <File name="O365ProPlusR_Subscription1-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Subscription1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Subscription2" Acid="E3DACC06-3BC2-4E13-8E59-8E05F3232325">
+      <Files>
+        <File name="O365ProPlusR_Subscription2-pl.xrm-ms" />
+        <File name="O365ProPlusR_Subscription2-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Subscription2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Subscription3" Acid="A8119E32-B17C-4BD3-8950-7D1853F4B412">
+      <Files>
+        <File name="O365ProPlusR_Subscription3-pl.xrm-ms" />
+        <File name="O365ProPlusR_Subscription3-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Subscription3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Subscription4" Acid="6E5DB8A5-78E6-4953-B793-7422351AFE88">
+      <Files>
+        <File name="O365ProPlusR_Subscription4-pl.xrm-ms" />
+        <File name="O365ProPlusR_Subscription4-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Subscription4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_Subscription5" Acid="FF02E86C-FEF0-4063-B39F-74275CDDD7C3">
+      <Files>
+        <File name="O365ProPlusR_Subscription5-pl.xrm-ms" />
+        <File name="O365ProPlusR_Subscription5-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_Subscription5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_SubTrial1" Acid="46D2C0BD-F912-4DDC-8E67-B90EADC3F83C">
+      <Files>
+        <File name="O365ProPlusR_SubTrial1-pl.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial1-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_SubTrial2" Acid="26B6A7CE-B174-40AA-A114-316AA56BA9FC">
+      <Files>
+        <File name="O365ProPlusR_SubTrial2-pl.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial2-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_SubTrial3" Acid="B6B47040-B38E-4BE2-BF6A-DABF0C41540A">
+      <Files>
+        <File name="O365ProPlusR_SubTrial3-pl.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial3-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_SubTrial4" Acid="E538D623-C066-433D-A6B7-E0708B1FADF7">
+      <Files>
+        <File name="O365ProPlusR_SubTrial4-pl.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial4-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365ProPlusR_SubTrial5" Acid="DFC5A8B0-E9FD-43F7-B4CA-D63F1E749711">
+      <Files>
+        <File name="O365ProPlusR_SubTrial5-pl.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial5-ul-oob.xrm-ms" />
+        <File name="O365ProPlusR_SubTrial5-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="O365SmallBusPremRetail">
+    <License Sku="O365SmallBusPremDemoR_BypassTrial365" Acid="18C10CE7-C025-4615-993C-2E0C32F38EFA">
+      <Files>
+        <File name="O365SmallBusPremDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_Grace" Acid="8DED1DA3-5206-4540-A862-E8473B65D742">
+      <Files>
+        <File name="O365SmallBusPremR_Grace-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_PIN" Acid="58E55634-63D9-434A-8B16-ADE5F84737B8">
+      <Files />
+    </License>
+    <License Sku="O365SmallBusPremR_Subscription1" Acid="BACD4614-5BEF-4A5E-BAFC-DE4C788037A2">
+      <Files>
+        <File name="O365SmallBusPremR_Subscription1-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription1-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_Subscription2" Acid="0BC1DAE4-6158-4A1C-A893-807665B934B2">
+      <Files>
+        <File name="O365SmallBusPremR_Subscription2-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription2-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_Subscription3" Acid="65C607D5-E542-4F09-AD0B-40D6A88B2702">
+      <Files>
+        <File name="O365SmallBusPremR_Subscription3-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription3-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_Subscription4" Acid="4CB3D290-D527-45C2-B079-26842762FDD3">
+      <Files>
+        <File name="O365SmallBusPremR_Subscription4-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription4-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_Subscription5" Acid="881D148A-610E-4F0A-8985-3BE4C0DB2B09">
+      <Files>
+        <File name="O365SmallBusPremR_Subscription5-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription5-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_Subscription5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_SubTrial1" Acid="6AE65B85-E04E-4368-80A7-786D5766325E">
+      <Files>
+        <File name="O365SmallBusPremR_SubTrial1-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial1-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_SubTrial2" Acid="2030A84D-D6C7-4968-8CEC-CF4737ACC337">
+      <Files>
+        <File name="O365SmallBusPremR_SubTrial2-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial2-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_SubTrial3" Acid="2F756D47-E1B1-4D2A-922B-4D76F35D007D">
+      <Files>
+        <File name="O365SmallBusPremR_SubTrial3-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial3-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_SubTrial4" Acid="C5A706AC-9733-4061-8242-28EB639F1B29">
+      <Files>
+        <File name="O365SmallBusPremR_SubTrial4-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial4-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="O365SmallBusPremR_SubTrial5" Acid="090506FC-50F8-4C00-B8C7-91982A2A7C99">
+      <Files>
+        <File name="O365SmallBusPremR_SubTrial5-pl.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial5-ul-oob.xrm-ms" />
+        <File name="O365SmallBusPremR_SubTrial5-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OneNote2021Retail">
+    <License Sku="OneNote2021R_Grace" Acid="4C1BBE18-093E-4C0A-8EE6-E6B717E252F5">
+      <Files>
+        <File name="OneNote2021R_Grace-ul-oob.xrm-ms" />
+        <File name="OneNote2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNote2021R_OEM_Perp" Acid="E8A7C18B-EB91-4D67-8247-E965F49E068F">
+      <Files>
+        <File name="OneNote2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="OneNote2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="OneNote2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="OneNote2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNote2021R_Retail" Acid="279706F4-3A4B-4877-949B-F8C299CF0CC5">
+      <Files>
+        <File name="OneNote2021R_Retail-pl.xrm-ms" />
+        <File name="OneNote2021R_Retail-ul-phn.xrm-ms" />
+        <File name="OneNote2021R_Retail-ul-oob.xrm-ms" />
+        <File name="OneNote2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNote2021R_Trial" Acid="09D3F061-2081-4BA5-9599-D9296DC6FE89">
+      <Files>
+        <File name="OneNote2021R_Trial-pl.xrm-ms" />
+        <File name="OneNote2021R_Trial-ul-oob.xrm-ms" />
+        <File name="OneNote2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OneNoteFreeRetail">
+    <License Sku="OneNoteFreeR_Bypass" Acid="436366DE-5579-4F24-96DB-3893E4400030">
+      <Files>
+        <File name="OneNoteFreeR_Bypass-ul-oob.xrm-ms" />
+        <File name="OneNoteFreeR_Bypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OneNoteRetail">
+    <License Sku="OneNoteR_Grace" Acid="66C66DB4-55EA-427B-90A8-B850B2B87FD0">
+      <Files>
+        <File name="OneNoteR_Grace-ul-oob.xrm-ms" />
+        <File name="OneNoteR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNoteR_OEM_Perp" Acid="F680A57C-24C4-4FDD-80A3-778877F63D0A">
+      <Files>
+        <File name="OneNoteR_OEM_Perp-pl.xrm-ms" />
+        <File name="OneNoteR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="OneNoteR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="OneNoteR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNoteR_Retail" Acid="83AC4DD9-1B93-40ED-AA55-EDE25BB6AF38">
+      <Files>
+        <File name="OneNoteR_Retail-pl.xrm-ms" />
+        <File name="OneNoteR_Retail-ul-phn.xrm-ms" />
+        <File name="OneNoteR_Retail-ul-oob.xrm-ms" />
+        <File name="OneNoteR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNoteR_Trial" Acid="04388DC4-ABCA-4924-B238-AC4273F8F74B">
+      <Files>
+        <File name="OneNoteR_Trial-pl.xrm-ms" />
+        <File name="OneNoteR_Trial-ul-oob.xrm-ms" />
+        <File name="OneNoteR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OneNoteVolume">
+    <License Sku="OneNoteVL_KMS_Client" Acid="D8CACE59-33D2-4AC7-9B1B-9B72339C51C8">
+      <Files>
+        <File name="OneNoteVL_KMS_Client-ul.xrm-ms" />
+        <File name="OneNoteVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="OneNoteVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OneNoteVL_MAK" Acid="23B672DA-A456-4860-A8F3-E062A501D7E8">
+      <Files>
+        <File name="OneNoteVL_MAK-pl.xrm-ms" />
+        <File name="OneNoteVL_MAK-ul-phn.xrm-ms" />
+        <File name="OneNoteVL_MAK-ul-oob.xrm-ms" />
+        <File name="OneNoteVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Outlook2019Retail">
+    <License Sku="Outlook2019R_Grace" Acid="5464FE8F-BEFA-43A3-956B-3A1FFB59A280">
+      <Files>
+        <File name="Outlook2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Outlook2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2019R_OEM_Perp" Acid="27D85D8B-FE2F-4515-9E37-A96056788046">
+      <Files>
+        <File name="Outlook2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Outlook2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Outlook2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Outlook2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2019R_Retail" Acid="20E359D5-927F-47C0-8A27-38ADBDD27124">
+      <Files>
+        <File name="Outlook2019R_Retail-pl.xrm-ms" />
+        <File name="Outlook2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Outlook2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Outlook2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2019R_Trial" Acid="EC9BF3B9-335A-4D5B-B9C7-7C3937CFA1F0">
+      <Files>
+        <File name="Outlook2019R_Trial-pl.xrm-ms" />
+        <File name="Outlook2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Outlook2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Outlook2019Volume">
+    <License Sku="Outlook2019VL_KMS_Client_AE" Acid="C8F8A301-19F5-4132-96CE-2DE9D4ADBD33">
+      <Files>
+        <File name="Outlook2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Outlook2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Outlook2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2019VL_MAK_AE" Acid="92A99ED8-2923-4CB7-A4C5-31DA6B0B8CF3">
+      <Files>
+        <File name="Outlook2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Outlook2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Outlook2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Outlook2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Outlook2021Retail">
+    <License Sku="Outlook2021R_Grace" Acid="908B15FC-4039-4F69-9FEA-5416163C9F18">
+      <Files>
+        <File name="Outlook2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Outlook2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2021R_OEM_Perp" Acid="3F010BA9-AA36-4722-BD16-29EC9AE0A08C">
+      <Files>
+        <File name="Outlook2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Outlook2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Outlook2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Outlook2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2021R_Retail" Acid="ECEA2CFA-D406-4A7F-BE0D-C6163250D126">
+      <Files>
+        <File name="Outlook2021R_Retail-pl.xrm-ms" />
+        <File name="Outlook2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Outlook2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Outlook2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2021R_Trial" Acid="0BEA8DF4-5C95-4AFD-BD3A-062F2C24D62B">
+      <Files>
+        <File name="Outlook2021R_Trial-pl.xrm-ms" />
+        <File name="Outlook2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Outlook2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Outlook2021Volume">
+    <License Sku="Outlook2021VL_KMS_Client_AE" Acid="A5799E4C-F83C-4C6E-9516-DFE9B696150B">
+      <Files>
+        <File name="Outlook2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Outlook2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Outlook2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Outlook2021VL_MAK_AE" Acid="45BF67F9-0FC8-4335-8B09-9226CEF8A576">
+      <Files>
+        <File name="Outlook2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Outlook2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Outlook2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Outlook2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OutlookRetail">
+    <License Sku="OutlookR_Grace" Acid="6D47BDDA-2331-4956-A1D6-E57889F326AB">
+      <Files>
+        <File name="OutlookR_Grace-ul-oob.xrm-ms" />
+        <File name="OutlookR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OutlookR_OEM_Perp" Acid="6FAC4EBC-930E-4DF5-AAAE-9FF5A36A7C99">
+      <Files>
+        <File name="OutlookR_OEM_Perp-pl.xrm-ms" />
+        <File name="OutlookR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="OutlookR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="OutlookR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OutlookR_Retail" Acid="5A670809-0983-4C2D-8AAD-D3C2C5B7D5D1">
+      <Files>
+        <File name="OutlookR_Retail-pl.xrm-ms" />
+        <File name="OutlookR_Retail-ul-phn.xrm-ms" />
+        <File name="OutlookR_Retail-ul-oob.xrm-ms" />
+        <File name="OutlookR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OutlookR_Trial" Acid="2DCD3F0B-AAFB-48D7-9F5F-01E14160AC43">
+      <Files>
+        <File name="OutlookR_Trial-pl.xrm-ms" />
+        <File name="OutlookR_Trial-ul-oob.xrm-ms" />
+        <File name="OutlookR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="OutlookVolume">
+    <License Sku="OutlookVL_KMS_Client" Acid="EC9D9265-9D1E-4ED0-838A-CDC20F2551A1">
+      <Files>
+        <File name="OutlookVL_KMS_Client-ul.xrm-ms" />
+        <File name="OutlookVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="OutlookVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="OutlookVL_MAK" Acid="50059979-AC6F-4458-9E79-710BCB41721A">
+      <Files>
+        <File name="OutlookVL_MAK-pl.xrm-ms" />
+        <File name="OutlookVL_MAK-ul-phn.xrm-ms" />
+        <File name="OutlookVL_MAK-ul-oob.xrm-ms" />
+        <File name="OutlookVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Personal2019Retail">
+    <License Sku="Personal2019DemoR_BypassTrial180" Acid="D72D694A-C20B-491A-9629-BEAFC48ECBD0">
+      <Files>
+        <File name="Personal2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="Personal2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2019R_Grace" Acid="C860DD35-031F-49B8-B500-24C17A564291">
+      <Files>
+        <File name="Personal2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Personal2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2019R_OEM_Perp" Acid="1810D5D6-2572-4ED1-BD96-08D77C288DCA">
+      <Files>
+        <File name="Personal2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Personal2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Personal2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Personal2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2019R_Retail" Acid="2747B731-0F1F-413E-A92D-386EC1277DD8">
+      <Files>
+        <File name="Personal2019R_Retail-pl.xrm-ms" />
+        <File name="Personal2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Personal2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Personal2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2019R_Trial" Acid="04EC8535-E9EE-4778-A3F0-098CBF761E1E">
+      <Files>
+        <File name="Personal2019R_Trial-pl.xrm-ms" />
+        <File name="Personal2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Personal2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Personal2021Retail">
+    <License Sku="Personal2021DemoR_BypassTrial180" Acid="AF0B0473-B18C-40F3-9DC1-A0BA6A764503">
+      <Files>
+        <File name="Personal2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="Personal2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2021R_Grace" Acid="FAFD27A3-6208-4FD3-B503-55058FCFEEC0">
+      <Files>
+        <File name="Personal2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Personal2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2021R_OEM_Perp" Acid="993BCAC7-3A0E-4A06-8F64-AC70144A8C0D">
+      <Files>
+        <File name="Personal2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Personal2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Personal2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Personal2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2021R_Retail" Acid="8F89391E-EEDB-429D-AF90-9D36FBF94DE6">
+      <Files>
+        <File name="Personal2021R_Retail-pl.xrm-ms" />
+        <File name="Personal2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Personal2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Personal2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Personal2021R_Trial" Acid="E3EF2016-6B88-4184-B24D-44AC4F3B96CD">
+      <Files>
+        <File name="Personal2021R_Trial-pl.xrm-ms" />
+        <File name="Personal2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Personal2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PersonalPipcRetail">
+    <License Sku="PersonalPipcDemoR_BypassTrial365" Acid="8BF9E61F-3905-4E9B-99C4-1C3946C1FCA7">
+      <Files>
+        <File name="PersonalPipcDemoR_BypassTrial365-ul-oob.xrm-ms" />
+        <File name="PersonalPipcDemoR_BypassTrial365-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalPipcR_Grace" Acid="34EBB57F-0773-4DF5-8EBD-BF55D194DC69">
+      <Files>
+        <File name="PersonalPipcR_Grace-ul-oob.xrm-ms" />
+        <File name="PersonalPipcR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalPipcR_OEM_Perp" Acid="5AAB8561-1686-43F7-9FF5-2C861DA58D17">
+      <Files>
+        <File name="PersonalPipcR_OEM_Perp-pl.xrm-ms" />
+        <File name="PersonalPipcR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PersonalPipcR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PersonalPipcR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalPipcR_PIN" Acid="D545CCF1-CF46-41D0-8D55-D3E8B03CDB64">
+      <Files />
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PersonalRetail">
+    <License Sku="PersonalDemoR_BypassTrial180" Acid="338E5858-1E3A-4ACD-900E-7DBEF543BB9B">
+      <Files>
+        <File name="PersonalDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="PersonalDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalR_Grace" Acid="B444EF2B-340F-4E88-9E32-FCB747EE5D04">
+      <Files>
+        <File name="PersonalR_Grace-ul-oob.xrm-ms" />
+        <File name="PersonalR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalR_OEM_Perp" Acid="E66E9AA9-D6CE-43DA-8A34-EF62ECDAE720">
+      <Files>
+        <File name="PersonalR_OEM_Perp-pl.xrm-ms" />
+        <File name="PersonalR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PersonalR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PersonalR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalR_Retail" Acid="A9F645A1-0D6A-4978-926A-ABCB363B72A6">
+      <Files>
+        <File name="PersonalR_Retail-pl.xrm-ms" />
+        <File name="PersonalR_Retail-ul-phn.xrm-ms" />
+        <File name="PersonalR_Retail-ul-oob.xrm-ms" />
+        <File name="PersonalR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PersonalR_Trial" Acid="FBBC4AAB-247A-43DB-8CE6-69ABE89A82E5">
+      <Files>
+        <File name="PersonalR_Trial-pl.xrm-ms" />
+        <File name="PersonalR_Trial-ul-oob.xrm-ms" />
+        <File name="PersonalR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPoint2019Retail">
+    <License Sku="PowerPoint2019R_Grace" Acid="9C31B372-0652-41B9-BDCE-34EB16400E9F">
+      <Files>
+        <File name="PowerPoint2019R_Grace-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2019R_OEM_Perp" Acid="BD6CCE28-11AF-484A-97FF-86422981B868">
+      <Files>
+        <File name="PowerPoint2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="PowerPoint2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PowerPoint2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2019R_Retail" Acid="7E63CC20-BA37-42A1-822D-D5F29F33A108">
+      <Files>
+        <File name="PowerPoint2019R_Retail-pl.xrm-ms" />
+        <File name="PowerPoint2019R_Retail-ul-phn.xrm-ms" />
+        <File name="PowerPoint2019R_Retail-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2019R_Trial" Acid="D26F7324-6471-444B-A8F5-25BBB7CB2DF4">
+      <Files>
+        <File name="PowerPoint2019R_Trial-pl.xrm-ms" />
+        <File name="PowerPoint2019R_Trial-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPoint2019Volume">
+    <License Sku="PowerPoint2019VL_KMS_Client_AE" Acid="3131FD61-5E4F-4308-8D6D-62BE1987C92C">
+      <Files>
+        <File name="PowerPoint2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="PowerPoint2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2019VL_MAK_AE" Acid="13C2D7BF-F10D-42EB-9E93-ABF846785434">
+      <Files>
+        <File name="PowerPoint2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="PowerPoint2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="PowerPoint2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="PowerPoint2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPoint2021Retail">
+    <License Sku="PowerPoint2021R_Grace" Acid="3D08DBA9-ADF1-4497-BA68-E8E3DB398081">
+      <Files>
+        <File name="PowerPoint2021R_Grace-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2021R_OEM_Perp" Acid="46C3DF99-56BF-41B8-AF16-76E133A53EEF">
+      <Files>
+        <File name="PowerPoint2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="PowerPoint2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PowerPoint2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2021R_Retail1" Acid="C9BF5E86-F5E3-4AC6-8D52-E114A604D7BF">
+      <Files>
+        <File name="PowerPoint2021R_Retail1-pl.xrm-ms" />
+        <File name="PowerPoint2021R_Retail1-ul-phn.xrm-ms" />
+        <File name="PowerPoint2021R_Retail1-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021R_Retail1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2021R_Retail2" Acid="0CA4D3D2-E1C3-4FA1-93BF-98405D83E185">
+      <Files>
+        <File name="PowerPoint2021R_Retail2-pl.xrm-ms" />
+        <File name="PowerPoint2021R_Retail2-ul-phn.xrm-ms" />
+        <File name="PowerPoint2021R_Retail2-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021R_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2021R_Trial" Acid="3154F1AD-E942-4795-B9C9-2034A465A19B">
+      <Files>
+        <File name="PowerPoint2021R_Trial-pl.xrm-ms" />
+        <File name="PowerPoint2021R_Trial-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPoint2021Volume">
+    <License Sku="PowerPoint2021VL_KMS_Client_AE" Acid="6E166CC3-495D-438A-89E7-D7C9E6FD4DEA">
+      <Files>
+        <File name="PowerPoint2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="PowerPoint2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPoint2021VL_MAK_AE" Acid="716F2434-41B6-4969-AB73-E61E593A3875">
+      <Files>
+        <File name="PowerPoint2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="PowerPoint2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="PowerPoint2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="PowerPoint2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPointRetail">
+    <License Sku="PowerPointR_Grace" Acid="E5101C42-817D-432D-9783-8C03134A51C2">
+      <Files>
+        <File name="PowerPointR_Grace-ul-oob.xrm-ms" />
+        <File name="PowerPointR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPointR_OEM_Perp" Acid="17A89B14-4244-4B97-BF6B-76D586CF91D0">
+      <Files>
+        <File name="PowerPointR_OEM_Perp-pl.xrm-ms" />
+        <File name="PowerPointR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PowerPointR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PowerPointR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPointR_Retail" Acid="F32D1284-0792-49DA-9AC6-DEB2BC9C80B6">
+      <Files>
+        <File name="PowerPointR_Retail-pl.xrm-ms" />
+        <File name="PowerPointR_Retail-ul-phn.xrm-ms" />
+        <File name="PowerPointR_Retail-ul-oob.xrm-ms" />
+        <File name="PowerPointR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPointR_Trial" Acid="E48D4EBB-FD30-43B2-BE87-0EB2335EC2C9">
+      <Files>
+        <File name="PowerPointR_Trial-pl.xrm-ms" />
+        <File name="PowerPointR_Trial-ul-oob.xrm-ms" />
+        <File name="PowerPointR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PowerPointVolume">
+    <License Sku="PowerPointVL_KMS_Client" Acid="D70B1BBA-B893-4544-96E2-B7A318091C33">
+      <Files>
+        <File name="PowerPointVL_KMS_Client-ul.xrm-ms" />
+        <File name="PowerPointVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="PowerPointVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PowerPointVL_MAK" Acid="9B4060C9-A7F5-4A66-B732-FAF248B7240F">
+      <Files>
+        <File name="PowerPointVL_MAK-pl.xrm-ms" />
+        <File name="PowerPointVL_MAK-ul-phn.xrm-ms" />
+        <File name="PowerPointVL_MAK-ul-oob.xrm-ms" />
+        <File name="PowerPointVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Professional2019Retail">
+    <License Sku="Professional2019DemoR_BypassTrial180" Acid="DA892D82-124E-444B-BD01-B109155CB2AE">
+      <Files>
+        <File name="Professional2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="Professional2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2019R_Grace" Acid="EB972895-440E-4863-BE98-BA075B9721D0">
+      <Files>
+        <File name="Professional2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Professional2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2019R_OEM_Perp" Acid="65C693F4-3F1C-48A6-AFE6-A6EB78A65CCB">
+      <Files>
+        <File name="Professional2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Professional2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Professional2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Professional2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2019R_PrepidBypass" Acid="72621D09-F833-4CC5-812B-2929A06DCF4F">
+      <Files>
+        <File name="Professional2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="Professional2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2019R_Retail" Acid="1717C1E0-47D3-4899-A6D3-1022DB7415E0">
+      <Files>
+        <File name="Professional2019R_Retail-pl.xrm-ms" />
+        <File name="Professional2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Professional2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Professional2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2019R_Trial" Acid="EDC83D99-C10D-4ADF-8D0C-98342381820B">
+      <Files>
+        <File name="Professional2019R_Trial-pl.xrm-ms" />
+        <File name="Professional2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Professional2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Professional2021Retail">
+    <License Sku="Professional2021DemoR_BypassTrial180" Acid="E64697E4-0AB5-45FE-AB1A-0FD557E11B34">
+      <Files>
+        <File name="Professional2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="Professional2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2021R_Grace" Acid="CE5FFCAF-75DA-4362-A9CB-00D2689918AA">
+      <Files>
+        <File name="Professional2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Professional2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2021R_OEM_Perp" Acid="6986E2E2-307D-422B-90E6-17B466BA629B">
+      <Files>
+        <File name="Professional2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Professional2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Professional2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Professional2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2021R_Retail" Acid="711E48A6-1A79-4B00-AF10-73F4CA3AAAC4">
+      <Files>
+        <File name="Professional2021R_Retail-pl.xrm-ms" />
+        <File name="Professional2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Professional2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Professional2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Professional2021R_Trial" Acid="49CAD824-F064-4F4C-BB38-025651FD3E44">
+      <Files>
+        <File name="Professional2021R_Trial-pl.xrm-ms" />
+        <File name="Professional2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Professional2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProfessionalPipcRetail">
+    <License Sku="ProfessionalPipcR_Grace" Acid="2A3D3010-CDAB-4F07-8BF2-0E3639BC6B98">
+      <Files>
+        <File name="ProfessionalPipcR_Grace-ul-oob.xrm-ms" />
+        <File name="ProfessionalPipcR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalPipcR_OEM_Perp" Acid="4E26CAC1-E15A-4467-9069-CB47B67FE191">
+      <Files>
+        <File name="ProfessionalPipcR_OEM_Perp-pl.xrm-ms" />
+        <File name="ProfessionalPipcR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProfessionalPipcR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProfessionalPipcR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalPipcR_PIN" Acid="70A633E5-AB58-487A-B077-E410B30C5EA4">
+      <Files />
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProfessionalRetail">
+    <License Sku="ProfessionalDemoR_BypassTrial180" Acid="EB264A11-A2EE-4740-8AC2-3751C8859374">
+      <Files>
+        <File name="ProfessionalDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProfessionalDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalR_Grace" Acid="7A0560C5-21ED-4518-AD41-B7F870B9FD1A">
+      <Files>
+        <File name="ProfessionalR_Grace-ul-oob.xrm-ms" />
+        <File name="ProfessionalR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalR_OEM_Perp" Acid="54FF28C4-56AD-4168-AB75-7207F98DE5EB">
+      <Files>
+        <File name="ProfessionalR_OEM_Perp-pl.xrm-ms" />
+        <File name="ProfessionalR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProfessionalR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProfessionalR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalR_PIN" Acid="12367CA7-3B7D-44FD-8765-02469CA5004E">
+      <Files />
+    </License>
+    <License Sku="ProfessionalR_Retail" Acid="D64EDC00-7453-4301-8428-197343FAFB16">
+      <Files>
+        <File name="ProfessionalR_Retail-pl.xrm-ms" />
+        <File name="ProfessionalR_Retail-ul-phn.xrm-ms" />
+        <File name="ProfessionalR_Retail-ul-oob.xrm-ms" />
+        <File name="ProfessionalR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProfessionalR_Trial" Acid="39A1BE8C-9E7F-4A75-81F4-21CFAC7CBECB">
+      <Files>
+        <File name="ProfessionalR_Trial-pl.xrm-ms" />
+        <File name="ProfessionalR_Trial-ul-oob.xrm-ms" />
+        <File name="ProfessionalR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectPro2019Retail">
+    <License Sku="ProjectPro2019DemoR_BypassTrial180" Acid="220842AE-9681-41F2-AF5A-4DBDE01FACC1">
+      <Files>
+        <File name="ProjectPro2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019MSDNR_Retail" Acid="499E61C7-900A-4882-B003-E8E106BDCB95">
+      <Files>
+        <File name="ProjectPro2019MSDNR_Retail-pl.xrm-ms" />
+        <File name="ProjectPro2019MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectPro2019MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019R_Grace" Acid="7D351D13-E2F4-49EA-A63C-63A85B1D5630">
+      <Files>
+        <File name="ProjectPro2019R_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019R_OEM_Perp" Acid="BC39E263-86FB-4822-AD08-CB05F71CE855">
+      <Files>
+        <File name="ProjectPro2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectPro2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectPro2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019R_PrepidBypass" Acid="A1BFBAE1-3092-4B33-BF77-0681BE6807FE">
+      <Files>
+        <File name="ProjectPro2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019R_Retail" Acid="0D270EF7-5AAF-4370-A372-BC806B96ADB7">
+      <Files>
+        <File name="ProjectPro2019R_Retail-pl.xrm-ms" />
+        <File name="ProjectPro2019R_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectPro2019R_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019R_Trial" Acid="F6C61FE0-58F0-49E0-9D79-12F5130B48AC">
+      <Files>
+        <File name="ProjectPro2019R_Trial-pl.xrm-ms" />
+        <File name="ProjectPro2019R_Trial-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectPro2019Volume">
+    <License Sku="ProjectPro2019VL_KMS_Client_AE" Acid="2CA2BF3F-949E-446A-82C7-E25A15EC78C4">
+      <Files>
+        <File name="ProjectPro2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProjectPro2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019VL_MAK_AE" Acid="D4EBADD6-401B-40D5-ADF4-A5D4ACCD72D1">
+      <Files>
+        <File name="ProjectPro2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="ProjectPro2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProjectPro2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019XC2RVL_KMS_ClientC2R" Acid="FC7C4D0C-2E85-4BB9-AFD4-01ED1476B5E9">
+      <Files>
+        <File name="ProjectPro2019XC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="ProjectPro2019XC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019XC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2019XC2RVL_MAKC2R" Acid="73FC2508-0FB1-475A-BD6F-2D42FD84C62A">
+      <Files>
+        <File name="ProjectPro2019XC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="ProjectPro2019XC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="ProjectPro2019XC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="ProjectPro2019XC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectPro2021Retail">
+    <License Sku="ProjectPro2021DemoR_BypassTrial180" Acid="759C4ABC-9216-4BC5-91F5-C089FC87485B">
+      <Files>
+        <File name="ProjectPro2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021MSDNR_Retail1" Acid="CDB562F0-5F9E-499B-8DAD-B0651E828CB0">
+      <Files>
+        <File name="ProjectPro2021MSDNR_Retail1-pl.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail1-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail1-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021MSDNR_Retail2" Acid="A11DD968-47F8-42E1-87DF-3EEFD2482CB7">
+      <Files>
+        <File name="ProjectPro2021MSDNR_Retail2-pl.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail2-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail2-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021MSDNR_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021R_Grace" Acid="12929E46-26FB-4DD3-891B-61D8CCA2D663">
+      <Files>
+        <File name="ProjectPro2021R_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021R_OEM_Perp" Acid="0C049CCF-B2B2-490D-A9A9-6122496AE21F">
+      <Files>
+        <File name="ProjectPro2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectPro2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021R_Retail" Acid="3747D1D5-55A8-4BC3-B53D-19FFF1913195">
+      <Files>
+        <File name="ProjectPro2021R_Retail-pl.xrm-ms" />
+        <File name="ProjectPro2021R_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021R_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021R_Trial" Acid="6EAF303B-7D0B-4225-BDB2-B7F23F85C982">
+      <Files>
+        <File name="ProjectPro2021R_Trial-pl.xrm-ms" />
+        <File name="ProjectPro2021R_Trial-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectPro2021Volume">
+    <License Sku="ProjectPro2021PreviewVL_KMS_Client_AE" Acid="76093B1B-7057-49D7-B970-638EBCBFD873">
+      <Files>
+        <File name="ProjectPro2021PreviewVL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProjectPro2021PreviewVL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021PreviewVL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021PreviewVL_MAK_AE" Acid="8FA633B7-E02E-4C83-8564-042EADC6FF83">
+      <Files>
+        <File name="ProjectPro2021PreviewVL_MAK_AE-pl.xrm-ms" />
+        <File name="ProjectPro2021PreviewVL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021PreviewVL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021PreviewVL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021VL_KMS_Client_AE" Acid="76881159-155C-43E0-9DB7-2D70A9A3A4CA">
+      <Files>
+        <File name="ProjectPro2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProjectPro2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021VL_MAK_AE1" Acid="17739068-86C4-4924-8633-1E529ABC7EFC">
+      <Files>
+        <File name="ProjectPro2021VL_MAK_AE1-pl.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE1-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE1-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectPro2021VL_MAK_AE2" Acid="1D826E94-0C6F-438C-8361-334005965828">
+      <Files>
+        <File name="ProjectPro2021VL_MAK_AE2-pl.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE2-ul-phn.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE2-ul-oob.xrm-ms" />
+        <File name="ProjectPro2021VL_MAK_AE2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectProRetail">
+    <License Sku="ProjectProCO365R_Subscription" Acid="4031E9F3-E451-4E18-BEDD-91CAA3690C91">
+      <Files>
+        <File name="ProjectProCO365R_Subscription-pl.xrm-ms" />
+        <File name="ProjectProCO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="ProjectProCO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProCO365R_SubTest" Acid="AE1310F8-2F53-4994-93A3-C61502E91D04">
+      <Files>
+        <File name="ProjectProCO365R_SubTest-pl.xrm-ms" />
+        <File name="ProjectProCO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="ProjectProCO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProCO365R_SubTrial" Acid="2B456DC8-145A-4D2D-9C72-703D1CD8C50E">
+      <Files>
+        <File name="ProjectProCO365R_SubTrial-pl.xrm-ms" />
+        <File name="ProjectProCO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="ProjectProCO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProDemoR_BypassTrial180" Acid="13104647-EE01-4016-AFAF-BBA564215D6E">
+      <Files>
+        <File name="ProjectProDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProjectProDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProMSDNR_Retail" Acid="2CB19A15-BAB2-4FCB-ACEE-4BDE5BE207A5">
+      <Files>
+        <File name="ProjectProMSDNR_Retail-pl.xrm-ms" />
+        <File name="ProjectProMSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectProMSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectProMSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProO365R_Subscription" Acid="2F72340C-B555-418D-8B46-355944FE66B8">
+      <Files>
+        <File name="ProjectProO365R_Subscription-pl.xrm-ms" />
+        <File name="ProjectProO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="ProjectProO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProO365R_SubTest" Acid="539165C6-09E3-4F4B-9C29-EEC86FDF545F">
+      <Files>
+        <File name="ProjectProO365R_SubTest-pl.xrm-ms" />
+        <File name="ProjectProO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="ProjectProO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProO365R_SubTrial" Acid="330A4ACE-9CC1-4AF5-8D36-8D0681194618">
+      <Files>
+        <File name="ProjectProO365R_SubTrial-pl.xrm-ms" />
+        <File name="ProjectProO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="ProjectProO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProR_Grace" Acid="CA5B3EEA-C055-4ACF-BC78-187DB21C7DB5">
+      <Files>
+        <File name="ProjectProR_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectProR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProR_OEM_Perp" Acid="2A9E12E5-48A2-497C-98D3-BE7170D86B13">
+      <Files>
+        <File name="ProjectProR_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectProR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectProR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectProR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProR_Retail" Acid="0F42F316-00B1-48C5-ADA4-2F52B5720AD0">
+      <Files>
+        <File name="ProjectProR_Retail-pl.xrm-ms" />
+        <File name="ProjectProR_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectProR_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectProR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProR_Retail2" Acid="067DABCC-B31D-4350-96A6-4FCAD79CFBB7">
+      <Files>
+        <File name="ProjectProR_Retail2-pl.xrm-ms" />
+        <File name="ProjectProR_Retail2-ul-phn.xrm-ms" />
+        <File name="ProjectProR_Retail2-ul-oob.xrm-ms" />
+        <File name="ProjectProR_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProR_Trial" Acid="AEEDF8F7-8832-41B1-A9C8-13F2991A371C">
+      <Files>
+        <File name="ProjectProR_Trial-pl.xrm-ms" />
+        <File name="ProjectProR_Trial-ul-oob.xrm-ms" />
+        <File name="ProjectProR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectProVolume">
+    <License Sku="ProjectProVL_KMS_Client" Acid="4F414197-0FC2-4C01-B68A-86CBB9AC254C">
+      <Files>
+        <File name="ProjectProVL_KMS_Client-ul.xrm-ms" />
+        <File name="ProjectProVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="ProjectProVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProVL_MAK" Acid="82F502B5-B0B0-4349-BD2C-C560DF85B248">
+      <Files>
+        <File name="ProjectProVL_MAK-pl.xrm-ms" />
+        <File name="ProjectProVL_MAK-ul-phn.xrm-ms" />
+        <File name="ProjectProVL_MAK-ul-oob.xrm-ms" />
+        <File name="ProjectProVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectProXVolume">
+    <License Sku="ProjectProXC2RVL_KMS_ClientC2R" Acid="829B8110-0E6F-4349-BCA4-42803577788D">
+      <Files>
+        <File name="ProjectProXC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="ProjectProXC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="ProjectProXC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectProXC2RVL_MAKC2R" Acid="16728639-A9AB-4994-B6D8-F81051E69833">
+      <Files>
+        <File name="ProjectProXC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="ProjectProXC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="ProjectProXC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="ProjectProXC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStd2019Retail">
+    <License Sku="ProjectStd2019R_Grace" Acid="086C4557-2A7A-49B2-B4CE-3D2F93F8C8CA">
+      <Files>
+        <File name="ProjectStd2019R_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectStd2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2019R_OEM_Perp" Acid="DEEA27A6-E540-4B6B-9124-8A5CF73FD68B">
+      <Files>
+        <File name="ProjectStd2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectStd2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectStd2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectStd2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2019R_Retail" Acid="BB7FFE5F-DAF9-4B79-B107-453E1C8427B5">
+      <Files>
+        <File name="ProjectStd2019R_Retail-pl.xrm-ms" />
+        <File name="ProjectStd2019R_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectStd2019R_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectStd2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStd2019Volume">
+    <License Sku="ProjectStd2019VL_KMS_Client_AE" Acid="1777F0E3-7392-4198-97EA-8AE4DE6F6381">
+      <Files>
+        <File name="ProjectStd2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProjectStd2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProjectStd2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2019VL_MAK_AE" Acid="FDAA3C03-DC27-4A8D-8CBF-C3D843A28DDC">
+      <Files>
+        <File name="ProjectStd2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="ProjectStd2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProjectStd2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProjectStd2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStd2021Retail">
+    <License Sku="ProjectStd2021R_Grace" Acid="6C7B0A25-2FAB-4251-87D1-2E7997D0AC97">
+      <Files>
+        <File name="ProjectStd2021R_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectStd2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2021R_OEM_Perp" Acid="4AAD73D2-17FF-49A6-A5A3-975127D315E8">
+      <Files>
+        <File name="ProjectStd2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectStd2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectStd2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectStd2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2021R_Retail" Acid="4EA64DCA-227C-436B-813F-B6624BE2D54C">
+      <Files>
+        <File name="ProjectStd2021R_Retail-pl.xrm-ms" />
+        <File name="ProjectStd2021R_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectStd2021R_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectStd2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStd2021Volume">
+    <License Sku="ProjectStd2021VL_KMS_Client_AE" Acid="6DD72704-F752-4B71-94C7-11CEC6BFC355">
+      <Files>
+        <File name="ProjectStd2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProjectStd2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProjectStd2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStd2021VL_MAK_AE" Acid="84313D1E-47C8-4E27-8CED-0476B7EE46C4">
+      <Files>
+        <File name="ProjectStd2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="ProjectStd2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProjectStd2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProjectStd2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStdRetail">
+    <License Sku="ProjectStdCO365R_Subscription" Acid="053D3F49-B913-4B33-935E-F930DECD8709">
+      <Files>
+        <File name="ProjectStdCO365R_Subscription-pl.xrm-ms" />
+        <File name="ProjectStdCO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="ProjectStdCO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdCO365R_SubTest" Acid="594E9433-6492-434D-BFCE-4014F55D3909">
+      <Files>
+        <File name="ProjectStdCO365R_SubTest-pl.xrm-ms" />
+        <File name="ProjectStdCO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="ProjectStdCO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdCO365R_SubTrial" Acid="B480F090-28FE-4A67-8885-62322037A0CD">
+      <Files>
+        <File name="ProjectStdCO365R_SubTrial-pl.xrm-ms" />
+        <File name="ProjectStdCO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="ProjectStdCO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdO365R_Subscription" Acid="58D95B09-6AF6-453D-A976-8EF0AE0316B1">
+      <Files>
+        <File name="ProjectStdO365R_Subscription-pl.xrm-ms" />
+        <File name="ProjectStdO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="ProjectStdO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdO365R_SubTest" Acid="5DF83BED-7E8E-4A28-80EF-D8B0A004CF3E">
+      <Files>
+        <File name="ProjectStdO365R_SubTest-pl.xrm-ms" />
+        <File name="ProjectStdO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="ProjectStdO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdO365R_SubTrial" Acid="75F08E14-5CF5-4D59-9CEF-DA3194B6FD24">
+      <Files>
+        <File name="ProjectStdO365R_SubTrial-pl.xrm-ms" />
+        <File name="ProjectStdO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="ProjectStdO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdR_Grace" Acid="587BECE0-14F5-4039-AA1F-7CFCE036FCCC">
+      <Files>
+        <File name="ProjectStdR_Grace-ul-oob.xrm-ms" />
+        <File name="ProjectStdR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdR_OEM_Perp" Acid="6185F4C9-522C-4808-8508-946D28CEA707">
+      <Files>
+        <File name="ProjectStdR_OEM_Perp-pl.xrm-ms" />
+        <File name="ProjectStdR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProjectStdR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProjectStdR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdR_Retail" Acid="E9F0B3FC-962F-4944-AD06-05C10B6BCD5E">
+      <Files>
+        <File name="ProjectStdR_Retail-pl.xrm-ms" />
+        <File name="ProjectStdR_Retail-ul-phn.xrm-ms" />
+        <File name="ProjectStdR_Retail-ul-oob.xrm-ms" />
+        <File name="ProjectStdR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStdVolume">
+    <License Sku="ProjectStdVL_KMS_Client" Acid="DA7DDABC-3FBE-4447-9E01-6AB7440B4CD4">
+      <Files>
+        <File name="ProjectStdVL_KMS_Client-ul.xrm-ms" />
+        <File name="ProjectStdVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="ProjectStdVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdVL_MAK" Acid="82E6B314-2A62-4E51-9220-61358DD230E6">
+      <Files>
+        <File name="ProjectStdVL_MAK-pl.xrm-ms" />
+        <File name="ProjectStdVL_MAK-ul-phn.xrm-ms" />
+        <File name="ProjectStdVL_MAK-ul-oob.xrm-ms" />
+        <File name="ProjectStdVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProjectStdXVolume">
+    <License Sku="ProjectStdXC2RVL_KMS_ClientC2R" Acid="CBBACA45-556A-4416-AD03-BDA598EAA7C8">
+      <Files>
+        <File name="ProjectStdXC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="ProjectStdXC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="ProjectStdXC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProjectStdXC2RVL_MAKC2R" Acid="431058F0-C059-44C5-B9E7-ED2DD46B6789">
+      <Files>
+        <File name="ProjectStdXC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="ProjectStdXC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="ProjectStdXC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="ProjectStdXC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlus2019Retail">
+    <License Sku="ProPlus2019DemoR_BypassTrial180" Acid="CBCAF071-B911-40A1-A6C1-7BECCA481910">
+      <Files>
+        <File name="ProPlus2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProPlus2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019MSDNR_Retail" Acid="5F472F1E-EB0A-4170-98E2-FB9E7F6FF535">
+      <Files>
+        <File name="ProPlus2019MSDNR_Retail-pl.xrm-ms" />
+        <File name="ProPlus2019MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlus2019MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlus2019MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_Grace" Acid="52C4D79F-6E1A-45B7-B479-36B666E0A2F8">
+      <Files>
+        <File name="ProPlus2019R_Grace-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp" Acid="447EFFDD-0073-4716-99F3-32EF2E155766">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp2" Acid="1640C37D-E2EB-4785-A70B-3C94A2E9B07E">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp2-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp3" Acid="6BD3E147-FF80-44FD-A3A6-B8E5E4FA9ADE">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp3-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp4" Acid="0E26561D-8B88-44CC-B87E-FAF56344E5F3">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp4-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp5" Acid="4A470B50-4D01-4FE5-910A-51BB0B7EB163">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp5-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp5-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp5-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_OEM_Perp6" Acid="CDBD81EF-BB2C-41CC-BB3E-CA6366F3F176">
+      <Files>
+        <File name="ProPlus2019R_OEM_Perp6-pl.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp6-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp6-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_OEM_Perp6-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_PrepidBypass" Acid="C3B2612D-58EE-4D9B-AD9D-7568DECB29F7">
+      <Files>
+        <File name="ProPlus2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_Retail" Acid="A3072B8F-ADCC-4E75-8D62-FDEB9BDFAE57">
+      <Files>
+        <File name="ProPlus2019R_Retail-pl.xrm-ms" />
+        <File name="ProPlus2019R_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlus2019R_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_Trial" Acid="E18C439E-424A-4E83-8F1B-5F9DD021B38D">
+      <Files>
+        <File name="ProPlus2019R_Trial-pl.xrm-ms" />
+        <File name="ProPlus2019R_Trial-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019R_Trial2" Acid="83BD3F0A-A827-46C9-8B30-3F73BF933CFE">
+      <Files>
+        <File name="ProPlus2019R_Trial2-pl.xrm-ms" />
+        <File name="ProPlus2019R_Trial2-ul-oob.xrm-ms" />
+        <File name="ProPlus2019R_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlus2019Volume">
+    <License Sku="ProPlus2019VL_KMS_Client_AE" Acid="85DD8B5F-EAA4-4AF3-A628-CCE9E77C9A03">
+      <Files>
+        <File name="ProPlus2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProPlus2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProPlus2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019VL_MAK_AE" Acid="6755C7A7-4DFE-46F5-BCE8-427BE8E9DC62">
+      <Files>
+        <File name="ProPlus2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="ProPlus2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProPlus2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProPlus2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019XC2RVL_KMS_ClientC2R" Acid="0BC88885-718C-491D-921F-6F214349E79C">
+      <Files>
+        <File name="ProPlus2019XC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="ProPlus2019XC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="ProPlus2019XC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2019XC2RVL_MAKC2R" Acid="0B4E6CFA-3072-434C-B702-BD1836E6887C">
+      <Files>
+        <File name="ProPlus2019XC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="ProPlus2019XC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="ProPlus2019XC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="ProPlus2019XC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlus2021Retail">
+    <License Sku="ProPlus2021DemoR_BypassTrial180" Acid="F61CA8EF-23BA-4273-98CC-20A4AE706D11">
+      <Files>
+        <File name="ProPlus2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProPlus2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021MSDNR_Retail" Acid="8D77DE46-78FB-428D-B8C4-C4A078E8912D">
+      <Files>
+        <File name="ProPlus2021MSDNR_Retail-pl.xrm-ms" />
+        <File name="ProPlus2021MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlus2021MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlus2021MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_Grace" Acid="CD18ECC0-466A-45D4-8D2E-8C4FA48AE591">
+      <Files>
+        <File name="ProPlus2021R_Grace-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp1" Acid="284D39DB-A9AC-4ED9-9607-DB15E70E8B01">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp1-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp1-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp1-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp2" Acid="9B082C4C-61A5-44B6-AEDB-FA59E8279FF6">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp2-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp3" Acid="98C05829-8FBD-4FB9-8C25-BB889A61014F">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp3-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp4" Acid="63530527-EE25-4547-ACF4-F591AABC7635">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp4-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp5" Acid="CE601E13-AAF0-4FA0-8859-8D3FA465DEC8">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp5-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp5-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp5-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_OEM_Perp6" Acid="F4DDD35D-0E26-4BB9-AD0B-C26835D0A7B5">
+      <Files>
+        <File name="ProPlus2021R_OEM_Perp6-pl.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp6-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp6-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_OEM_Perp6-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_Retail" Acid="C2F04ADF-A5DE-45C5-99A5-F5FDDBDA74A8">
+      <Files>
+        <File name="ProPlus2021R_Retail-pl.xrm-ms" />
+        <File name="ProPlus2021R_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlus2021R_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_Trial1" Acid="8E5931CC-12BA-4C58-BA0A-4E0684078AC9">
+      <Files>
+        <File name="ProPlus2021R_Trial1-pl.xrm-ms" />
+        <File name="ProPlus2021R_Trial1-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_Trial1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021R_Trial2" Acid="784F754E-3578-45EF-83EF-0E03D32F4317">
+      <Files>
+        <File name="ProPlus2021R_Trial2-pl.xrm-ms" />
+        <File name="ProPlus2021R_Trial2-ul-oob.xrm-ms" />
+        <File name="ProPlus2021R_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlus2021Volume">
+    <License Sku="ProPlus2021PreviewVL_KMS_Client_AE" Acid="F3FB2D68-83DD-4C8B-8F09-08E0D950AC3B">
+      <Files>
+        <File name="ProPlus2021PreviewVL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProPlus2021PreviewVL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProPlus2021PreviewVL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021PreviewVL_MAK_AE" Acid="D37C765F-12F2-4ACD-83B9-957F10C29A05">
+      <Files>
+        <File name="ProPlus2021PreviewVL_MAK_AE-pl.xrm-ms" />
+        <File name="ProPlus2021PreviewVL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="ProPlus2021PreviewVL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="ProPlus2021PreviewVL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021VL_KMS_Client_AE" Acid="FBDB3E18-A8EF-4FB3-9183-DFFD60BD0984">
+      <Files>
+        <File name="ProPlus2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="ProPlus2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="ProPlus2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021VL_MAK_AE1" Acid="3F180B30-9B05-4FE2-AA8D-0C1C4790F811">
+      <Files>
+        <File name="ProPlus2021VL_MAK_AE1-pl.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE1-ul-phn.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE1-ul-oob.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlus2021VL_MAK_AE2" Acid="528571AB-5978-4ECF-8F7F-D0E9835AB1D7">
+      <Files>
+        <File name="ProPlus2021VL_MAK_AE2-pl.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE2-ul-phn.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE2-ul-oob.xrm-ms" />
+        <File name="ProPlus2021VL_MAK_AE2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlusRetail">
+    <License Sku="ProPlusDemoR_BypassTrial180" Acid="60AFA663-984D-47A6-AC9C-00346FF5E8F0">
+      <Files>
+        <File name="ProPlusDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="ProPlusDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusMSDNR_Retail" Acid="84832881-46EF-4124-8ABC-EB493CDCF78E">
+      <Files>
+        <File name="ProPlusMSDNR_Retail-pl.xrm-ms" />
+        <File name="ProPlusMSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlusMSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlusMSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_Grace" Acid="70D9CEB6-6DFA-4DA4-B413-18C1C3C76E2E">
+      <Files>
+        <File name="ProPlusR_Grace-ul-oob.xrm-ms" />
+        <File name="ProPlusR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp" Acid="6C1BED1D-0273-4045-90D2-E0836F3C380B">
+      <Files>
+        <File name="ProPlusR_OEM_Perp-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp2" Acid="596BF8EC-7CAB-4A98-83AE-459DB70D24E4">
+      <Files>
+        <File name="ProPlusR_OEM_Perp2-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp2-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp2-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp3" Acid="26B394D7-7AD7-4AAB-8FCC-6EA678395A91">
+      <Files>
+        <File name="ProPlusR_OEM_Perp3-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp3-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp3-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp3-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp4" Acid="5829FD99-2B17-4BE4-9814-381145E49019">
+      <Files>
+        <File name="ProPlusR_OEM_Perp4-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp4-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp4-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp4-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp5" Acid="339A5901-9BDE-4F48-A88D-D048A42B54B1">
+      <Files>
+        <File name="ProPlusR_OEM_Perp5-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp5-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp5-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp5-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_OEM_Perp6" Acid="AA64F755-8A7B-4519-BC32-CAB66DEB92CB">
+      <Files>
+        <File name="ProPlusR_OEM_Perp6-pl.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp6-ul-phn.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp6-ul-oob.xrm-ms" />
+        <File name="ProPlusR_OEM_Perp6-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_Retail" Acid="DE52BD50-9564-4ADC-8FCB-A345C17F84F9">
+      <Files>
+        <File name="ProPlusR_Retail-pl.xrm-ms" />
+        <File name="ProPlusR_Retail-ul-phn.xrm-ms" />
+        <File name="ProPlusR_Retail-ul-oob.xrm-ms" />
+        <File name="ProPlusR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_Trial" Acid="C8CE6ADC-EDE7-4CE2-8E7B-C49F462AB8C3">
+      <Files>
+        <File name="ProPlusR_Trial-pl.xrm-ms" />
+        <File name="ProPlusR_Trial-ul-oob.xrm-ms" />
+        <File name="ProPlusR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusR_Trial2" Acid="E1FEF7E5-6886-458C-8E45-7C1E9DAAB00C">
+      <Files>
+        <File name="ProPlusR_Trial2-pl.xrm-ms" />
+        <File name="ProPlusR_Trial2-ul-oob.xrm-ms" />
+        <File name="ProPlusR_Trial2-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="ProPlusVolume">
+    <License Sku="ProPlusVL_KMS_Client" Acid="D450596F-894D-49E0-966A-FD39ED4C4C64">
+      <Files>
+        <File name="ProPlusVL_KMS_Client-ul.xrm-ms" />
+        <File name="ProPlusVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="ProPlusVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="ProPlusVL_MAK" Acid="C47456E3-265D-47B6-8CA0-C30ABBD0CA36">
+      <Files>
+        <File name="ProPlusVL_MAK-pl.xrm-ms" />
+        <File name="ProPlusVL_MAK-ul-phn.xrm-ms" />
+        <File name="ProPlusVL_MAK-ul-oob.xrm-ms" />
+        <File name="ProPlusVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Publisher2019Retail">
+    <License Sku="Publisher2019R_Grace" Acid="A70DB9BD-3910-427E-B565-BB8DAAAAAFFF">
+      <Files>
+        <File name="Publisher2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Publisher2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2019R_OEM_Perp" Acid="BDD04A4F-5804-4DC4-A1FF-8BC9FD0EC4EC">
+      <Files>
+        <File name="Publisher2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Publisher2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Publisher2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Publisher2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2019R_Retail" Acid="F053A7C7-F342-4AB8-9526-A1D6E5105823">
+      <Files>
+        <File name="Publisher2019R_Retail-pl.xrm-ms" />
+        <File name="Publisher2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Publisher2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Publisher2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2019R_Trial" Acid="771BE4FF-9148-4299-86AD-1A3EC0C10B10">
+      <Files>
+        <File name="Publisher2019R_Trial-pl.xrm-ms" />
+        <File name="Publisher2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Publisher2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Publisher2019Volume">
+    <License Sku="Publisher2019VL_KMS_Client_AE" Acid="9D3E4CCA-E172-46F1-A2F4-1D2107051444">
+      <Files>
+        <File name="Publisher2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Publisher2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Publisher2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2019VL_MAK_AE" Acid="40055495-BE00-444E-99CC-07446729B53E">
+      <Files>
+        <File name="Publisher2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Publisher2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Publisher2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Publisher2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Publisher2021Retail">
+    <License Sku="Publisher2021R_Grace" Acid="3FCD9CD2-306E-4B5F-A3EA-141B7BB9F56F">
+      <Files>
+        <File name="Publisher2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Publisher2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2021R_OEM_Perp" Acid="228025F7-CBAE-4954-AE9B-414AC73C829D">
+      <Files>
+        <File name="Publisher2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Publisher2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Publisher2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Publisher2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2021R_Retail1" Acid="B769B746-53B1-4D89-8A68-41944DAFE797">
+      <Files>
+        <File name="Publisher2021R_Retail1-pl.xrm-ms" />
+        <File name="Publisher2021R_Retail1-ul-phn.xrm-ms" />
+        <File name="Publisher2021R_Retail1-ul-oob.xrm-ms" />
+        <File name="Publisher2021R_Retail1-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2021R_Retail2" Acid="5332506C-1880-48AC-B634-77401A21B95D">
+      <Files>
+        <File name="Publisher2021R_Retail2-pl.xrm-ms" />
+        <File name="Publisher2021R_Retail2-ul-phn.xrm-ms" />
+        <File name="Publisher2021R_Retail2-ul-oob.xrm-ms" />
+        <File name="Publisher2021R_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2021R_Trial" Acid="CCE34DDB-C807-45D8-B5FF-F60BFD14013A">
+      <Files>
+        <File name="Publisher2021R_Trial-pl.xrm-ms" />
+        <File name="Publisher2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Publisher2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Publisher2021Volume">
+    <License Sku="Publisher2021VL_KMS_Client_AE" Acid="AA66521F-2370-4AD8-A2BB-C095E3E4338F">
+      <Files>
+        <File name="Publisher2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Publisher2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Publisher2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Publisher2021VL_MAK_AE" Acid="A0234CFE-99BD-4586-A812-4F296323C760">
+      <Files>
+        <File name="Publisher2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Publisher2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Publisher2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Publisher2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PublisherRetail">
+    <License Sku="PublisherR_Grace" Acid="6CB2AFA8-FFFF-49FE-91CF-5FFBB0C9FD2B">
+      <Files>
+        <File name="PublisherR_Grace-ul-oob.xrm-ms" />
+        <File name="PublisherR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PublisherR_OEM_Perp" Acid="6BB0FF35-9392-4635-B209-642C331CF1EE">
+      <Files>
+        <File name="PublisherR_OEM_Perp-pl.xrm-ms" />
+        <File name="PublisherR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="PublisherR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="PublisherR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PublisherR_Retail" Acid="6E0C1D99-C72E-4968-BCB7-AB79E03E201E">
+      <Files>
+        <File name="PublisherR_Retail-pl.xrm-ms" />
+        <File name="PublisherR_Retail-ul-phn.xrm-ms" />
+        <File name="PublisherR_Retail-ul-oob.xrm-ms" />
+        <File name="PublisherR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PublisherR_Trial" Acid="FBD9E09F-6B81-4FFB-97EF-E8919A0C9E06">
+      <Files>
+        <File name="PublisherR_Trial-pl.xrm-ms" />
+        <File name="PublisherR_Trial-ul-oob.xrm-ms" />
+        <File name="PublisherR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="PublisherVolume">
+    <License Sku="PublisherVL_KMS_Client" Acid="041A06CB-C5B8-4772-809F-416D03D16654">
+      <Files>
+        <File name="PublisherVL_KMS_Client-ul.xrm-ms" />
+        <File name="PublisherVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="PublisherVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="PublisherVL_MAK" Acid="FCC1757B-5D5F-486A-87CF-C4D6DEDB6032">
+      <Files>
+        <File name="PublisherVL_MAK-pl.xrm-ms" />
+        <File name="PublisherVL_MAK-ul-phn.xrm-ms" />
+        <File name="PublisherVL_MAK-ul-oob.xrm-ms" />
+        <File name="PublisherVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusiness2019Retail">
+    <License Sku="SkypeforBusiness2019R_Grace" Acid="69632864-D608-472C-AD91-9B13E195C641">
+      <Files>
+        <File name="SkypeforBusiness2019R_Grace-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2019R_Retail" Acid="B639E55C-8F3E-47FE-9761-26C6A786AD6B">
+      <Files>
+        <File name="SkypeforBusiness2019R_Retail-pl.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Retail-ul-phn.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Retail-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2019R_Trial" Acid="90BFBEDA-4F37-4D5E-8DA9-5EF0BDBC500F">
+      <Files>
+        <File name="SkypeforBusiness2019R_Trial-pl.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Trial-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusiness2019Volume">
+    <License Sku="SkypeforBusiness2019VL_KMS_Client_AE" Acid="734C6C6E-B0BA-4298-A891-671772B2BD1B">
+      <Files>
+        <File name="SkypeforBusiness2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="SkypeforBusiness2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2019VL_MAK_AE" Acid="15A430D4-5E3F-4E6D-8A0A-14BF3CAEE4C7">
+      <Files>
+        <File name="SkypeforBusiness2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="SkypeforBusiness2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="SkypeforBusiness2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusiness2021Retail">
+    <License Sku="SkypeforBusiness2021R_Grace" Acid="A781ED2C-DDFD-4465-B6F5-685235F9248A">
+      <Files>
+        <File name="SkypeforBusiness2021R_Grace-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2021R_Retail" Acid="C3FB48B2-1FD4-4DC8-AF39-819EDF194288">
+      <Files>
+        <File name="SkypeforBusiness2021R_Retail-pl.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Retail-ul-phn.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Retail-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2021R_Trial" Acid="5C3B11FD-D558-4ACE-BE41-8C2C2ACED532">
+      <Files>
+        <File name="SkypeforBusiness2021R_Trial-pl.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Trial-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusiness2021Volume">
+    <License Sku="SkypeforBusiness2021VL_KMS_Client_AE" Acid="1F32A9AF-1274-48BD-BA1E-1AB7508A23E8">
+      <Files>
+        <File name="SkypeforBusiness2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="SkypeforBusiness2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusiness2021VL_MAK_AE" Acid="6029109C-CEB8-4EE5-B324-F8EB2981E99A">
+      <Files>
+        <File name="SkypeforBusiness2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="SkypeforBusiness2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="SkypeforBusiness2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="SkypeforBusiness2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusinessEntry2019Retail">
+    <License Sku="SkypeforBusinessEntry2019R_PrepidBypass" Acid="F88CFDEC-94CE-4463-A969-037BE92BC0E7">
+      <Files>
+        <File name="SkypeforBusinessEntry2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessEntry2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusinessEntry2021Retail">
+    <License Sku="SkypeforBusinessEntry2021R_PrepidBypass" Acid="9C18A147-6003-456D-B538-3802A2ACA018">
+      <Files>
+        <File name="SkypeforBusinessEntry2021R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessEntry2021R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusinessEntryRetail">
+    <License Sku="SkypeforBusinessEntryR_PrepidBypass" Acid="971CD368-F2E1-49C1-AEDD-330909CE18B6">
+      <Files>
+        <File name="SkypeforBusinessEntryR_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessEntryR_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusinessRetail">
+    <License Sku="SkypeforBusinessR_Grace" Acid="17C5A0EB-24EE-4EB3-91B6-6D9F9CB1ACF6">
+      <Files>
+        <File name="SkypeforBusinessR_Grace-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusinessR_Retail" Acid="418D2B9F-B491-4D7F-84F1-49E27CC66597">
+      <Files>
+        <File name="SkypeforBusinessR_Retail-pl.xrm-ms" />
+        <File name="SkypeforBusinessR_Retail-ul-phn.xrm-ms" />
+        <File name="SkypeforBusinessR_Retail-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusinessR_Trial" Acid="BDB32189-C636-46CD-A011-FFB834B552D9">
+      <Files>
+        <File name="SkypeforBusinessR_Trial-pl.xrm-ms" />
+        <File name="SkypeforBusinessR_Trial-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeforBusinessVolume">
+    <License Sku="SkypeforBusinessVL_KMS_Client" Acid="83E04EE1-FA8D-436D-8994-D31A862CAB77">
+      <Files>
+        <File name="SkypeforBusinessVL_KMS_Client-ul.xrm-ms" />
+        <File name="SkypeforBusinessVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="SkypeforBusinessVL_MAK" Acid="03CA3B9A-0869-4749-8988-3CBC9D9F51BB">
+      <Files>
+        <File name="SkypeforBusinessVL_MAK-pl.xrm-ms" />
+        <File name="SkypeforBusinessVL_MAK-ul-phn.xrm-ms" />
+        <File name="SkypeforBusinessVL_MAK-ul-oob.xrm-ms" />
+        <File name="SkypeforBusinessVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="SkypeServiceBypassRetail">
+    <License Sku="SkypeServiceBypassR_PrepidBypass" Acid="9103F3CE-1084-447A-827E-D6097F68C895">
+      <Files>
+        <File name="SkypeServiceBypassR_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="SkypeServiceBypassR_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Standard2019Retail">
+    <License Sku="Standard2019MSDNR_Retail" Acid="1C9D26C1-4001-41BB-8B90-B83677CCC80D">
+      <Files>
+        <File name="Standard2019MSDNR_Retail-pl.xrm-ms" />
+        <File name="Standard2019MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="Standard2019MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="Standard2019MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2019R_Grace" Acid="42419D2A-5756-47C5-9AD3-E1548E26A4EE">
+      <Files>
+        <File name="Standard2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Standard2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2019R_Retail" Acid="FDFA34DD-A472-4B85-BEE6-CF07BF0AAA1C">
+      <Files>
+        <File name="Standard2019R_Retail-pl.xrm-ms" />
+        <File name="Standard2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Standard2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Standard2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2019R_Trial" Acid="4CA376C1-6DEE-4AB4-B84D-0866CDD292CF">
+      <Files>
+        <File name="Standard2019R_Trial-pl.xrm-ms" />
+        <File name="Standard2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Standard2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Standard2019Volume">
+    <License Sku="Standard2019VL_KMS_Client_AE" Acid="6912A74B-A5FB-401A-BFDB-2E3AB46F4B02">
+      <Files>
+        <File name="Standard2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Standard2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Standard2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2019VL_MAK_AE" Acid="BEB5065C-1872-409E-94E2-403BCFB6A878">
+      <Files>
+        <File name="Standard2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Standard2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Standard2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Standard2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Standard2021Retail">
+    <License Sku="Standard2021MSDNR_Retail" Acid="C661E73C-8228-48FD-8C08-93571C8DCBB7">
+      <Files>
+        <File name="Standard2021MSDNR_Retail-pl.xrm-ms" />
+        <File name="Standard2021MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="Standard2021MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="Standard2021MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2021R_Grace" Acid="DEDB1F56-3197-46C1-909A-317B72A3AFA5">
+      <Files>
+        <File name="Standard2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Standard2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2021R_Retail" Acid="9E7E7B8E-A0E7-467B-9749-D0DE82FB7297">
+      <Files>
+        <File name="Standard2021R_Retail-pl.xrm-ms" />
+        <File name="Standard2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Standard2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Standard2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2021R_Trial" Acid="73DCB0E0-5934-4977-9D2D-522B3BE77EEE">
+      <Files>
+        <File name="Standard2021R_Trial-pl.xrm-ms" />
+        <File name="Standard2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Standard2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Standard2021Volume">
+    <License Sku="Standard2021VL_KMS_Client_AE" Acid="080A45C5-9F9F-49EB-B4B0-C3C610A5EBD3">
+      <Files>
+        <File name="Standard2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Standard2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Standard2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Standard2021VL_MAK_AE" Acid="223A60D8-9002-4A55-ABAC-593F5B66CA45">
+      <Files>
+        <File name="Standard2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Standard2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Standard2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Standard2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="StandardRetail">
+    <License Sku="StandardMSDNR_Retail" Acid="2395220C-BE32-4E64-81F2-6D0BDDB03EB1">
+      <Files>
+        <File name="StandardMSDNR_Retail-pl.xrm-ms" />
+        <File name="StandardMSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="StandardMSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="StandardMSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="StandardR_Grace" Acid="C7D96193-844A-44BD-93D0-76E4B785248E">
+      <Files>
+        <File name="StandardR_Grace-ul-oob.xrm-ms" />
+        <File name="StandardR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="StandardR_Retail" Acid="4A31C291-3A12-4C64-B8AB-CD79212BE45E">
+      <Files>
+        <File name="StandardR_Retail-pl.xrm-ms" />
+        <File name="StandardR_Retail-ul-phn.xrm-ms" />
+        <File name="StandardR_Retail-ul-oob.xrm-ms" />
+        <File name="StandardR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="StandardR_Trial" Acid="6CE96173-4198-49FC-9924-CC8EEC1A7285">
+      <Files>
+        <File name="StandardR_Trial-pl.xrm-ms" />
+        <File name="StandardR_Trial-ul-oob.xrm-ms" />
+        <File name="StandardR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="StandardVolume">
+    <License Sku="StandardVL_KMS_Client" Acid="DEDFA23D-6ED1-45A6-85DC-63CAE0546DE6">
+      <Files>
+        <File name="StandardVL_KMS_Client-ul.xrm-ms" />
+        <File name="StandardVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="StandardVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="StandardVL_MAK" Acid="0ED94AAC-2234-4309-BA29-74BDBB887083">
+      <Files>
+        <File name="StandardVL_MAK-pl.xrm-ms" />
+        <File name="StandardVL_MAK-ul-phn.xrm-ms" />
+        <File name="StandardVL_MAK-ul-oob.xrm-ms" />
+        <File name="StandardVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioPro2019Retail">
+    <License Sku="VisioPro2019DemoR_BypassTrial180" Acid="C726993A-CD6C-499F-B672-F36AECAFFB20">
+      <Files>
+        <File name="VisioPro2019DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="VisioPro2019DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019MSDNR_Retail" Acid="0758C976-EA87-4128-8C1C-F7AF1BAB76B9">
+      <Files>
+        <File name="VisioPro2019MSDNR_Retail-pl.xrm-ms" />
+        <File name="VisioPro2019MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="VisioPro2019MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="VisioPro2019MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019R_Grace" Acid="DB2760F6-F36B-403C-A0E7-0B59CDE7427B">
+      <Files>
+        <File name="VisioPro2019R_Grace-ul-oob.xrm-ms" />
+        <File name="VisioPro2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019R_OEM_Perp" Acid="4EF70E76-5115-4BD2-9B12-3B0CB671AD37">
+      <Files>
+        <File name="VisioPro2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioPro2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioPro2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioPro2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019R_PrepidBypass" Acid="2EA0D3C6-B498-4503-97A1-19AC88AE44E5">
+      <Files>
+        <File name="VisioPro2019R_PrepidBypass-ul-oob.xrm-ms" />
+        <File name="VisioPro2019R_PrepidBypass-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019R_Retail" Acid="A6F69D68-5590-4E02-80B9-E7233DFF204E">
+      <Files>
+        <File name="VisioPro2019R_Retail-pl.xrm-ms" />
+        <File name="VisioPro2019R_Retail-ul-phn.xrm-ms" />
+        <File name="VisioPro2019R_Retail-ul-oob.xrm-ms" />
+        <File name="VisioPro2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019R_Trial" Acid="D51BB17C-7E2B-45F4-A9F3-D2D444CC1E13">
+      <Files>
+        <File name="VisioPro2019R_Trial-pl.xrm-ms" />
+        <File name="VisioPro2019R_Trial-ul-oob.xrm-ms" />
+        <File name="VisioPro2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioPro2019Volume">
+    <License Sku="VisioPro2019VL_KMS_Client_AE" Acid="5B5CF08F-B81A-431D-B080-3450D8620565">
+      <Files>
+        <File name="VisioPro2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="VisioPro2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019VL_MAK_AE" Acid="F41ABF81-F409-4B0D-889D-92B3E3D7D005">
+      <Files>
+        <File name="VisioPro2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="VisioPro2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="VisioPro2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019XC2RVL_KMS_ClientC2R" Acid="500F6619-EF93-4B75-BCB4-82819998A3CA">
+      <Files>
+        <File name="VisioPro2019XC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="VisioPro2019XC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="VisioPro2019XC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2019XC2RVL_MAKC2R" Acid="7DF5867B-E38F-459F-A590-93C1DD2EF0C6">
+      <Files>
+        <File name="VisioPro2019XC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="VisioPro2019XC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="VisioPro2019XC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="VisioPro2019XC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioPro2021Retail">
+    <License Sku="VisioPro2021DemoR_BypassTrial180" Acid="3D045165-8F8A-4CDD-B906-3DB22EE454D9">
+      <Files>
+        <File name="VisioPro2021DemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="VisioPro2021DemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021MSDNR_Retail" Acid="C9A6B302-FBEB-4BFC-8E0D-7B0F608AA6DC">
+      <Files>
+        <File name="VisioPro2021MSDNR_Retail-pl.xrm-ms" />
+        <File name="VisioPro2021MSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="VisioPro2021MSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="VisioPro2021MSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021R_Grace" Acid="1304794C-DF2D-4B83-925C-E9A3ECDD52F1">
+      <Files>
+        <File name="VisioPro2021R_Grace-ul-oob.xrm-ms" />
+        <File name="VisioPro2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021R_OEM_Perp" Acid="198880E8-CBFA-4B7A-BA37-F7C723A7CF6F">
+      <Files>
+        <File name="VisioPro2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioPro2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioPro2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioPro2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021R_Retail" Acid="814014D3-C30B-4F63-A493-3708E0DC0BA8">
+      <Files>
+        <File name="VisioPro2021R_Retail-pl.xrm-ms" />
+        <File name="VisioPro2021R_Retail-ul-phn.xrm-ms" />
+        <File name="VisioPro2021R_Retail-ul-oob.xrm-ms" />
+        <File name="VisioPro2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021R_Trial" Acid="690D2CB5-0D8C-46B5-9EF4-4833DB737DD3">
+      <Files>
+        <File name="VisioPro2021R_Trial-pl.xrm-ms" />
+        <File name="VisioPro2021R_Trial-ul-oob.xrm-ms" />
+        <File name="VisioPro2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioPro2021Volume">
+    <License Sku="VisioPro2021PreviewVL_KMS_Client_AE" Acid="A3B44174-2451-4CD6-B25F-66638BFB9046">
+      <Files>
+        <File name="VisioPro2021PreviewVL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="VisioPro2021PreviewVL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2021PreviewVL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021PreviewVL_MAK_AE" Acid="3D8C541C-CC3F-4269-8BC0-03DC901F172D">
+      <Files>
+        <File name="VisioPro2021PreviewVL_MAK_AE-pl.xrm-ms" />
+        <File name="VisioPro2021PreviewVL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="VisioPro2021PreviewVL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2021PreviewVL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021VL_KMS_Client_AE" Acid="FB61AC9A-1688-45D2-8F6B-0674DBFFA33C">
+      <Files>
+        <File name="VisioPro2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="VisioPro2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioPro2021VL_MAK_AE" Acid="C590605A-A08A-4CC7-8DC2-F1FFB3D06949">
+      <Files>
+        <File name="VisioPro2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="VisioPro2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="VisioPro2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="VisioPro2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioProRetail">
+    <License Sku="VisioProCO365R_Subscription" Acid="4B2E77A0-8321-42A0-B36D-66A2CDB27AF4">
+      <Files>
+        <File name="VisioProCO365R_Subscription-pl.xrm-ms" />
+        <File name="VisioProCO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="VisioProCO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProCO365R_SubTest" Acid="6C44E4BD-C6DB-474A-877E-1BB899ACA206">
+      <Files>
+        <File name="VisioProCO365R_SubTest-pl.xrm-ms" />
+        <File name="VisioProCO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="VisioProCO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProCO365R_SubTrial" Acid="79EEBE53-530A-4869-B56B-B4FFE0A1B831">
+      <Files>
+        <File name="VisioProCO365R_SubTrial-pl.xrm-ms" />
+        <File name="VisioProCO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="VisioProCO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProDemoR_BypassTrial180" Acid="D0C2BC53-DB5F-4A9E-84AC-17C8862C27DA">
+      <Files>
+        <File name="VisioProDemoR_BypassTrial180-ul-oob.xrm-ms" />
+        <File name="VisioProDemoR_BypassTrial180-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProMSDNR_Retail" Acid="3846A94F-3005-401E-B663-AF1CF99813D5">
+      <Files>
+        <File name="VisioProMSDNR_Retail-pl.xrm-ms" />
+        <File name="VisioProMSDNR_Retail-ul-phn.xrm-ms" />
+        <File name="VisioProMSDNR_Retail-ul-oob.xrm-ms" />
+        <File name="VisioProMSDNR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProO365R_Subscription" Acid="A56A3B37-3A35-4BBB-A036-EEE5F1898EEE">
+      <Files>
+        <File name="VisioProO365R_Subscription-pl.xrm-ms" />
+        <File name="VisioProO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="VisioProO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProO365R_SubTest" Acid="27B162B5-F5D2-40E9-8AF3-D42FF4572BD4">
+      <Files>
+        <File name="VisioProO365R_SubTest-pl.xrm-ms" />
+        <File name="VisioProO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="VisioProO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProO365R_SubTrial" Acid="402DFB6D-631E-4A3F-9A5A-BE753BFD84C5">
+      <Files>
+        <File name="VisioProO365R_SubTrial-pl.xrm-ms" />
+        <File name="VisioProO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="VisioProO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProR_Grace" Acid="5821EC16-77A9-4404-99C8-2756DC6D4C3C">
+      <Files>
+        <File name="VisioProR_Grace-ul-oob.xrm-ms" />
+        <File name="VisioProR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProR_OEM_Perp" Acid="ED967494-A18E-41A9-ABB8-9030C51BA685">
+      <Files>
+        <File name="VisioProR_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioProR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioProR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioProR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProR_Retail" Acid="2DFE2075-2D04-4E43-816A-EB60BBB77574">
+      <Files>
+        <File name="VisioProR_Retail-pl.xrm-ms" />
+        <File name="VisioProR_Retail-ul-phn.xrm-ms" />
+        <File name="VisioProR_Retail-ul-oob.xrm-ms" />
+        <File name="VisioProR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProR_Retail2" Acid="1F7413CF-88D2-4F49-A283-E4D757D179DF">
+      <Files>
+        <File name="VisioProR_Retail2-pl.xrm-ms" />
+        <File name="VisioProR_Retail2-ul-phn.xrm-ms" />
+        <File name="VisioProR_Retail2-ul-oob.xrm-ms" />
+        <File name="VisioProR_Retail2-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProR_Trial" Acid="A17F9ED0-C3D4-4873-B3B8-D7E049B459EC">
+      <Files>
+        <File name="VisioProR_Trial-pl.xrm-ms" />
+        <File name="VisioProR_Trial-ul-oob.xrm-ms" />
+        <File name="VisioProR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioProVolume">
+    <License Sku="VisioProVL_KMS_Client" Acid="6BF301C1-B94A-43E9-BA31-D494598C47FB">
+      <Files>
+        <File name="VisioProVL_KMS_Client-ul.xrm-ms" />
+        <File name="VisioProVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="VisioProVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProVL_MAK" Acid="295B2C03-4B1C-4221-B292-1411F468BD02">
+      <Files>
+        <File name="VisioProVL_MAK-pl.xrm-ms" />
+        <File name="VisioProVL_MAK-ul-phn.xrm-ms" />
+        <File name="VisioProVL_MAK-ul-oob.xrm-ms" />
+        <File name="VisioProVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioProXVolume">
+    <License Sku="VisioProXC2RVL_KMS_ClientC2R" Acid="B234ABE3-0857-4F9C-B05A-4DC314F85557">
+      <Files>
+        <File name="VisioProXC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="VisioProXC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="VisioProXC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioProXC2RVL_MAKC2R" Acid="0594DC12-8444-4912-936A-747CA742DBDB">
+      <Files>
+        <File name="VisioProXC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="VisioProXC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="VisioProXC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="VisioProXC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStd2019Retail">
+    <License Sku="VisioStd2019R_Grace" Acid="8497DB0B-415B-4900-A20E-ECEEC4A6D350">
+      <Files>
+        <File name="VisioStd2019R_Grace-ul-oob.xrm-ms" />
+        <File name="VisioStd2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2019R_OEM_Perp" Acid="C613537D-13A0-4D13-939C-BC876A2F5E8C">
+      <Files>
+        <File name="VisioStd2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioStd2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioStd2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioStd2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2019R_Retail" Acid="4A582021-18C2-489F-9B3D-5186DE48F1CD">
+      <Files>
+        <File name="VisioStd2019R_Retail-pl.xrm-ms" />
+        <File name="VisioStd2019R_Retail-ul-phn.xrm-ms" />
+        <File name="VisioStd2019R_Retail-ul-oob.xrm-ms" />
+        <File name="VisioStd2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStd2019Volume">
+    <License Sku="VisioStd2019VL_KMS_Client_AE" Acid="E06D7DF3-AAD0-419D-8DFB-0AC37E2BDF39">
+      <Files>
+        <File name="VisioStd2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="VisioStd2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="VisioStd2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2019VL_MAK_AE" Acid="933ED0E3-747D-48B0-9C2C-7CEB4C7E473D">
+      <Files>
+        <File name="VisioStd2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="VisioStd2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="VisioStd2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="VisioStd2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStd2021Retail">
+    <License Sku="VisioStd2021R_Grace" Acid="C58264FE-11BF-4FEC-9123-2610530F74B8">
+      <Files>
+        <File name="VisioStd2021R_Grace-ul-oob.xrm-ms" />
+        <File name="VisioStd2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2021R_OEM_Perp" Acid="21FE5CEB-72EB-47AC-98DF-55D2907471FE">
+      <Files>
+        <File name="VisioStd2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioStd2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioStd2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioStd2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2021R_Retail" Acid="16D43989-A5EF-47E2-9FF1-272784CAEE24">
+      <Files>
+        <File name="VisioStd2021R_Retail-pl.xrm-ms" />
+        <File name="VisioStd2021R_Retail-ul-phn.xrm-ms" />
+        <File name="VisioStd2021R_Retail-ul-oob.xrm-ms" />
+        <File name="VisioStd2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStd2021Volume">
+    <License Sku="VisioStd2021VL_KMS_Client_AE" Acid="72FCE797-1884-48DD-A860-B2F6A5EFD3CA">
+      <Files>
+        <File name="VisioStd2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="VisioStd2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="VisioStd2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStd2021VL_MAK_AE" Acid="D55F90EE-4BA2-4D02-B216-1300EE50E2AF">
+      <Files>
+        <File name="VisioStd2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="VisioStd2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="VisioStd2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="VisioStd2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStdRetail">
+    <License Sku="VisioStdCO365R_Subscription" Acid="C5A7B998-FAE7-4F08-9802-9A2216F1EC2B">
+      <Files>
+        <File name="VisioStdCO365R_Subscription-pl.xrm-ms" />
+        <File name="VisioStdCO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="VisioStdCO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdCO365R_SubTest" Acid="1B170697-99F8-4B3C-861D-FBDBE5303A8A">
+      <Files>
+        <File name="VisioStdCO365R_SubTest-pl.xrm-ms" />
+        <File name="VisioStdCO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="VisioStdCO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdCO365R_SubTrial" Acid="2F632ABD-D62A-46C8-BF95-70186096F1ED">
+      <Files>
+        <File name="VisioStdCO365R_SubTrial-pl.xrm-ms" />
+        <File name="VisioStdCO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="VisioStdCO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdO365R_Subscription" Acid="980F9E3E-F5A8-41C8-8596-61404ADDF677">
+      <Files>
+        <File name="VisioStdO365R_Subscription-pl.xrm-ms" />
+        <File name="VisioStdO365R_Subscription-ul-oob.xrm-ms" />
+        <File name="VisioStdO365R_Subscription-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdO365R_SubTest" Acid="CEED49FA-52AD-4C90-B7D4-926ECDFD7F52">
+      <Files>
+        <File name="VisioStdO365R_SubTest-pl.xrm-ms" />
+        <File name="VisioStdO365R_SubTest-ul-oob.xrm-ms" />
+        <File name="VisioStdO365R_SubTest-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdO365R_SubTrial" Acid="2E5F5521-6EFA-4E29-804D-993C1D1D7406">
+      <Files>
+        <File name="VisioStdO365R_SubTrial-pl.xrm-ms" />
+        <File name="VisioStdO365R_SubTrial-ul-oob.xrm-ms" />
+        <File name="VisioStdO365R_SubTrial-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdR_Grace" Acid="AD310F32-BD8D-40AD-A882-BC7FCBAD5259">
+      <Files>
+        <File name="VisioStdR_Grace-ul-oob.xrm-ms" />
+        <File name="VisioStdR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdR_OEM_Perp" Acid="15265EDE-4272-4B92-9D47-EF584858D0AE">
+      <Files>
+        <File name="VisioStdR_OEM_Perp-pl.xrm-ms" />
+        <File name="VisioStdR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="VisioStdR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="VisioStdR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdR_Retail" Acid="C76DBCBC-D71B-4F45-B5B3-B7494CB4E23E">
+      <Files>
+        <File name="VisioStdR_Retail-pl.xrm-ms" />
+        <File name="VisioStdR_Retail-ul-phn.xrm-ms" />
+        <File name="VisioStdR_Retail-ul-oob.xrm-ms" />
+        <File name="VisioStdR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStdVolume">
+    <License Sku="VisioStdVL_KMS_Client" Acid="AA2A7821-1827-4C2C-8F1D-4513A34DDA97">
+      <Files>
+        <File name="VisioStdVL_KMS_Client-ul.xrm-ms" />
+        <File name="VisioStdVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="VisioStdVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdVL_MAK" Acid="44151C2D-C398-471F-946F-7660542E3369">
+      <Files>
+        <File name="VisioStdVL_MAK-pl.xrm-ms" />
+        <File name="VisioStdVL_MAK-ul-phn.xrm-ms" />
+        <File name="VisioStdVL_MAK-ul-oob.xrm-ms" />
+        <File name="VisioStdVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="VisioStdXVolume">
+    <License Sku="VisioStdXC2RVL_KMS_ClientC2R" Acid="361FE620-64F4-41B5-BA77-84F8E079B1F7">
+      <Files>
+        <File name="VisioStdXC2RVL_KMS_ClientC2R-ul.xrm-ms" />
+        <File name="VisioStdXC2RVL_KMS_ClientC2R-ul-oob.xrm-ms" />
+        <File name="VisioStdXC2RVL_KMS_ClientC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="VisioStdXC2RVL_MAKC2R" Acid="1D1C6879-39A3-47A5-9A6D-ACEEFA6A289D">
+      <Files>
+        <File name="VisioStdXC2RVL_MAKC2R-pl.xrm-ms" />
+        <File name="VisioStdXC2RVL_MAKC2R-ul-phn.xrm-ms" />
+        <File name="VisioStdXC2RVL_MAKC2R-ul-oob.xrm-ms" />
+        <File name="VisioStdXC2RVL_MAKC2R-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Word2019Retail">
+    <License Sku="Word2019R_Grace" Acid="AFB40FCE-9886-413D-A6BE-9658C744AFB3">
+      <Files>
+        <File name="Word2019R_Grace-ul-oob.xrm-ms" />
+        <File name="Word2019R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2019R_OEM_Perp" Acid="EF401233-F6E6-499E-A694-5C5B5D509D18">
+      <Files>
+        <File name="Word2019R_OEM_Perp-pl.xrm-ms" />
+        <File name="Word2019R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Word2019R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Word2019R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2019R_Retail" Acid="72CEE1C2-3376-4377-9F25-4024B6BAADF8">
+      <Files>
+        <File name="Word2019R_Retail-pl.xrm-ms" />
+        <File name="Word2019R_Retail-ul-phn.xrm-ms" />
+        <File name="Word2019R_Retail-ul-oob.xrm-ms" />
+        <File name="Word2019R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2019R_Trial" Acid="FB731819-2CAB-4AA8-9F51-3004DF6C1CFF">
+      <Files>
+        <File name="Word2019R_Trial-pl.xrm-ms" />
+        <File name="Word2019R_Trial-ul-oob.xrm-ms" />
+        <File name="Word2019R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Word2019Volume">
+    <License Sku="Word2019VL_KMS_Client_AE" Acid="059834FE-A8EA-4BFF-B67B-4D006B5447D3">
+      <Files>
+        <File name="Word2019VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Word2019VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Word2019VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2019VL_MAK_AE" Acid="FE5FE9D5-3B06-4015-AA35-B146F85C4709">
+      <Files>
+        <File name="Word2019VL_MAK_AE-pl.xrm-ms" />
+        <File name="Word2019VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Word2019VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Word2019VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Word2021Retail">
+    <License Sku="Word2021R_Grace" Acid="A3DC5B20-0F7D-494E-9B46-769890E21B2E">
+      <Files>
+        <File name="Word2021R_Grace-ul-oob.xrm-ms" />
+        <File name="Word2021R_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2021R_OEM_Perp" Acid="4B575772-4ABE-42BB-A00C-5404A978B898">
+      <Files>
+        <File name="Word2021R_OEM_Perp-pl.xrm-ms" />
+        <File name="Word2021R_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="Word2021R_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="Word2021R_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2021R_Retail" Acid="FB33D997-4AA3-494E-8B58-03E9AB0F181D">
+      <Files>
+        <File name="Word2021R_Retail-pl.xrm-ms" />
+        <File name="Word2021R_Retail-ul-phn.xrm-ms" />
+        <File name="Word2021R_Retail-ul-oob.xrm-ms" />
+        <File name="Word2021R_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2021R_Trial" Acid="E6C1A800-8F0B-46AC-B517-804E2E2B64AE">
+      <Files>
+        <File name="Word2021R_Trial-pl.xrm-ms" />
+        <File name="Word2021R_Trial-ul-oob.xrm-ms" />
+        <File name="Word2021R_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="Word2021Volume">
+    <License Sku="Word2021VL_KMS_Client_AE" Acid="ABE28AEA-625A-43B1-8E30-225EB8FBD9E5">
+      <Files>
+        <File name="Word2021VL_KMS_Client_AE-ul.xrm-ms" />
+        <File name="Word2021VL_KMS_Client_AE-ul-oob.xrm-ms" />
+        <File name="Word2021VL_KMS_Client_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="Word2021VL_MAK_AE" Acid="0C728382-95FB-4A55-8F12-62E605F91727">
+      <Files>
+        <File name="Word2021VL_MAK_AE-pl.xrm-ms" />
+        <File name="Word2021VL_MAK_AE-ul-phn.xrm-ms" />
+        <File name="Word2021VL_MAK_AE-ul-oob.xrm-ms" />
+        <File name="Word2021VL_MAK_AE-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="WordRetail">
+    <License Sku="WordR_Grace" Acid="6285E8B3-2D05-4954-BF85-65159DEEB966">
+      <Files>
+        <File name="WordR_Grace-ul-oob.xrm-ms" />
+        <File name="WordR_Grace-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="WordR_OEM_Perp" Acid="60F6C5C4-96C1-4FFB-9719-388276C61605">
+      <Files>
+        <File name="WordR_OEM_Perp-pl.xrm-ms" />
+        <File name="WordR_OEM_Perp-ul-phn.xrm-ms" />
+        <File name="WordR_OEM_Perp-ul-oob.xrm-ms" />
+        <File name="WordR_OEM_Perp-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="WordR_Retail" Acid="CACAA1BF-DA53-4C3B-9700-11738EF1C2A5">
+      <Files>
+        <File name="WordR_Retail-pl.xrm-ms" />
+        <File name="WordR_Retail-ul-phn.xrm-ms" />
+        <File name="WordR_Retail-ul-oob.xrm-ms" />
+        <File name="WordR_Retail-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="WordR_Trial" Acid="E52D2A85-80E5-435B-882F-8884792D8ABF">
+      <Files>
+        <File name="WordR_Trial-pl.xrm-ms" />
+        <File name="WordR_Trial-ul-oob.xrm-ms" />
+        <File name="WordR_Trial-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+  <ProductReleaseId id="WordVolume">
+    <License Sku="WordVL_KMS_Client" Acid="BB11BADF-D8AA-470E-9311-20EAF80FE5CC">
+      <Files>
+        <File name="WordVL_KMS_Client-ul.xrm-ms" />
+        <File name="WordVL_KMS_Client-ul-oob.xrm-ms" />
+        <File name="WordVL_KMS_Client-ppd.xrm-ms" />
+      </Files>
+    </License>
+    <License Sku="WordVL_MAK" Acid="C3000759-551F-4F4A-BCAC-A4B42CBF1DE2">
+      <Files>
+        <File name="WordVL_MAK-pl.xrm-ms" />
+        <File name="WordVL_MAK-ul-phn.xrm-ms" />
+        <File name="WordVL_MAK-ul-oob.xrm-ms" />
+        <File name="WordVL_MAK-ppd.xrm-ms" />
+      </Files>
+    </License>
+  </ProductReleaseId>
+</ProductReleaseIds>
