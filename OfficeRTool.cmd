@@ -11,6 +11,29 @@
 	set "TripleNul=1>nul 2>&1 3>&1"
 	setLocal EnableExtensions EnableDelayedExpansion
 	
+	set "latestversion="
+	set "verifiedversion="
+	set "Currentversion=1.1"
+	for /f "tokens=*" %%$ in ('"powershell -noprofile -executionpolicy bypass -file "%~dp0OfficeFixes\CheckLatestRelease.ps1""') do set "verifiedversion=%%$"
+	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9]" 			&& set "latestversion=!verifiedversion!"
+	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9][0-9]"		&& set "latestversion=!verifiedversion!"
+	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9]"		&& set "latestversion=!verifiedversion!"
+	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9][0-9]"	&& set "latestversion=!verifiedversion!"
+	
+	
+	if defined latestVersion if !latestVersion! GTR !CurrentVersion! (
+		echo:
+		echo Found new Release.
+		echo:
+		echo Current Release :: !CurrentVersion!
+		echo Latest Release  :: !latestVersion!
+		echo:
+		echo Please Update version to latest version
+		echo https://github.com/maorosh123/OfficeRTool/releases/
+		echo:
+		pause
+	)
+	
 	if /i "%*" 	EQU "-debug" (
 		echo on
 		set "SingleNul="
@@ -276,7 +299,7 @@
 	
     echo:
 	call :PrintTitle "================== OFFICE DOWNLOAD AND INSTALL ============================="
-	
+		
 	echo:
 	call :Print "[H] SCRUB OFFICE" "%BB_Blue%"
 	echo:
