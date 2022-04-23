@@ -3,7 +3,7 @@
 
 **Tool To Install, Activate, Config - Office 2016 - 2021**
 
-**Origional auther : ratzlefatz, Current maintainer : ME**
+**Original author : ratzlefatz Current maintainer : ME**
 
 **Official MDL Thread For support and Questions**
 
