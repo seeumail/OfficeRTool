@@ -3,6 +3,10 @@
 	@echo off
 	>nul chcp 437
 	
+	set "Currentversion=1.3"
+	title OfficeRTool - 2022/APR/25 -
+	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/25 -'"
+	
 	set "SingleNul=>nul"
 	set "SingleNulV1=1>nul"
 	set "SingleNulV2=2>nul"
@@ -11,17 +15,26 @@
 	set "TripleNul=1>nul 2>&1 3>&1"
 	setLocal EnableExtensions EnableDelayedExpansion
 	
-	set "latestversion="
-	set "verifiedversion="
-	set "Currentversion=1.2"
-	for /f "tokens=*" %%$ in ('"powershell -noprofile -executionpolicy bypass -file "%~dp0OfficeFixes\CheckLatestRelease.ps1""') do set "verifiedversion=%%$"
-	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9]" 			&& set "latestversion=!verifiedversion!"
-	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9][0-9]"		&& set "latestversion=!verifiedversion!"
-	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9]"		&& set "latestversion=!verifiedversion!"
-	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9][0-9]"	&& set "latestversion=!verifiedversion!"
+	rem Based on Using Powershell To Retrieve Latest Package Url From Github Releases
+	rem https://copdips.com/2019/12/Using-Powershell-to-retrieve-latest-package-url-from-github-releases.html
 	
-	title OfficeRTool - 2022/APR/24 -
-	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/24 -'"
+	Set TAG=
+	set URI=
+	set OfficeRToolLink=
+	set "FileName=OfficeRTool.RAR"
+	set Latest="%temp%\latest"
+	set "GitHub=https://github.com/DarkDinosaurEx/OfficeRTool/releases"
+	set URL="%GitHub%/latest"
+	set wget="%~dp0OfficeFixes\win_x32\wget.exe"
+	if exist %Latest% del /q %Latest%
+	REM start "" /min /wait %wget% --max-redirect=0 %url% --output-file=%Latest%
+	powershell -noprofile -executionpolicy bypass -command start '%wget:~1,-1%' -Wait -WindowStyle hidden -Args '--max-redirect=0 %url% --output-file=\"%Latest:~1,-1%\"'
+	if exist %Latest% for /f "tokens=2 delims= " %%$ in ('"type %Latest% | find /i "tag""') do set "URI=%%$"
+	if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9] 				&& set "TAG=%URI:~59%"
+	if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9][0-9] 	&& set "TAG=%URI:~59%"
+	if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9] 			&& set "TAG=%URI:~59%"
+	if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9][0-9] 			&& set "TAG=%URI:~59%"
+	if defined TAG set "OfficeRToolLink=%GitHub%/download/%tag%/%FileName%"
 	
 	if /i "%*" 	EQU "-debug" (
 		echo on
@@ -285,7 +298,7 @@
 	
     echo:
 	call :PrintTitle "================== OFFICE DOWNLOAD AND INSTALL ============================="
-	if defined latestVersion echo:&echo Current Release :: v!CurrentVersion! --- Latest Release  :: v!latestVersion!
+	if defined TAG echo:&echo Current Release :: v!CurrentVersion! --- Latest Release  :: v!TAG!
 	echo:
 	call :Print "[H] SCRUB OFFICE" "%BB_Blue%"
 	echo:
@@ -356,7 +369,7 @@
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 :GetLatestVersion
-	if not defined latestVersion (
+	if not defined TAG (
 		cls
 		echo.
 		echo Could get latest version.
@@ -366,9 +379,10 @@
 	)
 	cls
 	echo:
-	call :PrintTitle "================== Download Latest Release v!latestVersion! ===================="
-	echo:
-	powershell -noprofile -executionpolicy bypass -file "%~dp0OfficeFixes\DownloadLatestRelease.ps1"
+	call :PrintTitle "================== Download Latest Release ===================="
+	
+	if defined TAG echo:&echo Download Latest Release --- v%TAG%
+	if defined OfficeRToolLink 2>nul %wget% --quiet --no-check-certificate --content-disposition --output-document="%USERPROFILE%\DESKTOP\%FileName%" "%OfficeRToolLink%"
 	timeout /t 4 
 	goto:Office16VnextInstall
 
