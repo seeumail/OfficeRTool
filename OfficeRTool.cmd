@@ -13,26 +13,15 @@
 	
 	set "latestversion="
 	set "verifiedversion="
-	set "Currentversion=1.1"
+	set "Currentversion=1.2"
 	for /f "tokens=*" %%$ in ('"powershell -noprofile -executionpolicy bypass -file "%~dp0OfficeFixes\CheckLatestRelease.ps1""') do set "verifiedversion=%%$"
 	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9]" 			&& set "latestversion=!verifiedversion!"
 	echo "!verifiedversion!" | >nul findstr /r "[0-9].[0-9][0-9]"		&& set "latestversion=!verifiedversion!"
 	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9]"		&& set "latestversion=!verifiedversion!"
 	echo "!verifiedversion!" | >nul findstr /r "[0-9][0-9].[0-9][0-9]"	&& set "latestversion=!verifiedversion!"
 	
-	
-	if defined latestVersion if !latestVersion! GTR !CurrentVersion! (
-		echo:
-		echo Found new Release.
-		echo:
-		echo Current Release :: !CurrentVersion!
-		echo Latest Release  :: !latestVersion!
-		echo:
-		echo Please Update version to latest version
-		echo https://github.com/maorosh123/OfficeRTool/releases/
-		echo:
-		pause
-	)
+	title OfficeRTool - 2022/APR/24 -
+	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/24 -'"
 	
 	if /i "%*" 	EQU "-debug" (
 		echo on
@@ -58,9 +47,6 @@
 	
 	color 0F
 	mode con cols=140 lines=45
-	
-	title OfficeRTool - 2022/APR/23 -
-	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/23 -'"
 	
 	echo "%~dp0"|%SingleNul% findstr /L "%% # & ^ ^^ @ $ ~ ! ( )" && (
 	echo.
@@ -299,7 +285,7 @@
 	
     echo:
 	call :PrintTitle "================== OFFICE DOWNLOAD AND INSTALL ============================="
-		
+	if defined latestVersion echo:&echo Current Release :: v!CurrentVersion! --- Latest Release  :: v!latestVersion!
 	echo:
 	call :Print "[H] SCRUB OFFICE" "%BB_Blue%"
 	echo:
@@ -327,6 +313,8 @@
 	echo:
 	call :Print "[F] CHECK FOR NEW VERSION" "%BB_Blue%"
 	echo:
+	call :Print "[G] DOWNLOAD LATEST RELEASE" "%BB_Blue%"
+	echo:
 	call :Print "[V] ENABLE VISUAL UI [WITH LTSC LOGO]" "%BB_Blue%"
 	echo:
 	call :Print "[X] ENABLE VISUAL UI [WITH 365  LOGO]" "%BB_Blue%"
@@ -339,7 +327,7 @@
 	echo:
 	
 	if defined debugMode (echo 00Y | choice)
-    CHOICE /C DSICKAUTOREHVXNFML /N /M "YOUR CHOICE ?"
+    CHOICE /C DSICKAUTOREHVXNFMLG /N /M "YOUR CHOICE ?"
     if %errorlevel%==1 goto:DownloadO16Offline
 	if %errorlevel%==2 set "createIso=defined"&goto:InstallO16
 	if %errorlevel%==3 goto:InstallO16
@@ -358,6 +346,7 @@
 	if %errorlevel%==16 goto:CheckPlease
 	if %errorlevel%==17 (set "DloadImg=defined"&goto:DownloadO16Online)
 	if %errorlevel%==18 (set "DloadLP=defined"&goto:DownloadO16Online)
+	if %errorlevel%==19 goto :GetLatestVersion
 	goto:Office16VnextInstall
 	
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -365,6 +354,23 @@
  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+:GetLatestVersion
+	if not defined latestVersion (
+		cls
+		echo.
+		echo Could get latest version.
+		echo.
+		timeout /t 4 
+		goto:Office16VnextInstall
+	)
+	cls
+	echo:
+	call :PrintTitle "================== Download Latest Release v!latestVersion! ===================="
+	echo:
+	powershell -noprofile -executionpolicy bypass -file "%~dp0OfficeFixes\DownloadLatestRelease.ps1"
+	timeout /t 4 
+	goto:Office16VnextInstall
 
 :GenerateIMGLink
 	if "%of16install%" EQU "1" (
