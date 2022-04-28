@@ -9,6 +9,10 @@
 
 https://forums.mydigitallife.net/threads/84450/
 
+**Video - how to use [made by BredzPro]**
+
+https://www.youtube.com/watch?v=DpK5R_IOqgk
+
 # Main Changes
 
 - User friendly Interface
