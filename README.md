@@ -29,7 +29,9 @@ https://www.youtube.com/watch?v=DpK5R_IOqgk
 
 # How to get the latest release
 
-**Copy / Paste to PowerShell Console**
+**PS Version**
+
+**Option A - Copy / Paste to PowerShell Console**
 
 ````
 <# Based on -- Using Powershell To Retrieve Latest Package Url From Github Releases #>
@@ -47,8 +49,38 @@ Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
 [Environment]::Exit(1)
 ````
 
-**OR Save to [.PS1] file. And run this command**
+**Option B - Save as [.PS1] file. And run this command**
 
 ````
 powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE"
+````
+
+**Wget Version**
+
+Save as [.cmd] file. Run it later.
+
+Must change WGET path, to your path.
+````
+@cls
+@echo off
+	
+Set TAG=
+set URI=
+set OfficeRToolLink=
+set Wget="c:\windows\wget.exe"  || FULL ADDRESS FOR WGET IN
+set "FileName=OfficeRTool.RAR"
+set Latest="%temp%\latest"
+set "GitHub=https://github.com/DarkDinosaurEx/OfficeRTool/releases"
+set URL="%GitHub%/latest"
+if exist %Latest% del /q %Latest%
+REM start "" /min /wait %wget% --max-redirect=0 %url% --output-file=%Latest%
+powershell -noprofile -executionpolicy bypass -command start '%wget:~1,-1%' -Wait -WindowStyle hidden -Args '--max-redirect=0 %url% --output-file=\"%Latest:~1,-1%\"'
+if exist %Latest% for /f "tokens=2 delims= " %%$ in ('"type %Latest% | find /i "tag""') do set "URI=%%$"
+if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9] 				&& set "TAG=%URI:~59%"
+if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9][0-9] 	&& set "TAG=%URI:~59%"
+if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9] 			&& set "TAG=%URI:~59%"
+if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9][0-9] 			&& set "TAG=%URI:~59%"
+if defined TAG set "OfficeRToolLink=%GitHub%/download/%tag%/%FileName%"
+if defined TAG echo:&echo Download Latest Release --- v%TAG%
+if defined OfficeRToolLink 2>nul %wget% --quiet --no-check-certificate --content-disposition --output-document="%USERPROFILE%\DESKTOP\%FileName%" "%OfficeRToolLink%"
 ````
