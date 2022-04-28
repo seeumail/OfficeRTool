@@ -29,7 +29,7 @@ https://www.youtube.com/watch?v=DpK5R_IOqgk
 
 # How to get the latest release
 
-Copy / Paste to PowerShell Console
+**Copy / Paste to PowerShell Console**
 
 ````
 <# Based on -- Using Powershell To Retrieve Latest Package Url From Github Releases #>
@@ -47,3 +47,8 @@ Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
 [Environment]::Exit(1)
 ````
 
+**Save to file. And run this command**
+
+````
+powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE"
+````
