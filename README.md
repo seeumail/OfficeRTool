@@ -47,7 +47,7 @@ Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
 [Environment]::Exit(1)
 ````
 
-**OR Save to file. And run this command**
+**OR Save to [.PS1] file. And run this command**
 
 ````
 powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE"
