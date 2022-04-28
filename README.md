@@ -67,7 +67,7 @@ Must change WGET path, to your path.
 Set TAG=
 set URI=
 set OfficeRToolLink=
-set Wget="c:\windows\wget.exe"  || FULL ADDRESS FOR WGET IN
+set Wget="c:\windows\wget.exe"  || WGET TOOL FULL ADDRESS
 set "FileName=OfficeRTool.RAR"
 set Latest="%temp%\latest"
 set "GitHub=https://github.com/DarkDinosaurEx/OfficeRTool/releases"
