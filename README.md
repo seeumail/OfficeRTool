@@ -59,21 +59,30 @@ powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE"
 
 Save as [.cmd] file. Run it later.
 
-Must change WGET path, to your path.
 ````
 @cls
 @echo off
+title Office(R)Tool download tool
+
+>nul fltmc || ( set "_=call "%~dpfx0" %*"
+	powershell -nop -c start cmd -args '/d/x/r',$env:_ -verb runas || (
+	mshta vbscript:execute^("createobject(""shell.application"").shellexecute(""cmd"",""/d/x/r "" &createobject(""WScript.Shell"").Environment(""PROCESS"")(""_""),,""runas"",1)(window.close)"^))|| (
+	cls & echo:& echo Script elavation failed& pause)
+	exit )
 	
 Set TAG=
 set URI=
 set OfficeRToolLink=
-set Wget="c:\windows\wget.exe"  || WGET TOOL FULL ADDRESS
+set wget="%windir%\wget.exe"
+set wget_url="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/OfficeFixes/win_x32/wget.exe"
+if not exist %wget% >nul bitsadmin /transfer debjob /download /priority normal %wget_url% %wget%
+if not exist %wget% goto :eof
 set "FileName=OfficeRTool.RAR"
+set "output_file=%USERPROFILE%\DESKTOP\%FileName%"
 set Latest="%temp%\latest"
 set "GitHub=https://github.com/DarkDinosaurEx/OfficeRTool/releases"
 set URL="%GitHub%/latest"
 if exist %Latest% del /q %Latest%
-REM start "" /min /wait %wget% --max-redirect=0 %url% --output-file=%Latest%
 powershell -noprofile -executionpolicy bypass -command start '%wget:~1,-1%' -Wait -WindowStyle hidden -Args '--max-redirect=0 %url% --output-file=\"%Latest:~1,-1%\"'
 if exist %Latest% for /f "tokens=2 delims= " %%$ in ('"type %Latest% | find /i "tag""') do set "URI=%%$"
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9] 				&& set "TAG=%URI:~59%"
@@ -81,6 +90,10 @@ if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9][0-9] 	&& set 
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9] 			&& set "TAG=%URI:~59%"
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9][0-9] 			&& set "TAG=%URI:~59%"
 if defined TAG set "OfficeRToolLink=%GitHub%/download/%tag%/%FileName%"
-if defined TAG echo:&echo Download Latest Release --- v%TAG%
-if defined OfficeRToolLink 2>nul %wget% --quiet --no-check-certificate --content-disposition --output-document="%USERPROFILE%\DESKTOP\%FileName%" "%OfficeRToolLink%"
+if defined OfficeRToolLink %wget% --quiet --no-check-certificate --content-disposition --output-document="%output_file%" "%OfficeRToolLink%"
+echo:
+if exist "%output_file%" (echo the download was successful.) else (echo the downloads have failed.)
+echo:
+pause
+exit /b
 ````
