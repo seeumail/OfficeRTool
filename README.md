@@ -71,12 +71,12 @@ title Office(R)Tool download tool
 Set TAG=
 set URI=
 set OfficeRToolLink=
-set wget="%windir%\wget.exe"
-set wget_url="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/OfficeFixes/win_x32/wget.exe"
-set "FileName=OfficeRTool.RAR"
-set "output_file=%USERPROFILE%\DESKTOP\%FileName%"
 set Latest="%temp%\latest"
+set wget="%windir%\wget.exe"
+set "FileName=OfficeRTool.RAR"
 set "GitHub=https://github.com/DarkDinosaurEx/OfficeRTool/releases"
+set wget_url="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/OfficeFixes/win_x32/wget.exe"
+set "output_file=%USERPROFILE%\DESKTOP\%FileName%"
 set URL="%GitHub%/latest"
 
 if not exist %wget% >nul bitsadmin /transfer debjob /download /priority normal %wget_url% %wget%
