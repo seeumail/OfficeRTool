@@ -387,48 +387,48 @@
 	goto:Office16VnextInstall
 
 :GenerateIMGLink
-	if "%of16install%" EQU "1" (
+	if "%of16install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProPlusRetail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2016_PROPLUS_Retail.ISO'
 	)
 	
-	if "%of19install%" EQU "1" (
+	if "%of19install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProPlus2019Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2019_PROPLUS_Retail.ISO'
 	)
 	
-	if "%of21install%" EQU "1" (
+	if "%of21install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProPlus2021Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2021_PROPLUS_Retail.ISO'
 	)
 	
 	
-	if "%pr16install%" EQU "1" (
+	if "%pr16install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProjectProRetail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2016_PROJECT_PRO_Retail.ISO'
 	)
 	
-	if "%pr19install%" EQU "1" (
+	if "%pr19install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProjectPro2019Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2019_PROJECT_PRO_Retail.ISO'
 	)
 	
-	if "%pr21install%" EQU "1" (
+	if "%pr21install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/ProjectPro2021Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2021_PROJECT_PRO_Retail.ISO'
 	)
 	
-	if "%vi16install%" EQU "1" (
+	if "%vi16install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/VISIOProRetail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2016_VISIO_PRO_Retail.ISO'
 	)
 	
-	if "%vi19install%" EQU "1" (
+	if "%vi19install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/VISIOPro2019Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2019_VISIO_PRO_Retail.ISO'
 	)
 	
-	if "%vi21install%" EQU "1" (
+	if "%vi21install%" NEQ "0" (
 		echo $OfficeDownloadURL='https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/!o16lang!/VISIOPro2021Retail.img'
 		echo $OfficeDownloadFile=$env:USERPROFILE+'\Desktop\!o16lang!_2021_VISIO_PRO_Retail.ISO'
 	)
@@ -1540,40 +1540,40 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of16install=Set Office Professional Plus 2016 Install (1/0) ^>
-	if "%of16install%" EQU "1" (set "WebProduct=ProPlusRetail")&&(goto:ArchSelectXYYY)
+    set /p of16install=Set Office Professional Plus 2016 Install (Enter-Continue/#-Install) ^>
+	if "%of16install%" NEQ "0" (set "WebProduct=ProPlusRetail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr16install=Set Project Professional 2016 Install (1/0) ^>
-	if "%pr16install%" EQU "1" (set "WebProduct=ProjectProRetail")&&(goto:ArchSelectXYYY)
+    set /p pr16install=Set Project Professional 2016 Install (Enter-Continue/#-Install) ^>
+	if "%pr16install%" NEQ "0" (set "WebProduct=ProjectProRetail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi16install=Set Visio Professional 2016 Install (1/0) ^>
-	if "%vi16install%" EQU "1" (set "WebProduct=VisioProRetail")&&(goto:ArchSelectXYYY)
+    set /p vi16install=Set Visio Professional 2016 Install (Enter-Continue/#-Install) ^>
+	if "%vi16install%" NEQ "0" (set "WebProduct=VisioProRetail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFF2019
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of19install=Set Office Professional Plus 2019 Install (1/0) ^>
-	if "%of19install%" EQU "1" (set "WebProduct=ProPlus2019Retail")&&(goto:ArchSelectXYYY)
+    set /p of19install=Set Office Professional Plus 2019 Install (Enter-Continue/#-Install) ^>
+	if "%of19install%" NEQ "0" (set "WebProduct=ProPlus2019Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr19install=Set Project Professional 2019 Install (1/0) ^>
-	if "%pr19install%" EQU "1" (set "WebProduct=ProjectPro2019Retail")&&(goto:ArchSelectXYYY)
+    set /p pr19install=Set Project Professional 2019 Install (Enter-Continue/#-Install) ^>
+	if "%pr19install%" NEQ "0" (set "WebProduct=ProjectPro2019Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi19install=Set Visio Professional 2019 Install (1/0) ^>
-	if "%vi19install%" EQU "1" (set "WebProduct=VisioPro2019Retail")&&(goto:ArchSelectXYYY)
+    set /p vi19install=Set Visio Professional 2019 Install (Enter-Continue/#-Install) ^>
+	if "%vi19install%" NEQ "0" (set "WebProduct=VisioPro2019Retail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFF2021
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of21install=Set Office Professional Plus 2021 Install (1/0) ^>
-	if "%of21install%" EQU "1" (set "WebProduct=ProPlus2021Retail")&&(goto:ArchSelectXYYY)
+    set /p of21install=Set Office Professional Plus 2021 Install (Enter-Continue/#-Install) ^>
+	if "%of21install%" NEQ "0" (set "WebProduct=ProPlus2021Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr21install=Set Project Professional 2021 Install (1/0) ^>
-	if "%pr21install%" EQU "1" (set "WebProduct=ProjectPro2021Retail")&&(goto:ArchSelectXYYY)
+    set /p pr21install=Set Project Professional 2021 Install (Enter-Continue/#-Install) ^>
+	if "%pr21install%" NEQ "0" (set "WebProduct=ProjectPro2021Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi21install=Set Visio Professional 2021 Install (1/0) ^>
-	if "%vi21install%" EQU "1" (set "WebProduct=VisioPro2021Retail")&&(goto:ArchSelectXYYY)
+    set /p vi21install=Set Visio Professional 2021 Install (Enter-Continue/#-Install) ^>
+	if "%vi21install%" NEQ "0" (set "WebProduct=VisioPro2021Retail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFFNOTHING
 	echo:
@@ -1630,15 +1630,15 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 	call :PrintTitle "========================= !tt! ========================="
     echo:
 	
-    if "%of16install%" EQU "1" echo Download Office 2016 ?      : YES
-    if "%pr16install%" EQU "1" echo Download Project 2016 ?     : YES
-    if "%vi16install%" EQU "1" echo Download Visio 2016 ?       : YES
-    if "%of19install%" EQU "1" echo Download Office 2019 ?      : YES
-    if "%pr19install%" EQU "1" echo Download Project 2019 ?     : YES
-    if "%vi19install%" EQU "1" echo Download Visio 2019 ?       : YES
-	if "%of21install%" EQU "1" echo Download Office 2021 ?      : YES
-    if "%pr21install%" EQU "1" echo Download Project 2021 ?     : YES
-    if "%vi21install%" EQU "1" echo Download Visio 2021 ?       : YES
+    if "%of16install%" NEQ "0" echo Download Office 2016 ?      : YES
+    if "%pr16install%" NEQ "0" echo Download Project 2016 ?     : YES
+    if "%vi16install%" NEQ "0" echo Download Visio 2016 ?       : YES
+    if "%of19install%" NEQ "0" echo Download Office 2019 ?      : YES
+    if "%pr19install%" NEQ "0" echo Download Project 2019 ?     : YES
+    if "%vi19install%" NEQ "0" echo Download Visio 2019 ?       : YES
+	if "%of21install%" NEQ "0" echo Download Office 2021 ?      : YES
+    if "%pr21install%" NEQ "0" echo Download Project 2021 ?     : YES
+    if "%vi21install%" NEQ "0" echo Download Visio 2021 ?       : YES
     echo:
     echo Install Architecture ?     : !o16arch!
     echo Install Language ?         : !o16lang!
@@ -1666,15 +1666,15 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 		set "OfficeVer="
 		set "Zz=%~dp0OfficeFixes\win_x32\7z.exe"
 		
-		if "%of16install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_PROPLUS_Retail.ISO"
-		if "%of19install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_PROPLUS_Retail.ISO"
-		if "%of21install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_PROPLUS_Retail.ISO"
-		if "%pr16install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_PROJECT_PRO_Retail.ISO"
-		if "%pr19install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_PROJECT_PRO_Retail.ISO"
-		if "%pr21install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_PROJECT_PRO_Retail.ISO"
-		if "%vi16install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_VISIO_PRO_Retail.ISO"
-		if "%vi19install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_VISIO_PRO_Retail.ISO"
-		if "%vi21install%" EQU "1" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_VISIO_PRO_Retail.ISO"
+		if "%of16install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_PROPLUS_Retail.ISO"
+		if "%of19install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_PROPLUS_Retail.ISO"
+		if "%of21install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_PROPLUS_Retail.ISO"
+		if "%pr16install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_PROJECT_PRO_Retail.ISO"
+		if "%pr19install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_PROJECT_PRO_Retail.ISO"
+		if "%pr21install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_PROJECT_PRO_Retail.ISO"
+		if "%vi16install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2016_VISIO_PRO_Retail.ISO"
+		if "%vi19install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2019_VISIO_PRO_Retail.ISO"
+		if "%vi21install%" NEQ "0" set "ISO=%USERPROFILE%\Desktop\!o16lang!_2021_VISIO_PRO_Retail.ISO"
 		set "forCmd="!Zz!" l "!ISO!" "Office\Data""
 		goto:NEXTBLAT
 		
@@ -2593,21 +2593,21 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 		set "o16build=!o16latestbuild!"
 	)
 	echo:
-	set /p wd16install=Set Word 2016 Single App Install (1/0) ^>
+	set /p wd16install=Set Word 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%wd16install%" EQU "X" goto:Office16VnextInstall
-	set /p ex16install=Set Excel 2016 Single App Install (1/0) ^>
+	set /p ex16install=Set Excel 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ex16install%" EQU "X" goto:Office16VnextInstall
-	set /p pp16install=Set Powerpoint 2016 Single App Install (1/0) ^>
+	set /p pp16install=Set Powerpoint 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pp16install%" EQU "X" goto:Office16VnextInstall
-	set /p ac16install=Set Access 2016 Single App Install (1/0) ^>
+	set /p ac16install=Set Access 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ac16install%" EQU "X" goto:Office16VnextInstall
-	set /p ol16install=Set Outlook 2016 Single App Install (1/0) ^>
+	set /p ol16install=Set Outlook 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ol16install%" EQU "X" goto:Office16VnextInstall
-	set /p pb16install=Set Publisher 2016 Single App Install (1/0) ^>
+	set /p pb16install=Set Publisher 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pb16install%" EQU "X" goto:Office16VnextInstall
-	set /p on16install=Set OneNote 2016 Single App Install (1/0) ^>
+	set /p on16install=Set OneNote 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%on16install%" EQU "X" goto:Office16VnextInstall
-	set /p sk16install=Set Skype For Business 2016 Single App Install (1/0) ^>
+	set /p sk16install=Set Skype For Business 2016 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%sk16install%" EQU "X" goto:Office16VnextInstall
 	goto:InstVi16Pr16
 :SingleApps2019Install
@@ -2619,19 +2619,19 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 		set "o16build=!o16latestbuild!"
 	)
 	echo:
-	set /p wd19install=Set Word 2019 Single App Install (1/0) ^>
+	set /p wd19install=Set Word 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%wd19install%" EQU "X" goto:Office16VnextInstall
-	set /p ex19install=Set Excel 2019 Single App Install (1/0) ^>
+	set /p ex19install=Set Excel 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ex19install%" EQU "X" goto:Office16VnextInstall
-	set /p pp19install=Set Powerpoint 2019 Single App Install (1/0) ^>
+	set /p pp19install=Set Powerpoint 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pp19install%" EQU "X" goto:Office16VnextInstall
-	set /p ac19install=Set Access 2019 Single App Install (1/0) ^>
+	set /p ac19install=Set Access 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ac19install%" EQU "X" goto:Office16VnextInstall
-	set /p ol19install=Set Outlook 2019 Single App Install (1/0) ^>
+	set /p ol19install=Set Outlook 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ol19install%" EQU "X" goto:Office16VnextInstall
-	set /p pb19install=Set Publisher 2019 Single App Install (1/0) ^>
+	set /p pb19install=Set Publisher 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pb19install%" EQU "X" goto:Office16VnextInstall
-	set /p sk19install=Set Skype For Business 2019 Single App Install (1/0) ^>
+	set /p sk19install=Set Skype For Business 2019 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%sk19install%" EQU "X" goto:Office16VnextInstall
 	goto:InstVi19Pr19
 :SingleApps2021Install
@@ -2643,72 +2643,72 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 		set "o16build=!o16latestbuild!"
 	)
 	echo:
-	set /p wd21install=Set Word 2021 Single App Install (1/0) ^>
+	set /p wd21install=Set Word 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%wd21install%" EQU "X" goto:Office16VnextInstall
-	set /p ex21install=Set Excel 2021 Single App Install (1/0) ^>
+	set /p ex21install=Set Excel 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ex21install%" EQU "X" goto:Office16VnextInstall
-	set /p pp21install=Set Powerpoint 2021 Single App Install (1/0) ^>
+	set /p pp21install=Set Powerpoint 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pp21install%" EQU "X" goto:Office16VnextInstall
-	set /p ac21install=Set Access 2021 Single App Install (1/0) ^>
+	set /p ac21install=Set Access 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ac21install%" EQU "X" goto:Office16VnextInstall
-	set /p ol21install=Set Outlook 2021 Single App Install (1/0) ^>
+	set /p ol21install=Set Outlook 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%ol21install%" EQU "X" goto:Office16VnextInstall
-	set /p pb21install=Set Publisher 2021 Single App Install (1/0) ^>
+	set /p pb21install=Set Publisher 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%pb21install%" EQU "X" goto:Office16VnextInstall
-	set /p on21install=Set OneNote 2021 Single App Install (1/0) ^>
+	set /p on21install=Set OneNote 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%on21install%" EQU "X" goto:Office16VnextInstall
-	set /p sk21install=Set Skype For Business 2021 Single App Install (1/0) ^>
+	set /p sk21install=Set Skype For Business 2021 Single App Install (Enter-Continue/#-Install) ^>
 	if /I "%sk21install%" EQU "X" goto:Office16VnextInstall
 	goto:InstVi21Pr21
 ::===============================================================================================================
 :InstallExclusions
-	if "%mo16install%" EQU "1" ((set "of16install=0")&&(set "of19install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
-	if "%of16install%" EQU "1" ((set "mo16install=0")&&(set "of19install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
-	if "%of19install%" EQU "1" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
-	if "%of21install%" EQU "1" ((set "mo16install=0")&&(set "of16install=0")&&(set "of19install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
-	if "%of36install%" EQU "1" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of19install=0")&&(set "ofbsinstall=0"))
-	if "%ofbsinstall%" EQU "1" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of19install=0")&&(set "of36install=0"))
+	if "%mo16install%" NEQ "0" ((set "of16install=0")&&(set "of19install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
+	if "%of16install%" NEQ "0" ((set "mo16install=0")&&(set "of19install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
+	if "%of19install%" NEQ "0" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
+	if "%of21install%" NEQ "0" ((set "mo16install=0")&&(set "of16install=0")&&(set "of19install=0")&&(set "of36install=0")&&(set "ofbsinstall=0"))
+	if "%of36install%" NEQ "0" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of19install=0")&&(set "ofbsinstall=0"))
+	if "%ofbsinstall%" NEQ "0" ((set "mo16install=0")&&(set "of16install=0")&&(set "of21install=0")&&(set "of19install=0")&&(set "of36install=0"))
 	echo:
 	echo Full Suite Install Exclusion List - Disable not needed Office Programs
-	set /p wd16disable=Disable Word Install  (1/0) ^>
+	set /p wd16disable=Disable Word Install (Enter-Continue/#-Disable) ^>
 	if /I "%wd16disable%" EQU "X" goto:Office16VnextInstall
-	set /p ex16disable=Disable Excel Install (1/0) ^>
+	set /p ex16disable=Disable Excel Install (Enter-Continue/#-Disable) ^>
 	if /I "%ex16disable%" EQU "X" goto:Office16VnextInstall
-	set /p pp16disable=Disable Powerpoint Install (1/0) ^>
+	set /p pp16disable=Disable Powerpoint Install (Enter-Continue/#-Disable) ^>
 	if /I "%pp16disable%" EQU "X" goto:Office16VnextInstall
-	set /p ac16disable=Disable Access Install (1/0) ^>
+	set /p ac16disable=Disable Access Install (Enter-Continue/#-Disable) ^>
 	if /I "%ac16disable%" EQU "X" goto:Office16VnextInstall
-	set /p ol16disable=Disable Outlook Install (1/0) ^>
+	set /p ol16disable=Disable Outlook Install (Enter-Continue/#-Disable) ^>
 	if /I "%ol16disable%" EQU "X" goto:Office16VnextInstall
-	set /p pb16disable=Disable Publisher Install (1/0) ^>
+	set /p pb16disable=Disable Publisher Install (Enter-Continue/#-Disable) ^>
 	if /I "%pb16disable%" EQU "X" goto:Office16VnextInstall
-	set /p on16disable=Disable OneNote Install (1/0) ^>
+	set /p on16disable=Disable OneNote Install (Enter-Continue/#-Disable) ^>
 	if /I "%on16disable%" EQU "X" goto:Office16VnextInstall
-	set /p st16disable=Disable Teams and Skype for Business Install (1/0) ^>
+	set /p st16disable=Disable Teams and Skype for Business Install (Enter-Continue/#-Disable) ^>
 	if /I "%st16disable%" EQU "X" goto:Office16VnextInstall
-	set /p od16disable=Disable OneDrive For Business Install (1/0) ^>
+	set /p od16disable=Disable OneDrive For Business Install (Enter-Continue/#-Disable) ^>
 	if /I "%od16disable%" EQU "X" goto:Office16VnextInstall
-	set /p bsbsdisable=Disable Bing Search Background Service Install (1/0) ^>
+	set /p bsbsdisable=Disable Bing Search Background Service Install (Enter-Continue/#-Disable) ^>
 	if /I "%bsbsdisable%" EQU "X" goto:Office16VnextInstall
 ::===============================================================================================================
-	if "%of36install%" EQU "1" goto:InstVi19Pr19
-	if "%ofbsinstall%" EQU "1" goto:InstVi19Pr19
-	if "%of19install%" EQU "1" goto:InstVi19Pr19
-	if "%of21install%" EQU "1" goto:InstVi21Pr21
+	if "%of36install%" NEQ "0" goto:InstVi19Pr19
+	if "%ofbsinstall%" NEQ "0" goto:InstVi19Pr19
+	if "%of19install%" NEQ "0" goto:InstVi19Pr19
+	if "%of21install%" NEQ "0" goto:InstVi21Pr21
 :InstVi16Pr16
 	echo:
-	set /p vi16install=Set Visio 2016 Install (1/0) ^>
-	set /p pr16install=Set Project 2016 Install (1/0) ^>
+	set /p vi16install=Set Visio 2016 Install (Enter-Continue/#-Install) ^>
+	set /p pr16install=Set Project 2016 Install (Enter-Continue/#-Install) ^>
 	goto:InstViPrEnd
 :InstVi19Pr19
 	echo:
-	set /p vi19install=Set Visio 2019 Install (1/0) ^>
-	set /p pr19install=Set Project 2019 Install (1/0) ^>
+	set /p vi19install=Set Visio 2019 Install (Enter-Continue/#-Install) ^>
+	set /p pr19install=Set Project 2019 Install (Enter-Continue/#-Install) ^>
 	goto:InstViPrEnd
 :InstVi21Pr21
 	echo:
-	set /p vi21install=Set Visio 2021 Install (1/0) ^>
-	set /p pr21install=Set Project 2021 Install (1/0) ^>
+	set /p vi21install=Set Visio 2021 Install (Enter-Continue/#-Install) ^>
+	set /p pr21install=Set Project 2021 Install (Enter-Continue/#-Install) ^>
 ::===============================================================================================================
 :InstViPrEnd
 	echo ____________________________________________________________________________
@@ -2730,92 +2730,92 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 	echo:
 	call :PrintTitle "The following programs are selected for install"
 	echo:
-	if "%wd16install%" EQU "1" goto:PendSetupSingleApp
-	if "%ex16install%" EQU "1" goto:PendSetupSingleApp
-	if "%pp16install%" EQU "1" goto:PendSetupSingleApp
-	if "%ac16install%" EQU "1" goto:PendSetupSingleApp
-	if "%ol16install%" EQU "1" goto:PendSetupSingleApp
-	if "%pb16install%" EQU "1" goto:PendSetupSingleApp
-	if "%on16install%" EQU "1" goto:PendSetupSingleApp
-	if "%on21install%" EQU "1" goto:PendSetupSingleApp
-	if "%sk16install%" EQU "1" goto:PendSetupSingleApp
-	if "%wd19install%" EQU "1" goto:PendSetupSingleApp
-	if "%ex19install%" EQU "1" goto:PendSetupSingleApp
-	if "%pp19install%" EQU "1" goto:PendSetupSingleApp
-	if "%ac19install%" EQU "1" goto:PendSetupSingleApp
-	if "%ol19install%" EQU "1" goto:PendSetupSingleApp
-	if "%pb19install%" EQU "1" goto:PendSetupSingleApp
-	if "%sk19install%" EQU "1" goto:PendSetupSingleApp
-	if "%wd21install%" EQU "1" goto:PendSetupSingleApp
-	if "%ex21install%" EQU "1" goto:PendSetupSingleApp
-	if "%pp21install%" EQU "1" goto:PendSetupSingleApp
-	if "%ac21install%" EQU "1" goto:PendSetupSingleApp
-	if "%ol21install%" EQU "1" goto:PendSetupSingleApp
-	if "%pb21install%" EQU "1" goto:PendSetupSingleApp
-	if "%sk21install%" EQU "1" goto:PendSetupSingleApp
+	if "%wd16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ex16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pp16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ac16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ol16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pb16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%on16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%on21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%sk16install%" NEQ "0" goto:PendSetupSingleApp
+	if "%wd19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ex19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pp19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ac19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ol19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pb19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%sk19install%" NEQ "0" goto:PendSetupSingleApp
+	if "%wd21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ex21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pp21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ac21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%ol21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%pb21install%" NEQ "0" goto:PendSetupSingleApp
+	if "%sk21install%" NEQ "0" goto:PendSetupSingleApp
 ::===============================================================================================================
-	if "%of16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2016" -foreground "Green")&&(goto:PendSetupFullSuite)
-	if "%of19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2019 Volume" -foreground "Green")&&(goto:PendSetupFullSuite)
-	if "%of21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2021 Volume" -foreground "Green")&&(goto:PendSetupFullSuite)
-	if "%of36install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Microsoft 365 Apps for Enterprise" -foreground "Green")&&(goto:PendSetupFullSuite)
-	if "%ofbsinstall%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Microsoft 365 Apps for Business" -foreground "Green")&&(goto:PendSetupFullSuite)
-	if "%mo16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Mondo 2016 Grande Suite" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%of16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2016" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%of19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2019 Volume" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%of21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Office Professional Plus 2021 Volume" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%of36install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Microsoft 365 Apps for Enterprise" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%ofbsinstall%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Microsoft 365 Apps for Business" -foreground "Green")&&(goto:PendSetupFullSuite)
+	if "%mo16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Mondo 2016 Grande Suite" -foreground "Green")&&(goto:PendSetupFullSuite)
 	goto:PendSetupProjectVisio
 :PendSetupFullSuite
-	if "%wd16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Word" -foreground "Red")
+	if "%wd16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Word" -foreground "Red")
 	if "%wd16disable%" EQU "0" (echo --^> Enabled:  Word)
-	if "%ex16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Excel" -foreground "Red")
+	if "%ex16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Excel" -foreground "Red")
 	if "%ex16disable%" EQU "0" (echo --^> Enabled:  Excel)
-	if "%pp16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Powerpoint" -foreground "Red")
+	if "%pp16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Powerpoint" -foreground "Red")
 	if "%pp16disable%" EQU "0" (echo --^> Enabled:  PowerPoint)
-	if "%ac16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Access" -foreground "Red")
+	if "%ac16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Access" -foreground "Red")
 	if "%ac16disable%" EQU "0" (echo --^> Enabled:  Access)
-	if "%ol16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Outlook" -foreground "Red")
+	if "%ol16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Outlook" -foreground "Red")
 	if "%ol16disable%" EQU "0" (echo --^> Enabled:  Outlook)
-	if "%pb16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Publisher" -foreground "Red")
+	if "%pb16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Publisher" -foreground "Red")
 	if "%pb16disable%" EQU "0" (echo --^> Enabled:  Publisher)
-	if "%on16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: OneNote" -foreground "Red")
+	if "%on16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: OneNote" -foreground "Red")
 	if "%on16disable%" EQU "0" (echo --^> Enabled:  OneNote)
-	if "%st16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Teams / Skype For Business" -foreground "Red")
+	if "%st16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Teams / Skype For Business" -foreground "Red")
 	if "%st16disable%" EQU "0" (echo --^> Enabled:  Teams / Skype For Business)
-	if "%od16disable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: OneDrive For Business" -foreground "Red")
+	if "%od16disable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: OneDrive For Business" -foreground "Red")
 	if "%od16disable%" EQU "0" (echo --^> Enabled:  OneDrive For Business)
-	if "%bsbsdisable%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Bing Search Background Service" -foreground "Red")
+	if "%bsbsdisable%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "--> Disabled: Bing Search Background Service" -foreground "Red")
 	if "%bsbsdisable%" EQU "0" (echo --^> Enabled:  Bing Search Background Service)
 	goto:PendSetupProjectVisio
 ::===============================================================================================================
 :PendSetupSingleApp	
-	if "%wd16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2016 Single App" -foreground "Green")
-	if "%ex16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2016 Single App" -foreground "Green")
-	if "%pp16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2016 Single App" -foreground "Green")
-	if "%ac16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2016 Single App" -foreground "Green")
-	if "%ol16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2016 Single App" -foreground "Green")
-	if "%pb16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2016 Single App" -foreground "Green")
-	if "%on16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "OneNote 2016 Single App" -foreground "Green")
-	if "%on21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "OneNote 2021 Single App" -foreground "Green")
-	if "%sk16install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2016 Single App" -foreground "Green")
-	if "%wd19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2019 Single App" -foreground "Green")
-	if "%ex19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2019 Single App" -foreground "Green")
-	if "%pp19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2019 Single App" -foreground "Green")
-	if "%ac19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2019 Single App" -foreground "Green")
-	if "%ol19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2019 Single App" -foreground "Green")
-	if "%pb19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2019 Single App" -foreground "Green")
-	if "%sk19install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2019 Single App" -foreground "Green")
-	if "%wd21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2021 Single App" -foreground "Green")
-	if "%ex21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2021 Single App" -foreground "Green")
-	if "%pp21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2021 Single App" -foreground "Green")
-	if "%ac21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2021 Single App" -foreground "Green")
-	if "%ol21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2021 Single App" -foreground "Green")
-	if "%pb21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2021 Single App" -foreground "Green")
-	if "%sk21install%" EQU "1" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2021 Single App" -foreground "Green")
+	if "%wd16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2016 Single App" -foreground "Green")
+	if "%ex16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2016 Single App" -foreground "Green")
+	if "%pp16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2016 Single App" -foreground "Green")
+	if "%ac16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2016 Single App" -foreground "Green")
+	if "%ol16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2016 Single App" -foreground "Green")
+	if "%pb16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2016 Single App" -foreground "Green")
+	if "%on16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "OneNote 2016 Single App" -foreground "Green")
+	if "%on21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "OneNote 2021 Single App" -foreground "Green")
+	if "%sk16install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2016 Single App" -foreground "Green")
+	if "%wd19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2019 Single App" -foreground "Green")
+	if "%ex19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2019 Single App" -foreground "Green")
+	if "%pp19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2019 Single App" -foreground "Green")
+	if "%ac19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2019 Single App" -foreground "Green")
+	if "%ol19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2019 Single App" -foreground "Green")
+	if "%pb19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2019 Single App" -foreground "Green")
+	if "%sk19install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2019 Single App" -foreground "Green")
+	if "%wd21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Word 2021 Single App" -foreground "Green")
+	if "%ex21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Excel 2021 Single App" -foreground "Green")
+	if "%pp21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "PowerPoint 2021 Single App" -foreground "Green")
+	if "%ac21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Access 2021 Single App" -foreground "Green")
+	if "%ol21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Outlook 2021 Single App" -foreground "Green")
+	if "%pb21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Publisher 2021 Single App" -foreground "Green")
+	if "%sk21install%" NEQ "0" (powershell -noprofile -command "%pswindowtitle%"; Write-Host "Skype For Business 2021 Single App" -foreground "Green")
 ::===============================================================================================================
 :PendSetupProjectVisio
-	if "%vi16install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2016" -foreground "Green")
-	if "%pr16install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2016" -foreground "Green")
-	if "%vi19install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2019 Volume" -foreground "Green")
-	if "%pr19install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2019 Volume" -foreground "Green")
-	if "%vi21install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2021 Volume" -foreground "Green")
-	if "%pr21install%" EQU "1" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2021 Volume" -foreground "Green")
+	if "%vi16install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2016" -foreground "Green")
+	if "%pr16install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2016" -foreground "Green")
+	if "%vi19install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2019 Volume" -foreground "Green")
+	if "%pr19install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2019 Volume" -foreground "Green")
+	if "%vi21install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Visio Professional 2021 Volume" -foreground "Green")
+	if "%pr21install%" NEQ "0" (echo:)&&(powershell -noprofile -command "%pswindowtitle%"; Write-Host "Project Professional 2021 Volume" -foreground "Green")
 ::===============================================================================================================
 if not defined OnlineInstaller goto :OnlineInstaller_NEXT
 	:ChannelSelected_xd
@@ -2956,76 +2956,76 @@ if not defined OnlineInstaller goto :OnlineInstaller_NEXT
 ::===============================================================================================================
 ::===============================================================================================================
 :CreateC2RConfig
-	if "%mo16install%" EQU "1" (
+	if "%mo16install%" NEQ "0" (
 		set "productstoadd=!productstoadd!^^|Mondo%type%.16_%%instlang%%_x-none"
 		set "productID=Mondo%type%"
 		)
-    if "%of16install%" EQU "1" (
+    if "%of16install%" NEQ "0" (
 		set "productstoadd=!productstoadd!^^|ProPlus%type%.16
 		_%%instlang%%_x-none"
 		set "productID=ProPlus%type%"
 		)
-    if "%of19install%" EQU "1" (
+    if "%of19install%" NEQ "0" (
 		set "productstoadd=!productstoadd!^^|ProPlus2019%type%.16_%%instlang%%_x-none"
 		set "productID=ProPlus2019%type%"
 		)
-    if "%of21install%" EQU "1" (
+    if "%of21install%" NEQ "0" (
 		set "productstoadd=!productstoadd!^^|ProPlus2021%type%.16_%%instlang%%_x-none"
 		set "productID=ProPlus2021%type%"
 		)
-	if "%of36install%" EQU "1" (
+	if "%of36install%" NEQ "0" (
 		set "productstoadd=!productstoadd!^^|O365ProPlus%type%.16_%%instlang%%_x-none"
 		set "productID=O365ProPlus%type%"
 		)
-	if "%ofbsinstall%" EQU "1" (
+	if "%ofbsinstall%" NEQ "0" (
         set "productstoadd=!productstoadd!^^|O365Business%type%.16_%%instlang%%_x-none"
         set "productID=O365Business%type%"
 		)
-		if "%wd16disable%" EQU "1" set "excludedapps=!excludedapps!,word"
-		if "%ex16disable%" EQU "1" set "excludedapps=!excludedapps!,excel"
-		if "%pp16disable%" EQU "1" set "excludedapps=!excludedapps!,powerpoint"
-		if "%ac16disable%" EQU "1" set "excludedapps=!excludedapps!,access"
-		if "%ol16disable%" EQU "1" set "excludedapps=!excludedapps!,outlook"
-		if "%pb16disable%" EQU "1" set "excludedapps=!excludedapps!,publisher"
-		if "%on16disable%" EQU "1" set "excludedapps=!excludedapps!,onenote"
-		if "%st16disable%" EQU "1" set "excludedapps=!excludedapps!,lync"
-		if "%st16disable%" EQU "1" set "excludedapps=!excludedapps!,teams"
-		if "%od16disable%" EQU "1" set "excludedapps=!excludedapps!,groove"
-		if "%od16disable%" EQU "1" set "excludedapps=!excludedapps!,onedrive"
-		if "%bsbsdisable%" EQU "1" set "excludedapps=!excludedapps!,bing"
+		if "%wd16disable%" NEQ "0" set "excludedapps=!excludedapps!,word"
+		if "%ex16disable%" NEQ "0" set "excludedapps=!excludedapps!,excel"
+		if "%pp16disable%" NEQ "0" set "excludedapps=!excludedapps!,powerpoint"
+		if "%ac16disable%" NEQ "0" set "excludedapps=!excludedapps!,access"
+		if "%ol16disable%" NEQ "0" set "excludedapps=!excludedapps!,outlook"
+		if "%pb16disable%" NEQ "0" set "excludedapps=!excludedapps!,publisher"
+		if "%on16disable%" NEQ "0" set "excludedapps=!excludedapps!,onenote"
+		if "%st16disable%" NEQ "0" set "excludedapps=!excludedapps!,lync"
+		if "%st16disable%" NEQ "0" set "excludedapps=!excludedapps!,teams"
+		if "%od16disable%" NEQ "0" set "excludedapps=!excludedapps!,groove"
+		if "%od16disable%" NEQ "0" set "excludedapps=!excludedapps!,onedrive"
+		if "%bsbsdisable%" NEQ "0" set "excludedapps=!excludedapps!,bing"
     )
 	if "!excludedapps:~0,2!" EQU "0," (set "excludedapps=%productID%.excludedapps.16^=!excludedapps:~2!") else (set "excludedapps=")
 ::===============================================================================================================		
-    if "%vi16install%" EQU "1" set "productstoadd=!productstoadd!^^|VisioPro%type%.16_%%instlang%%_x-none"
-	if "%pr16install%" EQU "1" set "productstoadd=!productstoadd!^^|ProjectPro%type%.16_%%instlang%%_x-none" 
-    if "%vi19install%" EQU "1" set "productstoadd=!productstoadd!^^|VisioPro2019%type%.16_%%instlang%%_x-none"
-	if "%pr19install%" EQU "1" set "productstoadd=!productstoadd!^^|ProjectPro2019%type%.16_%%instlang%%_x-none"
-    if "%vi21install%" EQU "1" set "productstoadd=!productstoadd!^^|VisioPro2021%type%.16_%%instlang%%_x-none"
-	if "%pr21install%" EQU "1" set "productstoadd=!productstoadd!^^|ProjectPro2021%type%.16_%%instlang%%_x-none"
+    if "%vi16install%" NEQ "0" set "productstoadd=!productstoadd!^^|VisioPro%type%.16_%%instlang%%_x-none"
+	if "%pr16install%" NEQ "0" set "productstoadd=!productstoadd!^^|ProjectPro%type%.16_%%instlang%%_x-none" 
+    if "%vi19install%" NEQ "0" set "productstoadd=!productstoadd!^^|VisioPro2019%type%.16_%%instlang%%_x-none"
+	if "%pr19install%" NEQ "0" set "productstoadd=!productstoadd!^^|ProjectPro2019%type%.16_%%instlang%%_x-none"
+    if "%vi21install%" NEQ "0" set "productstoadd=!productstoadd!^^|VisioPro2021%type%.16_%%instlang%%_x-none"
+	if "%pr21install%" NEQ "0" set "productstoadd=!productstoadd!^^|ProjectPro2021%type%.16_%%instlang%%_x-none"
 ::===============================================================================================================
-    if "%wd16install%" EQU "1" set "productstoadd=!productstoadd!^^|Word%type%.16_%%instlang%%_x-none"
-	if "%wd19install%" EQU "1" set "productstoadd=!productstoadd!^^|Word2019%type%.16_%%instlang%%_x-none"
-	if "%wd21install%" EQU "1" set "productstoadd=!productstoadd!^^|Word2021%type%.16_%%instlang%%_x-none"
-	if "%ex16install%" EQU "1" set "productstoadd=!productstoadd!^^|Excel%type%.16_%%instlang%%_x-none"
-    if "%ex19install%" EQU "1" set "productstoadd=!productstoadd!^^|Excel2019%type%.16_%%instlang%%_x-none"
-	if "%ex21install%" EQU "1" set "productstoadd=!productstoadd!^^|Excel2021%type%.16_%%instlang%%_x-none"
-	if "%pp16install%" EQU "1" set "productstoadd=!productstoadd!^^|PowerPoint%type%.16_%%instlang%%_x-none"
-    if "%pp19install%" EQU "1" set "productstoadd=!productstoadd!^^|PowerPoint2019%type%.16_%%instlang%%_x-none"
-    if "%pp21install%" EQU "1" set "productstoadd=!productstoadd!^^|PowerPoint2021%type%.16_%%instlang%%_x-none"
-	if "%ac16install%" EQU "1" set "productstoadd=!productstoadd!^^|Access%type%.16_%%instlang%%_x-none"
-    if "%ac19install%" EQU "1" set "productstoadd=!productstoadd!^^|Access2019%type%.16_%%instlang%%_x-none"
-    if "%ac21install%" EQU "1" set "productstoadd=!productstoadd!^^|Access2021%type%.16_%%instlang%%_x-none"
-    if "%ol16install%" EQU "1" set "productstoadd=!productstoadd!^^|Outlook%type%.16_%%instlang%%_x-none"
-    if "%ol19install%" EQU "1" set "productstoadd=!productstoadd!^^|Outlook2019%type%.16_%%instlang%%_x-none"
-    if "%ol21install%" EQU "1" set "productstoadd=!productstoadd!^^|Outlook2021%type%.16_%%instlang%%_x-none"
-	if "%pb16install%" EQU "1" set "productstoadd=!productstoadd!^^|Publisher%type%.16_%%instlang%%_x-none"
-    if "%pb19install%" EQU "1" set "productstoadd=!productstoadd!^^|Publisher2019%type%.16_%%instlang%%_x-none"
-    if "%pb21install%" EQU "1" set "productstoadd=!productstoadd!^^|Publisher2021%type%.16_%%instlang%%_x-none"
-	if "%on16install%" EQU "1" set "productstoadd=!productstoadd!^^|OneNote%type%.16_%%instlang%%_x-none"
-    if "%sk16install%" EQU "1" set "productstoadd=!productstoadd!^^|SkypeForBusiness%type%.16_%%instlang%%_x-none"
-	if "%sk19install%" EQU "1" set "productstoadd=!productstoadd!^^|SkypeForBusiness2019%type%.16_%%instlang%%_x-none"
-	if "%sk21install%" EQU "1" set "productstoadd=!productstoadd!^^|SkypeForBusiness2021%type%.16_%%instlang%%_x-none"
-	if "%on21install%" EQU "1" set "productstoadd=!productstoadd!^^|OneNote2021%type%.16_%%instlang%%_x-none"
+    if "%wd16install%" NEQ "0" set "productstoadd=!productstoadd!^^|Word%type%.16_%%instlang%%_x-none"
+	if "%wd19install%" NEQ "0" set "productstoadd=!productstoadd!^^|Word2019%type%.16_%%instlang%%_x-none"
+	if "%wd21install%" NEQ "0" set "productstoadd=!productstoadd!^^|Word2021%type%.16_%%instlang%%_x-none"
+	if "%ex16install%" NEQ "0" set "productstoadd=!productstoadd!^^|Excel%type%.16_%%instlang%%_x-none"
+    if "%ex19install%" NEQ "0" set "productstoadd=!productstoadd!^^|Excel2019%type%.16_%%instlang%%_x-none"
+	if "%ex21install%" NEQ "0" set "productstoadd=!productstoadd!^^|Excel2021%type%.16_%%instlang%%_x-none"
+	if "%pp16install%" NEQ "0" set "productstoadd=!productstoadd!^^|PowerPoint%type%.16_%%instlang%%_x-none"
+    if "%pp19install%" NEQ "0" set "productstoadd=!productstoadd!^^|PowerPoint2019%type%.16_%%instlang%%_x-none"
+    if "%pp21install%" NEQ "0" set "productstoadd=!productstoadd!^^|PowerPoint2021%type%.16_%%instlang%%_x-none"
+	if "%ac16install%" NEQ "0" set "productstoadd=!productstoadd!^^|Access%type%.16_%%instlang%%_x-none"
+    if "%ac19install%" NEQ "0" set "productstoadd=!productstoadd!^^|Access2019%type%.16_%%instlang%%_x-none"
+    if "%ac21install%" NEQ "0" set "productstoadd=!productstoadd!^^|Access2021%type%.16_%%instlang%%_x-none"
+    if "%ol16install%" NEQ "0" set "productstoadd=!productstoadd!^^|Outlook%type%.16_%%instlang%%_x-none"
+    if "%ol19install%" NEQ "0" set "productstoadd=!productstoadd!^^|Outlook2019%type%.16_%%instlang%%_x-none"
+    if "%ol21install%" NEQ "0" set "productstoadd=!productstoadd!^^|Outlook2021%type%.16_%%instlang%%_x-none"
+	if "%pb16install%" NEQ "0" set "productstoadd=!productstoadd!^^|Publisher%type%.16_%%instlang%%_x-none"
+    if "%pb19install%" NEQ "0" set "productstoadd=!productstoadd!^^|Publisher2019%type%.16_%%instlang%%_x-none"
+    if "%pb21install%" NEQ "0" set "productstoadd=!productstoadd!^^|Publisher2021%type%.16_%%instlang%%_x-none"
+	if "%on16install%" NEQ "0" set "productstoadd=!productstoadd!^^|OneNote%type%.16_%%instlang%%_x-none"
+    if "%sk16install%" NEQ "0" set "productstoadd=!productstoadd!^^|SkypeForBusiness%type%.16_%%instlang%%_x-none"
+	if "%sk19install%" NEQ "0" set "productstoadd=!productstoadd!^^|SkypeForBusiness2019%type%.16_%%instlang%%_x-none"
+	if "%sk21install%" NEQ "0" set "productstoadd=!productstoadd!^^|SkypeForBusiness2021%type%.16_%%instlang%%_x-none"
+	if "%on21install%" NEQ "0" set "productstoadd=!productstoadd!^^|OneNote2021%type%.16_%%instlang%%_x-none"
 ::===============================================================================================================
 :CreateStartSetupBatch
 	if "%distribchannel%" EQU "Current" (
@@ -4731,321 +4731,321 @@ goto :eof
 	 >"%oxml%" echo ^<Configuration^>
 	>>"%oxml%" echo     ^<Add OfficeClientEdition="%o16a%" Version="!o16build!"%channel% ^> 
 	
-	if "%mo16install%" EQU "1" (
+	if "%mo16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Mondo%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%of16install%" EQU "1" (
+    if "%of16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProPlus%type%"^> 
 		>>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 		>>"%oxml%" echo         ^</Product^> 
 	)
-    if "%of19install%" EQU "1" (
+    if "%of19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProPlus2019%type%"^> 
 		>>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 		>>"%oxml%" echo         ^</Product^> 
 	)
-  if "%of21install%" EQU "1" (
+  if "%of21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProPlus2021%type%"^> 
 		>>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 		>>"%oxml%" echo         ^</Product^> 
 	)
-   if "%of36install%" EQU "1" (
+   if "%of36install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="O365ProPlus%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 		>>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ofbsinstall%" EQU "1" (
+    if "%ofbsinstall%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="O365Business%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-		if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+		if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 		>>"%oxml%" echo         ^</Product^> 
 	)
-    if "%vi16install%" EQU "1" (
+    if "%vi16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="VisioPro%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%vi19install%" EQU "1" (
+    if "%vi19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="VisioPro2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%vi21install%" EQU "1" (
+    if "%vi21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="VisioPro2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pr16install%" EQU "1" (
+    if "%pr16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProjectPro%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pr19install%" EQU "1" (
+    if "%pr19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProjectPro2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pr21install%" EQU "1" (
+    if "%pr21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="ProjectPro2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
-    	if "%wd16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
-		if "%ex16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
-		if "%pp16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
-		if "%ac16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
-		if "%ol16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
-		if "%pb16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
-		if "%on16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
-		if "%st16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
-		if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
-        if "%od16disable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
-		if "%bsbsdisable%" EQU "1" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
+    	if "%wd16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Word"/^> 
+		if "%ex16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Excel"/^> 
+		if "%pp16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="PowerPoint"/^> 
+		if "%ac16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Access"/^> 
+		if "%ol16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Outlook"/^> 
+		if "%pb16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Publisher"/^> 
+		if "%on16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneNote"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Lync"/^> 
+		if "%st16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Teams"/^> 
+		if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Groove"/^> 
+        if "%od16disable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="OneDrive"/^> 
+		if "%bsbsdisable%" NEQ "0" >>"%oxml%" echo             ^<ExcludeApp ID="Bing"/^> 
 	    >>"%oxml%" echo         ^</Product^> 
 	)
-   if "%wd16install%" EQU "1" (
+   if "%wd16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Word%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%wd19install%" EQU "1" (
+    if "%wd19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Word2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%wd21install%" EQU "1" (
+    if "%wd21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Word2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ex16install%" EQU "1" (
+    if "%ex16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Excel%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ex19install%" EQU "1" (
+    if "%ex19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Excel2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ex21install%" EQU "1" (
+    if "%ex21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Excel2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pp16install%" EQU "1" (
+    if "%pp16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="PowerPoint%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pp19install%" EQU "1" (
+    if "%pp19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="PowerPoint2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pp21install%" EQU "1" (
+    if "%pp21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="PowerPoint2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ac16install%" EQU "1" (
+    if "%ac16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Access%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ac19install%" EQU "1" (
+    if "%ac19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Access2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ac21install%" EQU "1" (
+    if "%ac21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Access2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%ol16install%" EQU "1" (
+    if "%ol16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Outlook%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-	if "%ol19install%" EQU "1" (
+	if "%ol19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Outlook2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-	if "%ol21install%" EQU "1" (
+	if "%ol21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Outlook2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-	if "%pb16install%" EQU "1" (
+	if "%pb16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Publisher%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pb19install%" EQU "1" (
+    if "%pb19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Publisher2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%pb21install%" EQU "1" (
+    if "%pb21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="Publisher2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%on16install%" EQU "1" (
+    if "%on16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="OneNote%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%sk16install%" EQU "1" (
+    if "%sk16install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="SkypeForBusiness%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%sk19install%" EQU "1" (
+    if "%sk19install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="SkypeForBusiness2019%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-	if "%on21install%" EQU "1" (
+	if "%on21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="OneNote2021Retail"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
 	)
-    if "%sk21install%" EQU "1" (
+    if "%sk21install%" NEQ "0" (
         >>"%oxml%" echo         ^<Product ID="SkypeForBusiness2021%type%"^> 
         >>"%oxml%" echo             ^<Language ID="!o16lang!"/^> 
         >>"%oxml%" echo         ^</Product^> 
