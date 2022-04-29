@@ -79,8 +79,12 @@ set wget_url="https://raw.githubusercontent.com/DarkDinosaurEx/OfficeRTool/main/
 set "output_file=%USERPROFILE%\DESKTOP\%FileName%"
 set URL="%GitHub%/latest"
 
-if not exist %wget% >nul bitsadmin /transfer debjob /download /priority normal %wget_url% %wget%
-if not exist %wget% goto :theEnd
+if not exist %wget% (
+	echo:
+	echo Download Latest Wget file
+	>nul bitsadmin /transfer debjob /download /priority normal %wget_url% %wget%
+	if not exist %wget% goto :theEnd
+)
 
 if exist %Latest% del /q %Latest%
 powershell -noprofile -executionpolicy bypass -command start '%wget:~1,-1%' -Wait -WindowStyle hidden -Args '--max-redirect=0 %url% --output-file=\"%Latest:~1,-1%\"'
