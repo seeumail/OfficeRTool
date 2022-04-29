@@ -86,7 +86,7 @@ if exist %Latest% del /q %Latest%
 powershell -noprofile -executionpolicy bypass -command start '%wget:~1,-1%' -Wait -WindowStyle hidden -Args '--max-redirect=0 %url% --output-file=\"%Latest:~1,-1%\"'
 if exist %Latest% for /f "tokens=2 delims= " %%$ in ('"type %Latest% | find /i "tag""') do set "URI=%%$"
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9] 				&& set "TAG=%URI:~59%"
-if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9][0-9] 	&& set "TAG=%URI:~59%"
+if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9][0-9] 		&& set "TAG=%URI:~59%"
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9][0-9].[0-9] 			&& set "TAG=%URI:~59%"
 if defined URI echo "%URI:~59%" | >nul findstr /r [0-9].[0-9][0-9] 			&& set "TAG=%URI:~59%"
 if defined TAG set "OfficeRToolLink=%GitHub%/download/%tag%/%FileName%"
