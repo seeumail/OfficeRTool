@@ -29,9 +29,11 @@ https://www.youtube.com/watch?v=DpK5R_IOqgk
 
 # How to get the latest release
 
-**PS Version**
+**PowerShell Version**
 
 **Option A - Copy / Paste to PowerShell Console**
+
+**Option B - Save as [.PS1] file. And run this command :: [ powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE" ]**
 
 ````
 <# Based on -- Using Powershell To Retrieve Latest Package Url From Github Releases #>
@@ -47,12 +49,6 @@ $OutputFile = $env:USERPROFILE+'\desktop\'+$fileName
 Invoke-WebRequest -Uri $realDownloadUrl -OutFile $OutputFile
 [Environment]::Exit(1)
 [Environment]::Exit(1)
-````
-
-**Option B - Save as [.PS1] file. And run this command**
-
-````
-powershell -noprofile -executionpolicy bypass -file "YOUR_FILE_HERE"
 ````
 
 **Wget Version**
