@@ -3,7 +3,7 @@
 	@echo off
 	>nul chcp 437
 	
-	set "Currentversion=1.4"
+	set "Currentversion=1.5"
 	title OfficeRTool - 2022/APR/30 -
 	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/30 -'"
 	
