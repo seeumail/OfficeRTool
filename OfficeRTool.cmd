@@ -3,9 +3,9 @@
 	@echo off
 	>nul chcp 437
 	
-	set "Currentversion=1.3"
-	title OfficeRTool - 2022/APR/25 -
-	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/25 -'"
+	set "Currentversion=1.4"
+	title OfficeRTool - 2022/APR/30 -
+	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/30 -'"
 	
 	set "SingleNul=>nul"
 	set "SingleNulV1=1>nul"
@@ -1520,59 +1520,59 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
     set "pr21install=0"
     set "vi21install=0"
 	set "WebProduct=not set"
-	set "installtrigger=O"
+	set "installtrigger=0"
 	if defined DloadLP goto :ArchSelectXYYY
 	if not defined DloadImg if not defined DloadLP set "txt=setup.exe "
 	echo:
-	set /p installtrigger=Generate Office 2016 products !txt!download-link (1=YES/0=NO) ^>
+	set /p installtrigger=Generate Office 2016 products !txt!download-link (Enter-Continue/#-Select) ^>
 	if /I "%installtrigger%" EQU "X" goto:Office16VnextInstall
-	if "%installtrigger%" EQU "1" goto:WEBOFF2016
+	if "%installtrigger%" NEQ "0" goto:WEBOFF2016
 	echo:
-	set /p installtrigger=Generate Office 2019 products !txt!download-link (1=YES/0=NO) ^>
+	set /p installtrigger=Generate Office 2019 products !txt!download-link (Enter-Continue/#-Select) ^>
 	if /I "%installtrigger%" EQU "X" goto:Office16VnextInstall
-	if "%installtrigger%" EQU "1" goto:WEBOFF2019
+	if "%installtrigger%" NEQ "0" goto:WEBOFF2019
 	echo:
-	set /p installtrigger=Generate Office 2021 products !txt!download-link (1=YES/0=NO) ^>
+	set /p installtrigger=Generate Office 2021 products !txt!download-link (Enter-Continue/#-Select) ^>
 	if /I "%installtrigger%" EQU "X" goto:Office16VnextInstall
-	if "%installtrigger%" EQU "1" goto:WEBOFF2021
+	if "%installtrigger%" NEQ "0" goto:WEBOFF2021
 	goto:DownloadO16Online
 :WEBOFF2016
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of16install=Set Office Professional Plus 2016 Install (Enter-Continue/#-Install) ^>
+    set /p of16install=Set Office Professional Plus 2016 Install (Enter-Continue/#-Select) ^>
 	if "%of16install%" NEQ "0" (set "WebProduct=ProPlusRetail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr16install=Set Project Professional 2016 Install (Enter-Continue/#-Install) ^>
+    set /p pr16install=Set Project Professional 2016 Install (Enter-Continue/#-Select) ^>
 	if "%pr16install%" NEQ "0" (set "WebProduct=ProjectProRetail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi16install=Set Visio Professional 2016 Install (Enter-Continue/#-Install) ^>
+    set /p vi16install=Set Visio Professional 2016 Install (Enter-Continue/#-Select) ^>
 	if "%vi16install%" NEQ "0" (set "WebProduct=VisioProRetail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFF2019
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of19install=Set Office Professional Plus 2019 Install (Enter-Continue/#-Install) ^>
+    set /p of19install=Set Office Professional Plus 2019 Install (Enter-Continue/#-Select) ^>
 	if "%of19install%" NEQ "0" (set "WebProduct=ProPlus2019Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr19install=Set Project Professional 2019 Install (Enter-Continue/#-Install) ^>
+    set /p pr19install=Set Project Professional 2019 Install (Enter-Continue/#-Select) ^>
 	if "%pr19install%" NEQ "0" (set "WebProduct=ProjectPro2019Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi19install=Set Visio Professional 2019 Install (Enter-Continue/#-Install) ^>
+    set /p vi19install=Set Visio Professional 2019 Install (Enter-Continue/#-Select) ^>
 	if "%vi19install%" NEQ "0" (set "WebProduct=VisioPro2019Retail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFF2021
 	echo:
 	echo ____________________________________________________________________________
 	echo:
-    set /p of21install=Set Office Professional Plus 2021 Install (Enter-Continue/#-Install) ^>
+    set /p of21install=Set Office Professional Plus 2021 Install (Enter-Continue/#-Select) ^>
 	if "%of21install%" NEQ "0" (set "WebProduct=ProPlus2021Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p pr21install=Set Project Professional 2021 Install (Enter-Continue/#-Install) ^>
+    set /p pr21install=Set Project Professional 2021 Install (Enter-Continue/#-Select) ^>
 	if "%pr21install%" NEQ "0" (set "WebProduct=ProjectPro2021Retail")&&(goto:ArchSelectXYYY)
     echo:
-    set /p vi21install=Set Visio Professional 2021 Install (Enter-Continue/#-Install) ^>
+    set /p vi21install=Set Visio Professional 2021 Install (Enter-Continue/#-Select) ^>
 	if "%vi21install%" NEQ "0" (set "WebProduct=VisioPro2021Retail")&&(goto:ArchSelectXYYY)
 	goto:WEBOFFNOTHING
 :WEBOFFNOTHING
@@ -1924,8 +1924,8 @@ if defined checknewVersion powershell -noprofile -command "%pswindowtitle%"; Wri
 	set "CDNBaseUrl=not set"
 	set "UpdateUrl=not set"
 	set "UpdateBranch=not set"
-	set "installtrigger=O"
-	set "channeltrigger=O"
+	set "installtrigger=0"
+	set "channeltrigger=0"
 	set "restrictbuild=newest available"
 	set "updatetoversion="
 	cls
