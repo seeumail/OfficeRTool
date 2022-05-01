@@ -3,9 +3,22 @@
 	@echo off
 	>nul chcp 437
 	
-	set "Currentversion=1.5"
+	set "Currentversion=1.6"
 	title OfficeRTool - 2022/APR/30 -
 	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/30 -'"
+	
+	set "Custom_Ip="
+	set "Custom_Port="
+	
+	:---------------------------------------------:
+	
+	REM By remove REM before this lines
+	REM You can use Remote Server / Online Servers
+	
+	REM set "Custom_Ip=0.0.0.0" || Server IP
+	REM set "Custom_Port=1688"  || Server Port
+	
+	:---------------------------------------------:
 	
 	set "SingleNul=>nul"
 	set "SingleNulV1=1>nul"
@@ -609,9 +622,10 @@ goto :eof
 	echo:
 	call :PrintTitle "================== ACTIVATE OFFICE PRODUCTS ===================="
 	echo.
-	call :startKMSACTIVATION
+	if not defined Custom_Ip call :startKMSACTIVATION
 	call :CleanRegistryKeys
-	call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
+	if     defined Custom_Ip call :UpdateRegistryKeys %Custom_Ip% %Custom_Port%
+	if not defined Custom_Ip call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
 	call :CheckOfficeApplications
 	
 	if "%_ProPlusRetail%" EQU "YES" ((echo Activating Office Professional Plus 2016)&&(call :Office16Activate d450596f-894d-49e0-966a-fd39ed4c4c64))
@@ -714,7 +728,7 @@ goto :eof
 	if "%_ProjectStd2021Retail%" EQU "YES" ((echo Activating Project Standard 2021)&&(call :Office16Activate 6dd72704-f752-4b71-94c7-11cec6bfc355))
 	if "%_ProjectStd2021Volume%" EQU "YES" ((echo Activating Project Standard 2021)&&(call :Office16Activate 6dd72704-f752-4b71-94c7-11cec6bfc355))
 	
-	call :STOPKMSActivation
+	if not defined Custom_Ip call :STOPKMSActivation
 	timeout /t 4
 	goto:Office16VnextInstall
 	
@@ -3611,7 +3625,7 @@ if "%_SkypeForBusiness2021Volume%" EQU "YES" ((echo:)&&	(echo Skype 2021        
 	if %win% GEQ 9200 (
 		set "ID=%1"
 		set "subKey=0ff1ce15-a989-479d-af46-f275c6370663"
-		call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
+		REM call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
 		
 		set "lastErr="
 		set "activationCMD=cscript //nologo "OfficeFixes\KMS Helper.vbs" "/ACTIVATE" "%slp%" "%1""
@@ -3623,7 +3637,7 @@ if "%_SkypeForBusiness2021Volume%" EQU "YES" ((echo:)&&	(echo Skype 2021        
 	if %win% LSS 9200 (
 		set "ID=%1"
 		set "subKey=0ff1ce15-a989-479d-af46-f275c6370663"
-		call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
+		REM call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
 		
 		set "lastErr="
 		set "activationCMD=cscript "OfficeFixes\KMS Helper.vbs" "/ACTIVATE" "%ospp%" "%1""
