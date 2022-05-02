@@ -1,5 +1,5 @@
-# OfficeRTool
-**OfficeRTool Offical GitHub Page**
+# Office(R)Tool
+**Office(R)Tool Offical GitHub Page**
 
 **Tool To Install, Activate, Config - Office 2016 - 2021**
 
