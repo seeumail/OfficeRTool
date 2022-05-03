@@ -3,20 +3,20 @@
 	@echo off
 	>nul chcp 437
 	
-	set "Currentversion=1.6"
-	title OfficeRTool - 2022/MAY/01 -
-	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/APR/30 -'"
+	set "Currentversion=1.7"
+	title OfficeRTool - 2022/MAY/05 -
+	set "pswindowtitle=$Host.UI.RawUI.WindowTitle = 'Administrator: OfficeRTool - 2022/MAY/05 -'"
 	
-	set "Custom_Ip="
-	set "Custom_Port="
+	set "External_IP="
+	set "External_PORT="
 	
 	:---------------------------------------------:
 	
 	REM By remove REM before this lines
 	REM You can use Remote Server / Online Servers
 	
-	REM set "Custom_Ip=0.0.0.0" || Server IP
-	REM set "Custom_Port=1688"  || Server Port
+	REM set "External_IP=0.0.0.0" || Server IP
+	REM set "External_PORT=1688"  || Server Port
 	
 	:---------------------------------------------:
 	
@@ -622,10 +622,10 @@ goto :eof
 	echo:
 	call :PrintTitle "================== ACTIVATE OFFICE PRODUCTS ===================="
 	echo.
-	if not defined Custom_Ip call :startKMSACTIVATION
+	if not defined External_IP call :startKMSACTIVATION
 	call :CleanRegistryKeys
-	if     defined Custom_Ip call :UpdateRegistryKeys %Custom_Ip% %Custom_Port%
-	if not defined Custom_Ip call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
+	if     defined External_IP call :UpdateRegistryKeys %External_IP% %External_PORT%
+	if not defined External_IP call :UpdateRegistryKeys %KMSHostIP% %KMSPort%
 	call :CheckOfficeApplications
 	
 	if "%_ProPlusRetail%" EQU "YES" ((echo Activating Office Professional Plus 2016)&&(call :Office16Activate d450596f-894d-49e0-966a-fd39ed4c4c64))
@@ -728,7 +728,7 @@ goto :eof
 	if "%_ProjectStd2021Retail%" EQU "YES" ((echo Activating Project Standard 2021)&&(call :Office16Activate 6dd72704-f752-4b71-94c7-11cec6bfc355))
 	if "%_ProjectStd2021Volume%" EQU "YES" ((echo Activating Project Standard 2021)&&(call :Office16Activate 6dd72704-f752-4b71-94c7-11cec6bfc355))
 	
-	if not defined Custom_Ip call :STOPKMSActivation
+	if not defined External_IP call :STOPKMSActivation
 	timeout /t 4
 	goto:Office16VnextInstall
 	
@@ -3042,46 +3042,19 @@ if not defined OnlineInstaller goto :OnlineInstaller_NEXT
 	if "%on21install%" NEQ "0" set "productstoadd=!productstoadd!^^|OneNote2021%type%.16_%%instlang%%_x-none"
 ::===============================================================================================================
 :CreateStartSetupBatch
-	if "%distribchannel%" EQU "Current" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "CurrentPreview" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "BetaChannel" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "MonthlyEnterprise" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-		if "%distribchannel%" EQU "SemiAnnual" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "SemiAnnualPreview" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "PerpetualVL2019" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "PerpetualVL2021" (
-		echo :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "DogfoodDevMain" (
-		echo :: Remove Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg delete HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /f ^>nul 2^>^&1 >>"%obat%"
-	)
-	if "%distribchannel%" EQU "Manual_Override" (
-		echo :: Remove Group Policy value "UpdateBranch" in registry for "%distribchannel%" >>"%obat%"
-		echo reg delete HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /f ^>nul 2^>^&1 >>"%obat%"
-	)
+	
+	REM using set /p instead ^ ^ ^ ^ ^ ^ ^
+	set "var_a= :: Set Group Policy value "UpdateBranch" in registry for "%distribchannel%""
+	set "var_b=reg add HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /d %distribchannel% /f >nul 2>&1"
+	if "%distribchannel%" EQU "DogfoodDevMain"  set "var_b=reg delete HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /f >nul 2>&1"
+	if "%distribchannel%" EQU "Manual_Override" set "var_b=reg delete HKLM\Software\Policies\Microsoft\Office\16.0\Common\OfficeUpdate /v UpdateBranch /f >nul 2>&1"	
+	
+	echo:                    >>"%obat%"
+	(echo|set /p ="!var_a!") >>"%obat%"
+	echo:                    >>"%obat%"
+	(echo|set /p ="!var_b!") >>"%obat%"
+	echo:                    >>"%obat%"
+	
 	echo ^:^:=============================================================================================================== >>"%obat%"
 	if "%instmethod%" EQU "C2R" echo start "" /MIN "%%CommonProgramFiles%%\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" deliverymechanism=%%instupdlocid%% platform=%%instarch1%% productreleaseid=none forcecentcheck= culture=%%instlang%% defaultplatform=False storeid= lcid=%%instlcid%% b= forceappshutdown=True piniconstotaskbar=False scenariosubtype=ODT scenario=unknown updatesenabled.16=True acceptalleulas.16=True updatebaseurl.16=http://officecdn.microsoft.com/pr/%%instupdlocid%% cdnbaseurl.16=http://officecdn.microsoft.com/pr/%%instupdlocid%% version.16=%%instversion%% mediatype.16=Local baseurl.16=%%installfolder%% sourcetype.16=Local flt.downloadappvcab=unknown flt.useclientcabmanager=unknown flt.useexptransportinplacepl=unknown flt.useaddons=unknown flt.useofficehelperaddon=unknown flt.useonedriveclientaddon=unknown productstoadd=!productstoadd:~3! !excludedapps! >>"%obat%"
 	if "%instmethod%" EQU "XML" echo "powershell" start setup.exe -WorkingDirectory '%%installfolder%%' -Args '/configure configure%%instarch2%%.xml' -Verb RunAs -WindowStyle hidden >>"%obat%"
