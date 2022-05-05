@@ -729,6 +729,7 @@ goto :eof
 	if "%_ProjectStd2021Volume%" EQU "YES" ((echo Activating Project Standard 2021)&&(call :Office16Activate 6dd72704-f752-4b71-94c7-11cec6bfc355))
 	
 	if not defined External_IP call :STOPKMSActivation
+	call :CleanRegistryKeys
 	timeout /t 4
 	goto:Office16VnextInstall
 	
@@ -3622,7 +3623,7 @@ if "%_SkypeForBusiness2021Volume%" EQU "YES" ((echo:)&&	(echo Skype 2021        
 	
 	for /f "tokens=1,2 delims=: " %%x in ('"!activationCMD!"') do set "lastErr=%%y"
 	if /i '!lastErr!' EQU '0' (echo Activation !ID! successful) else (echo Activation !ID! failed & echo Error Number !lastErr!)
-	call :CleanRegistryKeys
+	REM call :CleanRegistryKeys
 	echo ________________________________________________________________
 	echo:
 	goto:eof
